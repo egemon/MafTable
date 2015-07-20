@@ -1,7 +1,7 @@
 $(function ($) {
-    function playerStorage () {
+    function PlayerStorage () {
         this.playerNiks = [];
-        
+
     }
 
 	function Model () {
@@ -19,8 +19,8 @@ $(function ($) {
         this.createGameJson = function  () {
             return {
                 // here we get all parametrs from model
-            }
-        }
+            };
+        };
 		return this;
 	}
 	var model = new Model();
