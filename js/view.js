@@ -1,5 +1,5 @@
 $(function  ($) {
-	function MainPage () {
+	function View () {
 		this.navBar = $('.nav-pills');
         this.saveButton = $('#saveButton');
 		this.pullButton = $('#pullButton');
@@ -24,7 +24,7 @@ $(function  ($) {
             console.log(this.playerRoleFields);
             console.log(this.playerfallFields);
 
-            // general functions 
+            // general functions
 
             // binding events
 
@@ -33,14 +33,31 @@ $(function  ($) {
 			this.saveButton.click(function(e) {
 				e.preventDefault();
                 Model.saveGame();
-				
 			});
 
 			this.pullButton.click(function(e) {
 				e.preventDefault();
-				self.currentGame = localStorage.getItem('game ' + 1);
-				console.log(self.currentGame);
+				controller.pullFromServer();
 			});
+
+            this.pullButton.click(function(e) {
+                e.preventDefault();
+                controller.pushToServer();
+            });
+
+            this.playerNameFields.each(function(i, el) {
+                el.click(function(e) {
+                    e.preventDefault();
+                    var namePart = this.val();
+                    var variants = [];
+                    Model.playerNiks.each(function(i, el) {
+                        if (el.indexOf(namePart) ) {
+                            variants.push(el);
+                        }
+                    });
+                    view.showPlayerNikPopUp(variants);
+                });
+            });
 
 
 		};
@@ -72,8 +89,8 @@ $(function  ($) {
 		};
 
 		this.init();
-	};
+	}
 
-	var MP = new MainPage();
-	console.log(MP);
+	var view = new View();
+	console.log(view);
 });

@@ -4,263 +4,550 @@
 		"selected_items":
 		[
 			[
-				"work",
-				"work"
+				"sec",
+				"secondScope〔variable〕"
 			],
 			[
-				"setT",
-				"setTimeout(${0:func}, delay)	Window"
+				"secon",
+				"secondScopeField"
 			],
 			[
-				"proto",
-				"prototype"
+				"secod",
+				"secondScopeVariable"
 			],
 			[
-				"plae",
-				"player	(main.html)"
+				"firs",
+				"firstScope"
 			],
 			[
-				"end",
-				"endButton"
+				"first",
+				"firstScope〔function〕"
 			],
 			[
-				"lo",
-				"localStorage"
+				"JS",
+				"JSON.stringify	JSON.stringify"
 			],
 			[
-				"loca",
-				"localStorage"
+				"Js",
+				"JSON.parse	JSON.parse"
 			],
 			[
-				"j",
-				"jquery-1.11.3.min.js"
+				"fil",
+				"filter"
 			],
 			[
-				"add",
-				"addClass	.addClass()"
+				"ind",
+				"index〔argument〕"
 			],
 			[
-				"css",
-				"css	.css() - single"
+				"ex",
+				"externalShowName"
 			],
 			[
-				"l",
-				"lib/"
-			],
-			[
-				"top",
-				"topPage"
-			],
-			[
-				"Hea",
-				"Head"
-			],
-			[
-				"co",
-				"concentrations"
-			],
-			[
-				"glo",
-				"global"
-			],
-			[
-				"con",
-				"console"
-			],
-			[
-				"inn",
-				"innerHTML"
-			],
-			[
-				"app",
-				"appendChild"
-			],
-			[
-				"drow",
-				"drowGraphic	(requestHandlers.js)"
-			],
-			[
-				"sor",
-				"sortKoefs"
-			],
-			[
-				"so",
-				"sortData"
-			],
-			[
-				"ko",
-				"koefs"
-			],
-			[
-				"fun",
-				"fun	Function"
-			],
-			[
-				"bott",
-				"bottomQuantile"
-			],
-			[
-				"unde",
-				"undefined"
-			],
-			[
-				"cur",
-				"currentGroup"
-			],
-			[
-				"offs",
-				"offsetX"
-			],
-			[
-				"off",
-				"offset	.offset()"
-			],
-			[
-				"conte",
-				"context"
-			],
-			[
-				"sort",
-				"sort(data, koefs)	вфаыва"
-			],
-			[
-				"res",
-				"result"
-			],
-			[
-				"func",
-				"function"
-			],
-			[
-				"cont",
-				"context"
-			],
-			[
-				"var",
-				"variation"
-			],
-			[
-				"v",
-				"variableName"
-			],
-			[
-				"li",
-				"list1"
-			],
-			[
-				"D",
-				"Determinant"
-			],
-			[
-				"va",
-				"variable"
+				"k",
+				"key"
 			],
 			[
 				"for",
 				"for	for (…) {…}"
 			],
 			[
-				"wo",
-				"workBook"
+				"va",
+				"value"
 			],
 			[
-				"files",
-				"fields"
+				"enu",
+				"enumerable"
 			],
 			[
-				"dele",
-				"delete"
+				"def",
+				"defineProperty"
 			],
 			[
-				"selec",
-				"select"
+				"cle",
+				"clearTimeout〔function〕"
 			],
 			[
-				"Va",
-				"VariablesNames"
+				"con",
+				"constructor"
 			],
 			[
-				"fiels",
-				"fields"
+				"arg",
+				"arguments"
 			],
 			[
-				"attr",
+				"te",
+				"testing-reports/"
+			],
+			[
+				"tri",
+				"tripadvisor/"
+			],
+			[
+				"Grun",
+				"Gruntfile"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
+				"APP",
+				"APP_MESSAGE"
+			],
+			[
+				"image",
+				"image1"
+			],
+			[
+				"on",
+				"onDeckImage"
+			],
+			[
+				"main",
+				"mainImage"
+			],
+			[
+				"render",
+				"renderMainImage"
+			],
+			[
+				"cur",
+				"currentTpl〔variable〕"
+			],
+			[
+				"att",
 				"attr	.attr() - single"
 			],
 			[
-				"fad",
-				"fadeOut	.fadeOut()"
+				"res",
+				"resetFixtures"
 			],
 			[
-				"fa",
-				"fadeOut	.fadeOut()"
+				"ren",
+				"renderTrackInformation"
 			],
 			[
-				"c",
-				"click	.click()"
+				"it",
+				"item"
 			],
 			[
-				"jqer",
-				"jquery-1.11.2"
+				"Player",
+				"player/"
 			],
 			[
-				"V",
-				"VariablesNames"
+				"sla",
+				"slave〔variable〕"
 			],
 			[
-				"now",
-				"nowVar"
+				"ser",
+				"server.js"
 			],
 			[
-				"wr",
-				"write"
+				"eve",
+				"eventData〔argument〕"
 			],
 			[
-				"sh",
-				"sheets"
+				"ev",
+				"eventData"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ext",
+				"extension〔variable〕"
+			],
+			[
+				"a",
+				"ajaxComplete	.ajaxComplete()"
+			],
+			[
+				"activ",
+				"activeItem〔variable〕"
+			],
+			[
+				"nex",
+				"next	.next()"
+			],
+			[
+				"chi",
+				"children	.children()"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"as",
+				"asyncMessageCounter"
+			],
+			[
+				"temp",
+				"template_content"
+			],
+			[
+				"und",
+				"undefined〔keyword〕"
+			],
+			[
+				"cou",
+				"counterForAsyncMsg〔variable〕"
+			],
+			[
+				"lis",
+				"listItemsPerScreen〔variable〕"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"remov",
+				"removeClass	.removeClass()"
+			],
+			[
+				"fixt",
+				"fixtures"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"img",
+				"imgId"
+			],
+			[
+				"ca",
+				"cachedImgData"
+			],
+			[
+				"B",
+				"B_page"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"bu",
+				"buttons"
+			],
+			[
+				"scre",
+				"screen.js"
+			],
+			[
+				"ch",
+				"cachedImgId"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"reg",
+				"registerHandler"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ro",
+				"router.js"
+			],
+			[
+				"cho",
+				"choreo.js"
+			],
+			[
+				"he",
+				"headers"
+			],
+			[
+				"templ",
+				"template_id"
+			],
+			[
+				"scr",
+				"scrollStep"
+			],
+			[
+				"rend",
+				"renderButtons"
+			],
+			[
+				"cu",
+				"currentAppName"
+			],
+			[
+				"app",
+				"appName"
+			],
+			[
+				"b",
+				"base.js"
+			],
+			[
+				"ac",
+				"activeItem"
+			],
+			[
+				"key",
+				"keyId"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"li",
+				"listItemId"
+			],
+			[
+				"ke",
+				"keyId"
+			],
+			[
+				"this",
+				"this	$(this)"
+			],
+			[
+				"list",
+				"listItemId"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"but",
+				"buttons〔variable〕"
+			],
+			[
+				"tex",
+				"text_bottom"
+			],
+			[
+				"Tim",
+				"TIMEOUT"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"requ",
+				"requestText"
+			],
+			[
+				"pa",
+				"page"
+			],
+			[
+				"items",
+				"itemsHeight"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"wi",
+				"winston"
+			],
+			[
+				"win",
+				"winston〔variable〕"
+			],
+			[
+				"f",
+				"find	.find()"
+			],
+			[
+				"par",
+				"parent	.parent()"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"to",
+				"toggle	.toggle()"
+			],
+			[
+				"i",
+				"innerHeight	.innerHeight()"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"u",
+				"updateImage"
+			],
+			[
+				"chil",
+				"children〔function〕"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"ha",
+				"handler"
+			],
+			[
+				"stal",
+				"standaloneMode〔variable〕"
+			],
+			[
+				"start",
+				"start.js"
+			],
+			[
+				"w",
+				"which"
+			],
+			[
+				"mo",
+				"mousedown	.mousedown()"
+			],
+			[
+				"hi",
+				"hide〔function〕"
+			],
+			[
+				"slide",
+				"slideToggle〔function〕"
+			],
+			[
+				"slid",
+				"slideToggle〔function〕"
+			],
+			[
+				"mouse",
+				"mouseleave	.mouseleave()"
+			],
+			[
+				"mous",
+				"mouseenter	.mouseenter()"
+			],
+			[
+				"mos",
+				"mouseover	.mouseover()"
+			],
+			[
+				"log",
+				"log($this"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"tr",
+				"trigger	.trigger()"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"offset",
+				"offset	.offset()"
+			],
+			[
+				"inser",
+				"insertBefore	.insertBefore()"
+			],
+			[
+				"repl",
+				"replaceAll	.replaceAll()"
+			],
+			[
+				"child",
+				"children"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "main.html",
-			"settings":
-			{
-				"buffer_size": 12114,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/view.js",
-			"settings":
-			{
-				"buffer_size": 1191,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
 			[
 				"instl",
 				"Package Control: Install Package"
 			],
 			[
-				"instla",
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
 				"Package Control: Install Package"
 			],
 			[
@@ -268,34 +555,23 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instaa",
+				"pack",
 				"Package Control: Install Package"
 			],
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Disable Package"
-			],
-			[
-				"Package Control: i",
-				"Package Control: Install Package"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 521.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 139.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -309,51 +585,246 @@
 	},
 	"expanded_folders":
 	[
+		"/home/ilukianov/MyProjects/MafTable"
 	],
 	"file_history":
 	[
-		"/D/selfimpruvment/frontend/MafTable/js/main.js",
-		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/proto.html",
-		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/StatOnLine/my server/src/scripts/router.js",
-		"/C/StatOnLine/my server/src/scripts/server.js",
-		"/C/StatOnLine/my server/src/scripts/index.js",
-		"/C/StatOnLine/my server/src/scripts/requestHandlers.js",
-		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
-		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/вфаыва.html",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/dfdf.html",
-		"/C/StatOnLine/my server/src/scripts/maiboroda223.pdf",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/HW_1/HW 1/html/HW 1.html",
-		"/C/StatOnLine/my server/src/scripts/pages/infoChoose.html",
-		"/C/StatOnLine/my server/src/scripts/pages/chooseVariables.html",
-		"/C/StatOnLine/my server/src/scripts/js/choose.js",
-		"/C/StatOnLine/my server/src/scripts/pages/numbers.html",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/вфаыва",
-		"/C/StatOnLine/my server/src/scripts/responseScript.js",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/Ярлык (2) для scripts.lnk",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/index.html",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/HW2/css/style.css",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/HW2/index.html",
-		"/C/StatOnLine/my server/src/scripts/statistic.js",
-		"/C/Documents and Settings/Хозяин/Рабочий стол/HW1/css/style.css",
-		"/C/StatOnLine/my server/requestHandlers.js",
-		"/C/StatOnLine/my server/Gruntfile.js",
-		"/C/StatOnLine/my server/package.json",
-		"/C/StatOnLine/my server/grunt/aliases.yaml",
-		"/C/StatOnLine/my server/grunt-frontend-boilerplate-master/package.json",
-		"/D/selfimpruvment/frontend/StatOnLine/my server/requestHandlers.js"
+		"/home/ilukianov/project/airbiquity/ncg/ncg_hmiapps/package.json",
+		"/home/ilukianov/MyProjects/bush/sudo.sh",
+		"/home/ilukianov/MyProjects/bush/forin.sh",
+		"/home/ilukianov/MyProjects/bush/ifthenelse.sh",
+		"/home/ilukianov/MyProjects/bush/while.sh",
+		"/home/ilukianov/MyProjects/bush/case.sh",
+		"/home/ilukianov/MyProjects/bush/new.sh",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/JSONStringify.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/cl.sublime-snippet",
+		"/home/ilukianov/MyProjects/Closures/Closures.html",
+		"/home/ilukianov/MyProjects/ES5/ES5-example.html",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/every.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/lastIndexOf.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/JSONparse.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/toISOString.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/some.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/reduce.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/map.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/indexOf.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/forEach.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/filter.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/Ilya.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/Ilya.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/forin.sublime-snippet",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/JSLint.sublime-settings",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/.jscsrc",
+		"/home/ilukianov/project/airbiquity/da/da2.2_hmi/bad.js",
+		"/home/ilukianov/project/airbiquity/itg/itgen-testing/.zshenv",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/selenium-webdriver/lib/test/data/frame_switching_tests/bug4876_iframe.html",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/lcn jira.sublime-project",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/hmi-fixtures/slacker/get_subscription_level.json",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/grunt/internal-tasks/subgrunt.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/command-line-args/node_modules/handlebars/node_modules/source-map/build/suffix-utils.jsm",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/sample.config.json",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/ghooks/bin/install",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/hmi-fixtures/init-fixtures.sh",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/bad.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/api.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/.jscs_precommit.sh",
+		"/home/ilukianov/Desktop/sample.js",
+		"/home/ilukianov/Desktop/sample.html",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/components/Scrollbar.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/testing-reports/index.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/gulpfile.js",
+		"/home/ilukianov/.zshrc",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/package.json",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/globals.js",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/config.json",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/пы",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/README.md",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/.git",
+		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/bad.js",
+		"/home/ilukianov/project/airbiquity/ncg_hmiapps/.jscsrc",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/.jscs_precommit.sh",
+		"/home/ilukianov/project/airbiquity/ncg_hmiapps/Gruntfile.js",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/package.json",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/Gruntfile.js",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/bad.js",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/.jshintrc",
+		"/home/ilukianov/project/airbiquity/da/yc-ta-jscs-precommit-hook/.jscsrc",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/.jscsrc",
+		"/home/ilukianov/project/airbiquity/bosch_hmiapps/new.js",
+		"/home/ilukianov/project/airbiquity/da/yc-ta-jscs-precommit-hook/Gruntfile.js",
+		"/home/ilukianov/project/airbiquity/lcn2kai-testing/Gruntfile.js",
+		"/home/ilukianov/project/airbiquity/itgen-testing/Gruntfile.js",
+		"/home/ilukianov/project/airbiquity/itgen_hmiapps/Gruntfile.js",
+		"/home/ilukianov/project/airbiquity/ncg_hmiapps/bad.js",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/good.js",
+		"/home/ilukianov/project/airbiquity/ncg_hmiapps/.jscs_precommit.sh",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/bad.js",
+		"/home/ilukianov/MyProjects/MafTable/js/controller.js",
+		"/home/ilukianov/MyProjects/MafTable/css/main.css",
+		"/home/ilukianov/MyProjects/MafTable/main.html",
+		"/usr/share/applications/eclipse.desktop",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/.jscs_precommit.sh",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/package.json",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/.gitignore",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/.jscsrc",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/BadFile.js",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/githootest.js",
+		"/home/ilukianov/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ilukianov/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/facebook/app.js",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/facebook/model.js",
+		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/facebook/generator.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/init-fixtures.sh",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/aq/paginationarray.js",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/facebook/cache.js",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/facebook/app.js",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/facebook/generator.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/facebook/pastEvent.json.orig",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr.sh",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/facebook/profile.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api/handlers/public/choreo.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/proxy.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/ihr.sh",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker.sh",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/eurosport.sh",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/facebook.sh",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/node_modules/lodash/lang/isNative.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api/handlers/public/choreo.js.orig",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker/GetStationImages(MyStations).json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker/GetPlayState6.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker/GetPlayState5.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker/GetStationList.json",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/Gruntfile.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker/GetPlayState4.json",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/aq/init.js",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/node_modules/cli-color/node_modules/es5-ext/node_modules/es6-symbol/is-native-implemented.js",
+		"/home/ilukianov/airbiquity/da/da2.2_hmi/aq/index.html",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/createCustomStationPlay.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/createCustomStationNotPlay.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/skipSong.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/pause.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/getFeaturedArtistsByGenre.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/featuredStationsGenresMenu.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/setVarietyLevel.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/thumbsUpSong.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/thumbsDownSong.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/createCustomStation.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/getUserSettingsExplicitContentTrue.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/liveStationsMenu.json",
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/liveStationsStatesMenu.json"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/vp2c-fixtures/slacker",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/slacker",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client/src/screen/ui",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/client",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client/src",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/proxy/mid/api/handlers",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/vp2c",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/hap",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/hmi",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/new vp2c/",
+			"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/aq",
+			"/home/ilukianov/airbiquity/new vp2c/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/facebook",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/*.less",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/*/*.less",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/**/*.less",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/home",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/jome",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/aq",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/aq",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
+			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/hmi/aq",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/proxy/mid",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/hmi",
+			"/home/ilukianov/airbiquity/vp2c",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/vp2c",
+			"/home/ilukianov/airbiquity/da",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
+			"/home/ilukianov/airbiquity/da/vp2c-emulator",
+			"/home/ilukianov/airbiquity/da/da-emulator",
+			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
+			"",
+			"-mode_modules",
+			"",
+			"facebook",
+			""
 		]
 	},
 	"find_state":
@@ -361,81 +832,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"space",
-			"value",
-			"value()",
-			"player.\"",
-			"player?\"",
-			"player.\"",
-			"options",
-			"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js",
-			"jquer",
-			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css",
-			"\"",
-			"'",
-			"console",
-			"==",
-			"conso",
-			"data",
-			"end",
-			"\"height:100%\"",
-			"drowBox",
-			"boxCounter",
-			"w_box/2",
-			"createHin",
-			"cre",
-			"canvas",
-			"w",
-			"createHi",
-			"\\n",
-			"sort",
-			"'",
-			"+",
-			"console.log",
-			"createHint",
-			"rect",
-			"createHi",
-			"createHu",
-			"H",
-			"create",
-			"//",
-			")",
-			"// ",
-			"//",
-			"'",
-			"Ky",
-			"wrap",
-			"myCanvas",
-			"bottomQuantile",
-			"cons",
-			"console",
-			"Determinant",
-			"global.list1",
-			"global.lis",
-			"list1",
-			"global.workBook.list1",
-			"/n",
-			"for",
-			"'",
-			"width",
-			",",
-			"490",
-			"250",
-			"&gt;",
-			"&lt;",
-			"variableName",
-			"concentrations",
-			"window",
-			"form",
-			"from",
-			"value",
-			"hori",
-			"console",
-			"+",
-			"'",
-			"xlsx",
-			"log",
-			"result"
+			"fori",
+			"$project",
+			"first",
+			"';\n",
+			"this.waterAmount",
+			"airbi",
+			"\"\n",
+			"jscs_verify",
+			"test",
+			"jscs",
+			"regis",
+			"setJscsTaskSource",
+			"jscs",
+			"disallowTrailingComma",
+			"comma",
+			"node_",
+			"jscs",
+			"test",
+			"jscst",
+			"setJs",
+			"jscs",
+			"test",
+			"jscs",
+			"Gruntf",
+			"jscs",
+			"оысы",
+			"nvm",
+			"trail",
+			"_totalPageSize",
+			"data-hap",
+			"data-hup",
+			"HomeScreen",
+			"=",
+			"\",\"",
+			":",
+			"\\",
+			"key",
+			"keys",
+			"args",
+			"cmd",
+			"CurrentImage",
+			"woman",
+			"APP_IMAGE",
+			"\"name\": \"APP_IMAGE\"",
+			"\"name\": \"APP_IMAGE\",",
+			"\"name\": \"APP_MESSAGE\",",
+			"\"name\": \"APP_MESSAGE\"",
+			"slacker/",
+			"echo",
+			"slacker/",
+			"bookmark",
+			"slacker/",
+			"seqNum",
+			"meterScreen",
+			"meter",
+			"_",
+			"slacker/",
+			"audioFoc",
+			"i",
+			"getAp",
+			"APP_MESSAGE",
+			"book",
+			"sendAppp",
+			"list",
+			"getList",
+			"this.data.items",
+			"text-right-main",
+			"\"\n",
+			"requests",
+			"currentAppName",
+			"options.template",
+			"reqests",
+			"slave",
+			"slave.on",
+			"slave",
+			"routes",
+			"resolveSync",
+			"require('server.js')",
+			"require('socket.io')",
+			"choreo",
+			"exports",
+			"extension",
+			"standalone",
+			"buttons",
+			"list",
+			"rows",
+			"list",
+			"rows",
+			"list",
+			"rows",
+			"activeButton",
+			"buttons",
+			"scrollDownButton",
+			"scrollUpButton",
+			"$",
+			"text",
+			"scrollDown",
+			"scrollUp",
+			"MASTER CONNECTED",
+			"dev.js",
+			"src=\"dev.js\"",
+			"append.html",
+			"\n    if (typeof define !== 'undefined') {\n        define.amd = false;\n    }",
+			"proxy",
+			"action",
+			"active",
+			"disab",
+			"disabled",
+			"location",
+			"$('.rows')",
+			"active-list-item",
+			".active-list-item",
+			"this.data",
+			"2016",
+			"2015",
+			"put",
+			"};",
+			"vehicleState",
+			"RESOLVED_ASYNC",
+			"socket.on(",
+			"getButtonList",
+			"renderButtons",
+			"getTitle",
+			".css",
+			"css",
+			"RROR: Not able to send th",
+			"defaul",
+			"B_page"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -443,44 +967,57 @@
 		"regex": false,
 		"replace_history":
 		[
-			"val()",
-			"value",
-			"player.name\"",
-			"option",
-			"/jquery.min.js",
-			"/bootstrap.min.css",
-			"\"height:150%\"",
-			"vertical",
-			"canvas_box",
-			"canvas_dens",
-			"canvas_dist",
-			"w_box",
-			"w_dens",
-			"w_dist",
-			"sortResult",
-			"sortData",
+			"\"$project\"",
+			"second",
+			"waterAmount",
+			"ihr/HomeScreen",
 			"",
-			"createHintBox",
-			"createHintDens",
-			"createHintDist",
+			"key",
+			"params",
+			"command",
 			"",
-			"wrap-dist",
-			"box",
-			"dens",
-			"distr",
-			"determinant",
-			"global.list1",
-			"global.workBook[list1]",
-			"\"",
-			"w",
-			".",
-			"width-10",
-			"width/2",
-			">",
-			"<",
-			"global",
-			"name",
-			""
+			"-",
+			"",
+			"number",
+			"items",
+			"left-column",
+			"data",
+			"requests",
+			"extension",
+			"$buttons",
+			"$list",
+			"$rows",
+			"$list",
+			"$rows",
+			"$list",
+			"$rows",
+			"$activeButton",
+			"$buttons",
+			"$scrollUpButton",
+			"$scrollDown",
+			"$scrollUp",
+			"$text",
+			"$scrollDown",
+			"$scrollUp",
+			"rows",
+			".active",
+			"2014",
+			"2016",
+			"messagePage",
+			"",
+			"console.log",
+			"console.debug",
+			"handler",
+			"/api/1.0/",
+			"core/api/1.0/",
+			"this.listItemId",
+			"",
+			"getCachedImgId",
+			"this.imgId",
+			"",
+			"scrollStep",
+			"eventsPageData.data",
+			"SOURCE_FILE_PATH"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -491,201 +1028,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								849,
-								849
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"apply_syntax_touched": true,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"colorcode": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"syntax_mgr_loaded": true,
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/view.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1191,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								218
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"apply_syntax_touched": true,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"syntax_mgr_loaded": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 29.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -718,35 +1072,560 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
 	"project": "MafTable.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ini",
+				"vp2c-emulator/hmi-fixtures/init-fixtures.sh"
+			],
+			[
+				"getstat",
+				"vp2c-emulator/hmi-fixtures/slacker/GetStationImages(MyStations).json"
+			],
+			[
+				"getplaystate",
+				"vp2c-emulator/hmi-fixtures/slacker/GetPlayState6.json"
+			],
+			[
+				"getplaystate5",
+				"vp2c-emulator/hmi-fixtures/slacker/GetPlayState5.json"
+			],
+			[
+				"init",
+				"vp2c-emulator/hmi-fixtures/init-fixtures.sh"
+			],
+			[
+				"preview",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/preview.js"
+			],
+			[
+				"player",
+				"da2.2_hmi/stitcher/src/controllers/player.js"
+			],
+			[
+				"message",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message.js"
+			],
+			[
+				"proxtcontrols.js",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/controls.js"
+			],
+			[
+				"controls.less",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/controls/controls.less"
+			],
+			[
+				"factory",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/factory.js"
+			],
+			[
+				"proxyui.less",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/preview/preview.less"
+			],
+			[
+				"list.js",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
+			],
+			[
+				"proxyplayer",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"helper",
+				"proxy/mid/api/helper.js"
+			],
+			[
+				"getimag",
+				"hmi-fixtures/slacker/GetStationImages(Sprtlights).json"
+			],
+			[
+				"exte",
+				"proxy/mid/api/handlers/public/extension.js"
+			],
+			[
+				"fac",
+				"proxy/client/src/screen/ui/da/factory.js"
+			],
+			[
+				"screenbase",
+				"proxy/client/src/screen/ui/da/templates/base.js"
+			],
+			[
+				"recent",
+				"hmi-fixtures/slacker/slacker-RecentlyPlayed.sh"
+			],
+			[
+				"proxychore",
+				"proxy/mid/api/handlers/public/choreo.js"
+			],
+			[
+				"choreo",
+				"hmi/aq/lib/thor/choreo.js"
+			],
+			[
+				"mashup",
+				"hmi-fixtures/slacker/slacker-Mashup.sh"
+			],
+			[
+				"pause",
+				"hmi-fixtures/slacker/Pause.json"
+			],
+			[
+				"aqresp",
+				"hmi/aq/aqresponse.js"
+			],
+			[
+				"in.js",
+				"proxy/client/src/bridge/in.js"
+			],
+			[
+				"aqreq",
+				"hmi/aq/aqrequest.js"
+			],
+			[
+				"proxyplayer.js",
+				"proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"huoptionsnotificationhandler",
+				"proxy/client/src/bridge/huOptionsNotificationHandler.js"
+			],
+			[
+				"daplay",
+				"proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"dascreen",
+				"proxy/client/src/screen/ui/da/screen.js"
+			],
+			[
+				"screen",
+				"proxy/client/src/screen/ui/da/templates/base.js"
+			],
+			[
+				"playeritem",
+				"proxy/client/src/screen/ui/da/templates/player/item.ejs"
+			],
+			[
+				"player.ejs",
+				"proxy/client/src/screen/ui/da/templates/player/player.ejs"
+			],
+			[
+				"proxypla",
+				"proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"bri",
+				"proxy/mid/bridge.js"
+			],
+			[
+				"proxyplyer.js",
+				"proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"playerless",
+				"proxy/client/src/screen/ui/da/templates/player/player.less"
+			],
+			[
+				"proxyplayerejs",
+				"proxy/client/src/screen/ui/da/templates/player/player.ejs"
+			],
+			[
+				"proxyplayre",
+				"proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"player.js",
+				"hmi/stitcher/src/controllers/player.js"
+			],
+			[
+				"proxyplayerjs",
+				"proxy/client/src/screen/ui/da/templates/player.js"
+			],
+			[
+				"scree",
+				"proxy/client/src/screen/ui/da/screen.js"
+			],
+			[
+				"screemain",
+				"proxy/client/src/screen/main.js"
+			],
+			[
+				"profile.js",
+				"proxy/mid/fixtures/hap/profile.json"
+			],
+			[
+				"exten",
+				"proxy/mid/api/handlers/public/extension.js"
+			],
+			[
+				"prev",
+				"proxy/client/src/screen/ui/da/templates/preview.js"
+			],
+			[
+				"screnmain",
+				"proxy/client/src/screen/main.js"
+			],
+			[
+				"layerless",
+				"proxy/client/src/screen/ui/da/templates/player/player.less"
+			],
+			[
+				"book",
+				"hmi-fixtures/slacker/GetBookmarkedStations.json"
+			],
+			[
+				"scremain",
+				"proxy/client/src/screen/main.js"
+			],
+			[
+				"bridge",
+				"proxy/mid/bridge.js"
+			],
+			[
+				"slave",
+				"proxy/mid/socket/slave.js"
+			],
+			[
+				"ext",
+				"proxy/mid/api/handlers/public/extension.js"
+			],
+			[
+				"player.les",
+				"proxy/client/src/screen/ui/da/templates/player/player.less"
+			],
+			[
+				"getboo",
+				"hmi-fixtures/slacker/GetBookmarkedStations.json"
+			],
+			[
+				"hap",
+				"proxy/mid/api/handlers/hap.js"
+			],
+			[
+				"bookm",
+				"hmi-fixtures/slacker/GetBookmarkedStations.json"
+			],
+			[
+				"screenmain",
+				"proxy/client/src/screen/main.js"
+			],
+			[
+				"screen.",
+				"proxy/client/src/screen/ui/da/screen.js"
+			],
+			[
+				"screenmian",
+				"proxy/client/src/screen/main.js"
+			],
+			[
+				"getst",
+				"hmi-fixtures/slacker/GetStationImages.json"
+			],
+			[
+				"screen.js",
+				"proxy/client/src/screen/ui/da/screen.js"
+			],
+			[
+				"getstati",
+				"hmi-fixtures/slacker/GetStationList.json"
+			],
+			[
+				"storage",
+				"proxy/client/src/screen/storage.js"
+			],
+			[
+				"out",
+				"proxy/client/src/bridge/out.js"
+			],
+			[
+				"bridg",
+				"proxy/mid/bridge.js"
+			],
+			[
+				"extens",
+				"proxy/mid/api/handlers/public/extension.js"
+			],
+			[
+				"brid",
+				"proxy/mid/bridge.js"
+			],
+			[
+				"proxy/mid/api/handlers/public/extension.js",
+				"proxy/mid/api/handlers/public/extension.js"
+			],
+			[
+				"hmi-fixtures/slacker/setmyfavoritesongs.json",
+				"hmi-fixtures/slacker/SetMyFavoriteSongs.json"
+			],
+			[
+				"hmi-fixtures/slacker/getstationimages.json",
+				"hmi-fixtures/slacker/GetStationImages.json"
+			],
+			[
+				"hmi-fixtures/slacker/getrecentlyplayed.json",
+				"hmi-fixtures/slacker/GetRecentlyPlayed.json"
+			],
+			[
+				"hmi-fixtures/com.slacker.radio.slacker/getrecentlyplayed.json",
+				"hmi-fixtures/com.slacker.radio.Slacker/GetRecentlyPlayed.json"
+			],
+			[
+				"ha",
+				"proxy/mid/api/handlers/hap.js"
+			],
+			[
+				"apiextension",
+				"proxy/mid/api/handlers/public/extension.js"
+			],
+			[
+				"screens",
+				"proxy/client/src/screen/ui/da/screen.js"
+			],
+			[
+				"routes",
+				"proxy/mid/routes.js"
+			],
+			[
+				"inif",
+				"hmi-fixtures/init-fixtures.sh"
+			],
+			[
+				"hap.js",
+				"proxy/mid/api/handlers/hap.js"
+			],
+			[
+				"aqres",
+				"hmi/aq/aqresponse.js"
+			],
+			[
+				"aqre",
+				"hmi/aq/aqrequest.js"
+			],
+			[
+				"out.js",
+				"proxy/client/src/bridge/out.js"
+			],
+			[
+				"controls",
+				"proxy/client/src/screen/ui/da/templates/controls.js"
+			],
+			[
+				"popup.js",
+				"proxy/client/src/screen/ui/da/templates/popup.js"
+			],
+			[
+				"huoptin",
+				"proxy/client/src/screen/ui/da/templates/huOptions.js"
+			],
+			[
+				"previ",
+				"proxy/client/src/screen/ui/da/templates/preview.js"
+			],
+			[
+				"previwless",
+				"proxy/client/src/screen/ui/da/templates/preview/preview.less"
+			],
+			[
+				"list.l",
+				"proxy/client/src/screen/ui/da/templates/list/list.less"
+			],
+			[
+				"hopt",
+				"proxy/client/src/screen/ui/da/templates/huOptions.js"
+			],
+			[
+				"huopt",
+				"proxy/client/src/screen/ui/da/huOptions.js"
+			],
+			[
+				"screenbas",
+				"proxy/client/src/screen/ui/da/templates/base.js"
+			],
+			[
+				"prox",
+				"vp2c-emulator/proxy/mid/proxy.js"
+			],
+			[
+				"huop",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/huOptions/huOptions.less"
+			],
+			[
+				"midchoreo",
+				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
+			],
+			[
+				"popup",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/popups/popup.less"
+			],
+			[
+				"paste",
+				"vp2c-emulator/hmi-fixtures/facebook/PastEvents.json"
+			],
+			[
+				"futjson",
+				"vp2c-emulator/hmi-fixtures/facebook/FutureEvents.json"
+			],
+			[
+				"proxychoreo",
+				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
+			],
+			[
+				"list.less",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list/list.less"
+			],
+			[
+				"list",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
+			],
+			[
+				"popu",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/popups/popup.less"
+			],
+			[
+				"pop",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/popup.js"
+			],
+			[
+				"screencont",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/controls.js"
+			],
+			[
+				"pre",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/preview.js"
+			],
+			[
+				"uiscreen",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/screen.js"
+			],
+			[
+				"item",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list/item.ejs"
+			],
+			[
+				"item.",
+				"vp2c-emulator/node_modules/browserify-ejs/node_modules/ejs/test/fixtures/includes/menu/item.ejs"
+			],
+			[
+				"list.ej",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list/list.ejs"
+			],
+			[
+				"sto",
+				"vp2c-emulator/proxy/client/src/screen/storage.js"
+			],
+			[
+				"midhap.js",
+				"vp2c-emulator/proxy/mid/api/handlers/hap.js"
+			],
+			[
+				"chore",
+				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
+			],
+			[
+				"screen/main",
+				"vp2c-emulator/proxy/client/src/screen/main.js"
+			],
+			[
+				"storag",
+				"vp2c-emulator/proxy/client/src/screen/storage.js"
+			],
+			[
+				"screen/mesa",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message.js"
+			],
+			[
+				"lis",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
+			],
+			[
+				"clientuimain",
+				"vp2c-emulator/node_modules/node-lessify/node_modules/browserify/node_modules/timers-browserify/main.js"
+			],
+			[
+				"proxy/client/src/screen/ui/da/templates/message/message.ejs",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message/message.ejs"
+			],
+			[
+				"aq/aqresponse.js",
+				"vp2c-emulator/hmi/aq/aqresponse.js"
+			],
+			[
+				"message.ejs",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message/message.ejs"
+			],
+			[
+				"message.less",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message/message.less"
+			],
+			[
+				"uimessages",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message.js"
+			],
+			[
+				"proxy/client/src/screen/ui/da/templates/list.js",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
+			],
+			[
+				"proxy/client/src/screen/ui/da/templates/base.js",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js"
+			],
+			[
+				"uibase",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js"
+			],
+			[
+				"hoption",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/huOptions.js"
+			],
+			[
+				"proxyuibase",
+				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js"
+			],
+			[
+				"proxy/mid/api/handlers/public/choreo.js",
+				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"",
-				"C:\\StatOnLine\\my server\\src\\scripts\\statOnLine.sublime-project"
+				"itg",
+				"~/project/airbiquity/itghmi.sublime-project"
 			],
 			[
-				"stat",
-				"C:\\StatOnLine\\my server\\src\\scripts\\statOnLine.sublime-project"
+				"da",
+				"~/airbiquity/new vp2c/da2.2_hmi/facebook/new-hmi.sublime-workspace"
+			],
+			[
+				"lcn",
+				"~/project/airbiquity/lcn_test.sublime-project"
+			],
+			[
+				"old",
+				"~/airbiquity/da/da2.2_hmi/old-da-hmi.sublime-workspace"
+			],
+			[
+				"olhmi",
+				"~/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api/handlers/public/da-hmi.sublime-workspace"
+			],
+			[
+				"",
+				"~/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api/handlers/public/da-hmi.sublime-workspace"
 			]
 		],
 		"width": 380.0
@@ -754,7 +1633,6 @@
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -768,7 +1646,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 296.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

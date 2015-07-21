@@ -1,16 +1,14 @@
 $(function ($) {
-    function PlayerStorage () {
-        this.playerNiks = [];
-
-    }
 
 	function Model () {
 		this.currentGameId = 1;
-		this.playerStorage = new PlayerStorage();
+        this.playerNiks = ['Merlin', 'JackPot'];
 
         this.getCurrentGameNumber = function  () {
 			return this.currentGameId++;
 		};
+
+
 
         this.saveGame = function  () {
             localStorage.setItem('game ' + this.getCurrentGameNumber, JSON.stringify(this.createGameJson()));
