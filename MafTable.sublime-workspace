@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"pla",
+				"players"
+			],
+			[
+				"mod",
+				"model/"
+			],
+			[
+				"defin",
+				"define	AMD Named"
+			],
+			[
+				"defi",
+				"define	define"
+			],
+			[
 				"var",
 				"variants"
 			],
 			[
 				"name",
 				"namePart"
-			],
-			[
-				"pla",
-				"playerNameFields"
 			],
 			[
 				"ec",
@@ -502,18 +514,6 @@
 			[
 				"mouse",
 				"mouseleave	.mouseleave()"
-			],
-			[
-				"mous",
-				"mouseenter	.mouseenter()"
-			],
-			[
-				"mos",
-				"mouseover	.mouseover()"
-			],
-			[
-				"log",
-				"log($this"
 			]
 		]
 	},
@@ -531,15 +531,7 @@
 			"file": "main.html",
 			"settings":
 			{
-				"buffer_size": 13072,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/require.js",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 12934,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,26 +539,23 @@
 			"file": "js/Model.js",
 			"settings":
 			{
-				"buffer_size": 562,
+				"buffer_size": 1020,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/controller.js",
+			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 1333,
+				"buffer_size": 223,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "define\n\nfunction Player (nick, birthday) {\n    this.nick = nick;\n    this.birthday = birthday;\n    this.presents = [];\n    this.gameHistory = [];\n\n}\n\nPlayer.prototype.addGameToHistory = function(Game) {\n    this.gameHistory.push(Game);\n};\n",
 			"file": "js/model/Player.js",
-			"file_size": 231,
-			"file_write_time": 130819678340072007,
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 420,
 				"line_ending": "Unix"
 			}
 		}
@@ -578,6 +567,10 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
 				"instl",
 				"Package Control: Install Package"
 			],
@@ -587,10 +580,6 @@
 			],
 			[
 				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
 				"Package Control: Install Package"
 			],
 			[
@@ -642,6 +631,9 @@
 	],
 	"file_history":
 	[
+		"/home/ilukianov/MyProjects/MafTable/js/require.js",
+		"/home/ilukianov/MyProjects/MafTable/js/model/Player.js",
+		"/home/ilukianov/MyProjects/MafTable/js/controller.js",
 		"/home/ilukianov/project/airbiquity/ncg/ncg_hmiapps/package.json",
 		"/home/ilukianov/MyProjects/bush/sudo.sh",
 		"/home/ilukianov/MyProjects/bush/forin.sh",
@@ -715,7 +707,6 @@
 		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/good.js",
 		"/home/ilukianov/project/airbiquity/ncg_hmiapps/.jscs_precommit.sh",
 		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/bad.js",
-		"/home/ilukianov/MyProjects/MafTable/js/controller.js",
 		"/home/ilukianov/MyProjects/MafTable/css/main.css",
 		"/home/ilukianov/MyProjects/MafTable/main.html",
 		"/usr/share/applications/eclipse.desktop",
@@ -767,9 +758,7 @@
 		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/thumbsUpSong.json",
 		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/thumbsDownSong.json",
 		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/createCustomStation.json",
-		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/getUserSettingsExplicitContentTrue.json",
-		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/liveStationsMenu.json",
-		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/liveStationsStatesMenu.json"
+		"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr/HomeScreen/getUserSettingsExplicitContentTrue.json"
 	],
 	"find":
 	{
@@ -1081,7 +1070,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1097,8 +1086,8 @@
 						"selection":
 						[
 							[
-								1906,
-								1906
+								1301,
+								1301
 							]
 						],
 						"settings":
@@ -1167,7 +1156,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1179,15 +1168,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13072,
+						"buffer_size": 12934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								198,
+								198
 							]
 						],
 						"settings":
@@ -1261,29 +1250,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/require.js",
+					"file": "js/Model.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								640,
+								640
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_complete": false,
 							"bh_regions":
 							[
 								"bh_double_quote",
@@ -1343,7 +1333,9 @@
 								"bh_square_content"
 							],
 							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1354,207 +1346,26 @@
 				},
 				{
 					"buffer": 3,
-					"file": "js/Model.js",
+					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 562,
+						"buffer_size": 223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								223,
+								223
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
 							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								936,
-								936
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/model/Player.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6,
-								6
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
+							"auto_name": "",
 							"bh_regions":
 							[
 								"bh_double_quote",
@@ -1615,6 +1426,97 @@
 							],
 							"colorcode": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/model/Player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2196,6 +2098,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"ncgh",
+				"~/project/airbiquity/ncg_hmi.sublime-project"
+			],
 			[
 				"sni",
 				"~/.config/sublime-text-3/Packages/User/ilya_snippets/snippets.sublime-project"

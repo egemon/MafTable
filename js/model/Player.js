@@ -1,13 +1,20 @@
 define(
     'model/Player',
-    [],
-    function () {
-        console.log(arguments);
+    ['model/PlayerBase'],
+    function (PlayerBase) {
+        console.log('[model/Player] >> Player module initialized');
         function Player (nick, birthday) {
+            console.log('[model/Player] >> Player constructor');
+            this.id = PlayerBase.generateId();
             this.nick = nick;
+            this.gameHistory = []; // [Game, Game, ...]
             this.birthday = birthday;
+
             this.presents = [];
-            this.gameHistory = [];
+            this.phone = phone;
+            this.vk = vk;
+            this.comfortableTime = comfortableTime;
+            PlayerBase.addPlayer(this);
         }
 
         Player.prototype.addGameToHistory = function(Game) {
