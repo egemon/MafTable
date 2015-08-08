@@ -1,17 +1,15 @@
 define(
     'model/LocalGameStorage',
 [
-    'model/Game',
-    'model/StartPage'
+    'model/GameRecord',
 ], function (
-    Game,
-    StartPage
+    GameRecord
 ) {
     var LocalGameStorage = function () {
         this.games = {};
 
-        this.saveGame = function (Game) {
-            this.games[this.generateGameId(StartPage.getMetaData())] = Game;
+        this.saveGame = function (GameRecord) {
+            this.games[this.generateGameId(StartPage.getMetaData())] = GameRecord;
         };
 
         this.generateGameId = function (metadata) {
@@ -19,7 +17,7 @@ define(
         };
 
         this.loadGame = function (gameId) {
-            StartPage.loadGame(this.games[gameId]);
+            View.StartPage.loadGame(this.games[gameId]);
         };
 
     };

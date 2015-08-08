@@ -1,0 +1,8 @@
+define(
+    'View',
+[
+], function (
+) {
+
+
+} );

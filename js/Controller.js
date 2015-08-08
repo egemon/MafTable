@@ -1,4 +1,9 @@
-$(function  ($) {
+define(
+    'Controller',
+[
+], function (
+) {
+    console.log('Controller init started');
     var Controller = function  () {
         this.serverUrl = '/path/to/server';
 
@@ -45,7 +50,6 @@ $(function  ($) {
 
     };
 
+    return new Controller();
 
-    var controller = new Controller();
-
-});
+} );
