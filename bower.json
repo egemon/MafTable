@@ -1,0 +1,26 @@
+{
+  "name": "MafTable",
+  "version": "0.0.0",
+  "homepage": "https://github.com/egemon/MafTable",
+  "authors": [
+    "ilukianov <ilukianov@cogniance.com>"
+  ],
+  "description": "SPA for mafia game",
+  "main": "main.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "microtemplates": "~0.1.0",
+    "requirejs": "~2.1.20"
+  }
+}

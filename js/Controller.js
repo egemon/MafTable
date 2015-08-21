@@ -1,7 +1,9 @@
 define(
     'Controller',
 [
+    'microtemplates',
 ], function (
+    tmpl
 ) {
     console.log('Controller init started');
     var Controller = function  () {
@@ -50,6 +52,7 @@ define(
 
     };
 
+    console.log(tmpl('view/mainForm.ejs'),{data:'ilya'});
     return new Controller();
 
 } );

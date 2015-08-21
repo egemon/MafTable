@@ -13,7 +13,6 @@ define(
     LocalGameStorage,
     PlayerBase,
     PlayerLine,
-    Controller,
     RatingBase
 ) {
     console.log('Model init strated with args = ', arguments);

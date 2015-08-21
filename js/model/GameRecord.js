@@ -5,6 +5,7 @@ define(
 ], function (
     Player
 ) {
+    console.log('[GameRecord] init started with ', arguments);
     var GameRecord = function (metadata, Players, afterdata) {
         this.metadata = metadata;
         this.Players = Players;

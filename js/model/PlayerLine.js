@@ -11,7 +11,7 @@ define(
         this.isBestForJudge = isBestForJudge;
         this.playerId = playerId;
 //////////////////////////////////
+    };
 
-    }
-
+    return PlayerLine;
 });
