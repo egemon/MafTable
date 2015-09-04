@@ -1,14 +1,13 @@
 define(
-    'RatingBase',
+    'model/RatingBase',
 [
-    'PlayerLine',
-    'Player',
-    'LocalGameStorage'
+    'model/PlayerLine',
+    'model/Player',
+    'model/LocalGameStorage',
 ], function ( PlayerLine, Player, LocalGameStorage) {
-    console.log('RatingBase init started');
-    console.log('args = ', arguments);
+    console.log('[RatingBase] init:', arguments);
     var RatingBase = function (LocalGameStorage) {
-        this.rules = ratingRules;
+        // this.rules = ratingRules;
         this.gameSet = []; // [GameRecord, GameRecord]
         this.calculateRating = function () {
             console.log('Rating calculation started');

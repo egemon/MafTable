@@ -15,9 +15,7 @@ define(
     PlayerLine,
     RatingBase
 ) {
-    console.log('Model init strated with args = ', arguments);
-    console.log('args = ', arguments);
-
+    console.log('[Model] init', arguments);
     function Model () {
         this.LocalGameStorage = LocalGameStorage;
         this.PlayerBase = PlayerBase;

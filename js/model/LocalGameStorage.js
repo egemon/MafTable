@@ -5,6 +5,7 @@ define(
 ], function (
     GameRecord
 ) {
+    console.log('[LocalGameStorage] init started with arg = ', arguments);
     var LocalGameStorage = function () {
         this.games = {};
 

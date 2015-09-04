@@ -1,11 +1,19 @@
 define(
     'Controller',
 [
+    'jquery',
     'microtemplates',
+    'fs',
+    'text!view/PlayerLine.html',
+    'text!view/MetaData.html',
 ], function (
-    tmpl
+    $,
+    tmpl,
+    fs,
+    PlayerLineView,
+    MetaData
 ) {
-    console.log('Controller init started');
+    console.log('[Controller] init:', arguments);
     var Controller = function  () {
         this.serverUrl = '/path/to/server';
 
@@ -48,11 +56,24 @@ define(
                 alert('Error during syncronization');
             }
         };
+        console.log(PlayerLineView);
+        // var view = require('text!../js/view/mainForm.html');
+        var result = tmpl(PlayerLineView, {data:'ilya'});
+        console.log(result);
 
+        $('.form-horizontal').append(tmpl(MetaData, {}));
+        $('.form-horizontal').append(tmpl(PlayerLineView, {}));
 
     };
 
-    console.log(tmpl('view/mainForm.ejs'),{data:'ilya'});
+    // fs.readFile(__dirname + '/e.txt', function  (err, mainForm) {
+    //     console.log('err = ', err);
+    //     console.log('mainForm = ', mainForm);
+    //     console.log(tmpl(mainForm,{data:'ilya'}));
+
+    // });
+
     return new Controller();
 
 } );
+

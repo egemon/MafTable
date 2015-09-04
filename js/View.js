@@ -1,8 +1,0 @@
-define(
-    'View',
-[
-], function (
-) {
-
-
-} );

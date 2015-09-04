@@ -3,7 +3,7 @@ define(
 [
 ], function (
 ) {
-
+    console.log('[PlayerBase] init:', arguments);
     var PlayerBase = function () {
         this.Players = [];
 
