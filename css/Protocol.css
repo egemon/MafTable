@@ -1,0 +1,26 @@
+.falls,
+.day {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+#gameInfoTable {
+    width: 1100px;
+}
+
+#gameInfoTable th,
+#gameInfoTable td {
+    text-align: center;
+}
+
+
+
+.metaData .control-group {
+    display: inline-block;
+}
+
+.playerVoteOrder,
+.playerVoteNumber {
+    width: 50px;
+}
