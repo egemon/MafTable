@@ -16,10 +16,10 @@
         <label for="player<%=i%>name">Player <%=i%></label>
     </td>
     <td>
-        <input type="text" class = "playerNameField" id="player<%=i%>name" placeholder="enter player <%=i%> nick">
+        <input type="text" class="playerNameField" id="player<%=i%>name" placeholder="enter player <%=i%> nick" name="<%=i%> name">
     </td>
     <td>
-        <select class = "playerRoleField" name="player<%=i%>role" id="player<%=i%>role">
+        <select class = "playerRoleField" name="<%=i%> role" id="player<%=i%>role">
             <option value="r">Мирный</option>
             <option value="b">Мафия</option>
             <option value="d">Дон</option>
@@ -29,38 +29,38 @@
     <td>
         <div class="falls" id="player<%=i%>Falls">
             <label class="checkbox inline">
-                <input type="checkbox" class="playerfallField" value="1"> 1
+                <input type="checkbox" class="playerfallField" name="<%=i%> fall" value="1"> 1
             </label>
             <label class="checkbox inline">
-                <input type="checkbox" class="playerfallField" value="2"> 2
+                <input type="checkbox" class="playerfallField" name="<%=i%> fall" value="2"> 2
             </label>
             <label class="checkbox inline">
-                <input type="checkbox" class="playerfallField" value="3"> 3
+                <input type="checkbox" class="playerfallField" name="<%=i%> fall" value="3"> 3
             </label>
             <label class="checkbox inline">
-                <input type="checkbox" class="playerfallField" value="4"> 4
+                <input type="checkbox" class="playerfallField" name="<%=i%> fall" value="4"> 4
             </label>
         </div>
     </td>
     <td>
         <div class="day">
-            <input type="text" class="playerVoteOrder" id="player<%=i%>Day1VoteOrder" placeholder="Vote order">
-            <input type="text" class="playerVoteNumber" id="player<%=i%>Day1VoteNumber" placeholder="Number of votes">
+            <input type="text" class="playerVoteOrder" id="<%=i%> Day1VoteOrder" placeholder="Vote order" name="<%=i%> Days 1 VoteOrder">
+            <input type="text" class="playerVoteNumber" id="<%=i%> Day1VoteNumber" placeholder="Number of votes" name="<%=i%> Days 1 VoteNumber">
             <label class="checkbox inline">
-                <input type="checkbox" class="playerHangCheckbox" value="player<%=i%>Day1Hanged"> Hanged
+                <input type="checkbox" class="playerHangCheckbox" id="player<%=i%>Day1Hanged" name="<%=i%> Days 1 Hanged"> Hanged
             </label>
         </div>
     </td>
     <td>
         <div class="night">
             <label class="checkbox inline">
-                <input type="checkbox" class="playerKillCheckbox" value="player<%=i%>Night1Killed"> Killed
+                <input type="checkbox" class="playerKillCheckbox" id="player<%=i%>Night1Killed" name="<%=i%> Days 1 Killed"> Killed
             </label>
             <label class="checkbox inline">
-                <input type="checkbox" class="playerUnmarkCheckbox" value="player<%=i%>Night1Unmarked"> Unmarked
+                <input type="checkbox" class="playerUnmarkCheckbox" id="player<%=i%>Night1Unmarked" name="<%=i%> Days 1 Unmarked"> Unmarked
             </label>
             <label class="checkbox inline">
-                <input type="checkbox" class="playerVerifyCheckbox" value="player<%=i%>Night1Verified"> Verified
+                <input type="checkbox" class="playerVerifyCheckbox" id="player<%=i%>Night1Verified" name="<%=i%> Days 1 Verified"> Verified
             </label>
         </div>
     </td>

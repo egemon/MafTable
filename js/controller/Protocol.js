@@ -2,18 +2,26 @@ define(
     'controller/Protocol',
 [
     'jquery',
+
     'microtemplates',
-    'text!view/Protocol/Header.html',        
+    'text!view/Protocol/Header.html',
     'text!view/Protocol/MetaData.html',
     'text!view/Protocol/PlayerLine.html',
+    'text!view/Protocol/ButtonBar.html',
     'text!view/Protocol/OneDay.html',
+
+    'model/LocalGameStorage'
 ], function (
     $,
+
     tmpl,
-    Header,    
+    Header,
     MetaData,
     PlayerLineView,
-    OneDayView
+    ButtonBar,
+    OneDayView,
+
+    LocalGameStorage
 ) {
     console.log('{ Controller } [Protocol] init:', arguments);
     var Protocol = function  () {
@@ -22,11 +30,14 @@ define(
         $('.form-horizontal').append(tmpl(Header, {}));
         $('.form-horizontal').append(tmpl(MetaData, {}));
         $('.form-horizontal').append(tmpl(PlayerLineView, {}));
+        $('body').append(tmpl(ButtonBar, {}));
 
         // fieilds
         this.serverUrl = '/path/to/server';
         this.currentNominateNumber = 1;
         this.currentDay = 1;
+
+        var ProtocolLink = this;
 
         //methods
         this.pullFromServer = function  () {
@@ -71,64 +82,74 @@ define(
 
 
         this.addNewDay = function (dayNumber) {
-            
+
             var headerRow = $('tr.info');
-            
-            var newDay = headerRow.children().eq(-2)
-            .clone().text('Day '+ dayNumber);
-            headerRow.append(newDay);
-            
-            var newNight = headerRow.children().eq(-2)
-            .clone().text('Night '+ dayNumber);
-            headerRow.append(newNight);
 
+            addPart(headerRow).text('Day ' + dayNumber);
+            addPart(headerRow).text('Night ' + dayNumber);
 
-            var row = $('tr.playerLine');
+            var rows = $('tr.playerLine');
 
-            var data = null;
             for (var j = 0; j < 2; j++) {
-                for (var i = 0; i < row.length; i++) {
-                    data = row.eq(i).children().eq(-2).clone();
-                    row.eq(i).append(data);
+                for (var i = 0; i < rows.length; i++) {
+                    addPart(rows.eq(i));
                 }
             }
-            
 
+            function addPart (row) {
+                var newDay = row.children().eq(-2).clone();
+                row.append(newDay);
+                newDay.find('[type=checkbox]').prop('checked', false);
+                return newDay;
+            }
 
+            //increase width of table
+            $('#gameInfoTable').width($('#gameInfoTable').width() + 352);
 
-            this.hangEventHeandlersOnCheckboxes();
+        };
+
+        this.saveGame = function () {
+            var GameRecord = this.collectGameInfo();
+            LocalGameStorage.saveGame(GameRecord);
+        };
+
+        this.collectGameInfo = function () {
+            var data = $('form').serializeArray();
+            return data;
         };
 
         //EVENT HANDLERS
         this.hangEventHeandlersOnCheckboxes = function () {
-            $('.playerHangCheckbox').click(function(e) {
-                markAsDead(this);
+            $('tr.playerLine').each(function(i, el) {
+                var checkboxes = $(el).find('.playerHangCheckbox, .playerKillCheckbox').slice(-2).click(function(e) {
+                    toggleDead(this);
+                });
             });
-            
-            $('.playerKillCheckbox').click(function(e) {
-                markAsDead(this);
-                ProtocolLink.addNewDay(++ProtocolLink.currentDay);
-            });
-
-            function markAsDead (checkbox) {
-                var row = $(checkbox).parents('tr');
-                row.addClass('btn-danger');
-                row.find('input').prop('disabled','disabled');
-                row.find('select').prop('disabled','disabled');
-                
+            function toggleDead (checkbox) {
+                var row = $(checkbox).parents('tr').toggleClass('btn-danger');
                 //TODO
                 //send to model that player was hanged
             }
-
         };
 
+        this.hangEventHeandlersOnButtonBar = function () {
+
+            $('#nextDayButton').click(function(e) {
+                ProtocolLink.addNewDay(++ProtocolLink.currentDay);
+                ProtocolLink.hangEventHeandlersOnCheckboxes();
+            });
+
+            $('#saveGameButton').click(function(e) {
+                ProtocolLink.saveGame();
+            });
+        };
+
+
         //init part
-        
-        var ProtocolLink = this;
+
         this.hangEventHeandlersOnCheckboxes();
+        this.hangEventHeandlersOnButtonBar();
 
-
-        console.log('this.day1block = ', this.day1block);
 
 
 

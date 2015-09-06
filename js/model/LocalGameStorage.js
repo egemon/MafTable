@@ -10,7 +10,8 @@ define(
         this.games = {};
 
         this.saveGame = function (GameRecord) {
-            this.games[this.generateGameId(StartPage.getMetaData())] = GameRecord;
+            this.games[this.generateGameId(GameRecord)] = GameRecord;
+            localStorage.setItem(this.generateGameId(GameRecord), GameRecord);
         };
 
         this.generateGameId = function (metadata) {
