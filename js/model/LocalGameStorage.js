@@ -10,17 +10,23 @@ define(
         this.games = {};
 
         this.saveGame = function (GameRecord) {
-            this.games[this.generateGameId(GameRecord)] = GameRecord;
-            localStorage.setItem(this.generateGameId(GameRecord), GameRecord);
-        };
-
-        this.generateGameId = function (metadata) {
-            return '' + metadata.date + metadata.number + metadata.table;
+            var id = this.generateGameId(GameRecord.metadata);
+            this.games[id] = GameRecord;
+            localStorage.setItem(id, JSON.stringify(GameRecord));
         };
 
         this.loadGame = function (gameId) {
             View.StartPage.loadGame(this.games[gameId]);
         };
+
+        this.resetGameStorage = function () {
+            localStorage.clear();
+        }
+
+        this.generateGameId = function (metadata) {
+            return [metadata.date, metadata.gameNumber, metadata.tableName].join(' ');
+        };
+
 
     };
 

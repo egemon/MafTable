@@ -10,7 +10,8 @@ define(
     'text!view/Protocol/ButtonBar.html',
     'text!view/Protocol/OneDay.html',
 
-    'model/LocalGameStorage'
+    'model/LocalGameStorage',
+    'model/GameRecord'
 ], function (
     $,
 
@@ -21,7 +22,8 @@ define(
     ButtonBar,
     OneDayView,
 
-    LocalGameStorage
+    LocalGameStorage,
+    GameRecord
 ) {
     console.log('{ Controller } [Protocol] init:', arguments);
     var Protocol = function  () {
@@ -33,8 +35,6 @@ define(
         $('body').append(tmpl(ButtonBar, {}));
 
         // fieilds
-        this.serverUrl = '/path/to/server';
-        this.currentNominateNumber = 1;
         this.currentDay = 1;
 
         var ProtocolLink = this;
@@ -83,13 +83,13 @@ define(
 
         this.addNewDay = function (dayNumber) {
 
+            //add headers cells
             var headerRow = $('tr.info');
-
             addPart(headerRow).text('Day ' + dayNumber);
             addPart(headerRow).text('Night ' + dayNumber);
 
+            //add other cells
             var rows = $('tr.playerLine');
-
             for (var j = 0; j < 2; j++) {
                 for (var i = 0; i < rows.length; i++) {
                     addPart(rows.eq(i));
@@ -105,35 +105,38 @@ define(
 
             //increase width of table
             $('#gameInfoTable').width($('#gameInfoTable').width() + 352);
-
         };
 
         this.saveGame = function () {
-            var GameRecord = this.collectGameInfo();
-            LocalGameStorage.saveGame(GameRecord);
+            LocalGameStorage.saveGame(this.collectGameInfo());
         };
 
         this.collectGameInfo = function () {
-            var data = $('form').serializeArray();
-            return data;
+            return new GameRecord($('form').serializeArray());
         };
 
         //EVENT HANDLERS
         this.hangEventHeandlersOnCheckboxes = function () {
+            
+            //for every data row
             $('tr.playerLine').each(function(i, el) {
-                var checkboxes = $(el).find('.playerHangCheckbox, .playerKillCheckbox').slice(-2).click(function(e) {
-                    toggleDead(this);
+
+                //take two last checkboxes and set listeners
+                $(el).find('.playerHangCheckbox, .playerKillCheckbox')
+                    .slice(-2).click(function(e) {
+                        toggleDead(this);
                 });
             });
+
             function toggleDead (checkbox) {
-                var row = $(checkbox).parents('tr').toggleClass('btn-danger');
+                $(checkbox).parents('tr').toggleClass('btn-danger');
                 //TODO
                 //send to model that player was hanged
             }
+
         };
 
         this.hangEventHeandlersOnButtonBar = function () {
-
             $('#nextDayButton').click(function(e) {
                 ProtocolLink.addNewDay(++ProtocolLink.currentDay);
                 ProtocolLink.hangEventHeandlersOnCheckboxes();
@@ -144,18 +147,11 @@ define(
             });
         };
 
-
         //init part
-
         this.hangEventHeandlersOnCheckboxes();
         this.hangEventHeandlersOnButtonBar();
-
-
-
-
     };
 
     return new Protocol();
-
 } );
 

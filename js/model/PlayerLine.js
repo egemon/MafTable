@@ -5,14 +5,16 @@ define(
 ) {
     console.log('[PlayerLine] init:', arguments);
     var PlayerLine = function () {
-        this.id = id;
-        this.nick = nick;
-        this.role = role;
-        this.status = 'alive';
-        this.isBestForPlayers = isBestForPlayers;
-        this.isBestForJudge = isBestForJudge;
-        this.playerId = playerId;
-//////////////////////////////////
+        this.Days = [];
+
+        this.setDayInfo = function (dayNumber, info, value) {
+            if (!this.Days[dayNumber - 1]) {
+                this.Days[dayNumber - 1] = {};
+            }
+            this.Days[dayNumber - 1].info = value;
+        };
+
+
     };
 
     return PlayerLine;
