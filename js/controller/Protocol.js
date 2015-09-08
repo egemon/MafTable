@@ -77,7 +77,7 @@ define(
         };
 
         //EVENT HANDLERS
-        this.hangEventHeandlersOnCheckboxes = function () {
+        this.hangEventHeandlersOnKillAndHang = function () {
 
             //for every data row
             $('tr.playerLine').each(function(i, el) {
@@ -94,13 +94,25 @@ define(
                 //TODO
                 //send to model that player was hanged
             }
+        };
+
+        this.hangEventHeandlersOnFalls = function () {
+            //falls listeners
+            $('.playerfallField').click(function(e) {
+                var prev = this.parent().prev();
+                var next = this.parent().next();
+                var value = this.prop('checked');
+                this.attr('disabled') ? this.attr('disabled', '') : this.attr('disabled', 'disabled');
+                this.parent().next().attr('disabled', !value);
+                ///TODO end implementation
+            });
 
         };
 
         this.hangEventHeandlersOnButtonBar = function () {
             $('#nextDayButton').click(function(e) {
                 ProtocolLink.addNewDay(++ProtocolLink.currentDay);
-                ProtocolLink.hangEventHeandlersOnCheckboxes();
+                ProtocolLink.hangEventHeandlersOnKillAndHang();
 
                 //autosave option
                 ProtocolLink.saveGame(true); // true = autosave
@@ -112,9 +124,10 @@ define(
         };
 
         //init part
+        this.hangEventHeandlersOnFalls();
         this.hangEventHeandlersOnButtonBar();
         this.addNewDay(this.currentDay);
-        this.hangEventHeandlersOnCheckboxes();
+        this.hangEventHeandlersOnKillAndHang();
         $('table').width(1100);
     };
 
