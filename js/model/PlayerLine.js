@@ -11,7 +11,7 @@ define(
             if (!this.Days[dayNumber - 1]) {
                 this.Days[dayNumber - 1] = {};
             }
-            this.Days[dayNumber - 1].info = value;
+            this.Days[dayNumber - 1][info] = value;
         };
 
 

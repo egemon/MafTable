@@ -8,7 +8,7 @@ define(
     'text!view/Protocol/MetaData.html',
     'text!view/Protocol/PlayerLine.html',
     'text!view/Protocol/ButtonBar.html',
-    'text!view/Protocol/OneDay.html',
+    'text!view/Protocol/DayNight.html',
 
     'model/LocalGameStorage',
     'model/GameRecord'
@@ -20,7 +20,7 @@ define(
     MetaData,
     PlayerLineView,
     ButtonBar,
-    OneDayView,
+    DayNightView,
 
     LocalGameStorage,
     GameRecord
@@ -40,71 +40,33 @@ define(
         var ProtocolLink = this;
 
         //methods
-        this.pullFromServer = function  () {
-            $.ajax({
-                url: this.serverUrl,
-                dataType: 'json',
-            })
-            .done(successPull)
-            .fail(failPull);
-
-            function successPull (data) {
-                for (var i = 0; i < data.length; i++) {
-                    localStorage.setItem(data[i].id, data[i]);
-                }
-            }
-            function failPull (err) {
-                console.log('err = ', err);
-            }
-        };
-
-        this.pushToServer = function  () {
-            localStorage.each(function(i, el) {
-                $.ajax({
-                        url: this.serverUrl,
-                        type: 'post',
-                        data: el,
-                    })
-                .done(successPull)
-                .fail(failPull);
-                var allSyncronized  = i;
-            });
-
-            function successPush (data) {
-                if (--allSyncronized === 0) {
-                    alert('All games pushed');
-                }
-            }
-            function failPush (err) {
-                alert('Error during syncronization');
-            }
-        };
-
-
         this.addNewDay = function (dayNumber) {
 
             //add headers cells
             var headerRow = $('tr.info');
-            addPart(headerRow).text('Day ' + dayNumber);
-            addPart(headerRow).text('Night ' + dayNumber);
+            addHeader(headerRow, 'Day ' + dayNumber);
+            addHeader(headerRow, 'Night ' + dayNumber);
+
+            function addHeader (row, text) {
+                var newDay = row.children().eq(-2).clone().text(text);
+                row.append(newDay);
+            }
 
             //add other cells
             var rows = $('tr.playerLine');
-            for (var j = 0; j < 2; j++) {
+            addDayNight(rows);
+
+            function addDayNight (rows) {
                 for (var i = 0; i < rows.length; i++) {
-                    addPart(rows.eq(i));
+                    rows.eq(i).append(tmpl(DayNightView, {
+                        'playerNumber': i + 1,
+                        'dayNumber': dayNumber
+                    }));
                 }
             }
 
-            function addPart (row) {
-                var newDay = row.children().eq(-2).clone();
-                row.append(newDay);
-                newDay.find('[type=checkbox]').prop('checked', false);
-                return newDay;
-            }
-
             //increase width of table
-            $('#gameInfoTable').width($('#gameInfoTable').width() + 352);
+            // $('#gameInfoTable').width($('#gameInfoTable').width() + 339);
         };
 
         this.saveGame = function () {
@@ -117,7 +79,7 @@ define(
 
         //EVENT HANDLERS
         this.hangEventHeandlersOnCheckboxes = function () {
-            
+
             //for every data row
             $('tr.playerLine').each(function(i, el) {
 
@@ -150,6 +112,8 @@ define(
         //init part
         this.hangEventHeandlersOnCheckboxes();
         this.hangEventHeandlersOnButtonBar();
+        this.addNewDay(this.currentDay);
+        $('table').width(1000);
     };
 
     return new Protocol();

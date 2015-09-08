@@ -1,6 +1,17 @@
-.falls,
+.falls {
+    width: 80px;
+}
+
 .day {
-    display: inline-block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.night {
+    width: 100px;
+}
+
+.falls :first-child{
     margin-left: 10px;
 }
 
@@ -12,6 +23,7 @@
 #gameInfoTable th,
 #gameInfoTable td {
     text-align: center;
+    padding-right: 0px;
 }
 
 
@@ -21,6 +33,7 @@
 }
 
 .playerVoteOrder,
-.playerVoteNumber {
+.playerVoteNumber,
+.playerWhoNominate {
     width: 50px;
 }

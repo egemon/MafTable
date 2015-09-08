@@ -6,8 +6,6 @@
                 <th>Nick</th>
                 <th>Role</th>
                 <th>Falls</th>
-                <th>Day 1</th>
-                <th>Night 1</th>
             </tr>
 <% for (var i = 1; i <= 10; i++) {
 %>
@@ -42,30 +40,7 @@
             </label>
         </div>
     </td>
-    <td>
-        <div class="day">
-            <input type="text" class="playerVoteOrder" id="<%=i%> Day1VoteOrder" placeholder="Vote order" name="<%=i%> Days 1 VoteOrder">
-            <input type="text" class="playerVoteNumber" id="<%=i%> Day1VoteNumber" placeholder="Number of votes" name="<%=i%> Days 1 VoteNumber">
-            <label class="checkbox inline">
-                <input type="checkbox" class="playerHangCheckbox" id="player<%=i%>Day1Hanged" name="<%=i%> Days 1 Hanged"> Hanged
-            </label>
-        </div>
-    </td>
-    <td>
-        <div class="night">
-            <label class="checkbox inline">
-                <input type="checkbox" class="playerKillCheckbox" id="player<%=i%>Night1Killed" name="<%=i%> Days 1 Killed"> Killed
-            </label>
-            <label class="checkbox inline">
-                <input type="checkbox" class="playerUnmarkCheckbox" id="player<%=i%>Night1Unmarked" name="<%=i%> Days 1 Unmarked"> Unmarked
-            </label>
-            <label class="checkbox inline">
-                <input type="checkbox" class="playerVerifyCheckbox" id="player<%=i%>Night1Verified" name="<%=i%> Days 1 Verified"> Verified
-            </label>
-        </div>
-    </td>
-</tr>
-<% }%>
+</tr><% }%>
         </tbody>
     </table>
 </div>

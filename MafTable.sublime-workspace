@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Pro",
+				"ProtocolLink"
+			],
+			[
+				"player",
+				"playerLine"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"add",
+				"addPart"
+			],
+			[
 				"res",
 				"result"
 			],
@@ -284,10 +300,6 @@
 				"children	.children()"
 			],
 			[
-				"add",
-				"addClass	.addClass()"
-			],
-			[
 				"as",
 				"asyncMessageCounter"
 			],
@@ -502,23 +514,43 @@
 			[
 				"to",
 				"toggle	.toggle()"
-			],
-			[
-				"i",
-				"innerHeight	.innerHeight()"
-			],
-			[
-				"ba",
-				"background-repeat"
-			],
-			[
-				"no",
-				"no-repeat"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "js/controller/Protocol.js",
+			"settings":
+			{
+				"buffer_size": 4349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/model/LocalGameStorage.js",
+			"settings":
+			{
+				"buffer_size": 791,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/view/Protocol/PlayerLine.html",
+			"settings":
+			{
+				"buffer_size": 2920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/view/Protocol/ButtonBar.html",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -586,10 +618,12 @@
 	"expanded_folders":
 	[
 		"/home/ilukianov/MyProjects/MafTable",
+		"/home/ilukianov/MyProjects/MafTable/css",
 		"/home/ilukianov/MyProjects/MafTable/js"
 	],
 	"file_history":
 	[
+		"/home/ilukianov/MyProjects/MafTable/js/model/PlayerLine.js",
 		"/home/ilukianov/MyProjects/MafTable/js/Controller.js",
 		"/home/ilukianov/.zshrc",
 		"/home/ilukianov/MyProjects/MafTable/js/helper.js",
@@ -602,7 +636,6 @@
 		"/home/ilukianov/MyProjects/MafTable/js/view.js",
 		"/home/ilukianov/MyProjects/MafTable/css/main.css",
 		"/home/ilukianov/MyProjects/MafTable/js/lib/microtemplates/index.js",
-		"/home/ilukianov/MyProjects/MafTable/js/model/PlayerLine.js",
 		"/home/ilukianov/MyProjects/MafTable/js/e.txt",
 		"/home/ilukianov/MyProjects/MafTable/js/lib/fs/e.txt",
 		"/home/ilukianov/MyProjects/MafTable/js/lib/e.txt",
@@ -837,6 +870,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ProtocolLink",
 			"fs",
 			"cd ",
 			"cd /",
@@ -963,8 +997,7 @@
 			"2015",
 			"put",
 			"};",
-			"vehicleState",
-			"RESOLVED_ASYNC"
+			"vehicleState"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1034,8 +1067,371 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/controller/Protocol.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3235,
+								3235
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 507.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/model/LocalGameStorage.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								791,
+								791
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/view/Protocol/PlayerLine.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2147,
+								2147
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/view/Protocol/ButtonBar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],

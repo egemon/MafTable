@@ -7,11 +7,9 @@ define(
 ) {
     console.log('[LocalGameStorage] init started with arg = ', arguments);
     var LocalGameStorage = function () {
-        this.games = {};
 
         this.saveGame = function (GameRecord) {
             var id = this.generateGameId(GameRecord.metadata);
-            this.games[id] = GameRecord;
             localStorage.setItem(id, JSON.stringify(GameRecord));
         };
 
@@ -21,7 +19,7 @@ define(
 
         this.resetGameStorage = function () {
             localStorage.clear();
-        }
+        };
 
         this.generateGameId = function (metadata) {
             return [metadata.date, metadata.gameNumber, metadata.tableName].join(' ');
