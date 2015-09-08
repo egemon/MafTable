@@ -65,12 +65,11 @@ define(
                 }
             }
 
-            //increase width of table
-            // $('#gameInfoTable').width($('#gameInfoTable').width() + 339);
         };
 
-        this.saveGame = function () {
+        this.saveGame = function (isAutosave) {
             LocalGameStorage.saveGame(this.collectGameInfo());
+            this.autosave = isAutosave;
         };
 
         this.collectGameInfo = function () {
@@ -102,6 +101,9 @@ define(
             $('#nextDayButton').click(function(e) {
                 ProtocolLink.addNewDay(++ProtocolLink.currentDay);
                 ProtocolLink.hangEventHeandlersOnCheckboxes();
+
+                //autosave option
+                ProtocolLink.saveGame(true); // true = autosave
             });
 
             $('#saveGameButton').click(function(e) {
@@ -110,10 +112,10 @@ define(
         };
 
         //init part
-        this.hangEventHeandlersOnCheckboxes();
         this.hangEventHeandlersOnButtonBar();
         this.addNewDay(this.currentDay);
-        $('table').width(1000);
+        this.hangEventHeandlersOnCheckboxes();
+        $('table').width(1100);
     };
 
     return new Protocol();

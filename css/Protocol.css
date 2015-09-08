@@ -1,5 +1,5 @@
 .falls {
-    width: 80px;
+    width: 90px;
 }
 
 .day {
@@ -23,7 +23,8 @@
 #gameInfoTable th,
 #gameInfoTable td {
     text-align: center;
-    padding-right: 0px;
+    vertical-align: middle;
+    padding: 5px;
 }
 
 
