@@ -17,6 +17,7 @@
 
 
 #gameInfoTable {
+    overflow: hidden;
     width: 1100px;
 }
 
@@ -29,8 +30,17 @@
 
 
 
-.metaData .control-group {
-    display: inline-block;
+#metaData, #timerContainer {
+    /*display: inline-block;*/
+    float: left;
+}
+
+#timerContainer {
+    margin-left: 10px;
+}
+
+#timerTime {
+    text-align: center;
 }
 
 .playerVoteOrder,

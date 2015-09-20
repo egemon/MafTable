@@ -12,15 +12,12 @@ define(
     var GameRecord = function (dataArray) {
         var GameRecordLink = this;
 
-
         this.saveMetaData = function (metadata) {
             this.metadata = {};
             metadata.forEach(function (el, i) {
                GameRecordLink.metadata[el.name] = el.value;
             });
         };
-        this.saveMetaData(dataArray.splice(0, 5));
-
 
         this.savePlayerLines = function (playersData) {
             this.playerLines = [];
@@ -30,7 +27,7 @@ define(
 
             playersData.forEach(function (el, i) {
                 if (!el.value) {return;}
-                var nameArray = el.name.split(' ');
+                var nameArray = el.name.split('_');
                 var playerNumber = nameArray[0];
                 var currentPlayerLine = GameRecordLink.playerLines[playerNumber - 1];
                 switch ( nameArray[1] ) {
@@ -45,8 +42,9 @@ define(
                 }
             });
         };
-        this.savePlayerLines(dataArray);
 
+        this.saveMetaData(dataArray.splice(0, 5));
+        this.savePlayerLines(dataArray);
     };
 
     return GameRecord;

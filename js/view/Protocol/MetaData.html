@@ -1,4 +1,4 @@
-<div class="control-group metaData">
+<div class="control-group" id="metaData">
       <div class="control-group">
         <label class="control-label" for="win">Win</label>
         <div class="controls">
@@ -18,7 +18,7 @@
       <div class="control-group">
         <label class="control-label" for="date">Date</label>
         <div class="controls">
-          <input type="date" name="date" id="date">
+          <input type="date" name="date" id="date" value="<%=new Date().toISOString().split('T')[0]%>">
         </div>
       </div>
       <div class="control-group">

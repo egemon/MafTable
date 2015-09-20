@@ -2,26 +2,33 @@ define(
     'controller/Protocol',
 [
     'jquery',
-
     'microtemplates',
+
     'text!view/Protocol/Header.html',
     'text!view/Protocol/MetaData.html',
     'text!view/Protocol/PlayerLine.html',
     'text!view/Protocol/ButtonBar.html',
     'text!view/Protocol/DayNight.html',
 
+    'controller/Timer',
+
     'model/LocalGameStorage',
     'model/GameRecord'
 ], function (
     $,
-
     tmpl,
+
+//view
     Header,
     MetaData,
     PlayerLineView,
     ButtonBar,
     DayNightView,
 
+//controller
+    Timer,
+
+//model
     LocalGameStorage,
     GameRecord
 ) {
@@ -31,11 +38,16 @@ define(
         //protocol form created
         $('.form-horizontal').append(tmpl(Header, {}));
         $('.form-horizontal').append(tmpl(MetaData, {}));
+
+        //init Timer
+        this.timer = new Timer();
+
         $('.form-horizontal').append(tmpl(PlayerLineView, {}));
         $('body').append(tmpl(ButtonBar, {}));
 
         // fieilds
         this.currentDay = 1;
+        this.formObject = null;
 
         var ProtocolLink = this;
 
@@ -67,14 +79,37 @@ define(
 
         };
 
+        this.createFormObject = function (gameInfoArray) {
+            this.formObject = {};
+            for (var i = 0; i < gameInfoArray.length; i++) {
+                this.formObject[gameInfoArray[i].name] = $('[name=' + gameInfoArray[i].name +']');
+            }
+        };
+
         this.saveGame = function (isAutosave) {
-            LocalGameStorage.saveGame(this.collectGameInfo());
+            var gameInfoObject = this.collectGameInfo();
+            this.createFormObject($('form').serializeArray());
+            LocalGameStorage.saveGame(gameInfoObject);
             this.autosave = isAutosave;
+        };
+
+        this.clearGame = function () {
+            if (confirm('Are you realy want to clear all data?')) {
+                window.location.reload();
+                // $('[type=checkbox]').prop('checked','');
+                // $('[type=text]').val('');
+                // $('.playerfallField').prop('disabled','true');
+                // $('[value=1]').prop('disabled','');
+                // $("option[value=r]").prop('selected','true');
+                // $('.playerLine.btn-danger').removeClass('btn-danger');
+            }
         };
 
         this.collectGameInfo = function () {
             return new GameRecord($('form').serializeArray());
         };
+
+
 
         //EVENT HANDLERS
         this.hangEventHeandlersOnKillAndHang = function () {
@@ -91,20 +126,16 @@ define(
 
             function toggleDead (checkbox) {
                 $(checkbox).parents('tr').toggleClass('btn-danger');
-                //TODO
-                //send to model that player was hanged
             }
         };
 
         this.hangEventHeandlersOnFalls = function () {
+
             //falls listeners
-            $('.playerfallField').click(function(e) {
-                var prev = this.parent().prev();
-                var next = this.parent().next();
-                var value = this.prop('checked');
-                this.attr('disabled') ? this.attr('disabled', '') : this.attr('disabled', 'disabled');
-                this.parent().next().attr('disabled', !value);
-                ///TODO end implementation
+            $('.playerfallField').change(function(e) {
+                var value = $(this).prop('checked');
+                $(this).parent().next().children().attr('disabled', !value);
+                $(this).parent().prev().children().attr('disabled', value);
             });
 
         };
@@ -121,6 +152,10 @@ define(
             $('#saveGameButton').click(function(e) {
                 ProtocolLink.saveGame();
             });
+
+            $('#clearGameButton').click(function(e) {
+                ProtocolLink.clearGame();
+            });
         };
 
         //init part
@@ -128,6 +163,7 @@ define(
         this.hangEventHeandlersOnButtonBar();
         this.addNewDay(this.currentDay);
         this.hangEventHeandlersOnKillAndHang();
+
         $('table').width(1100);
     };
 
