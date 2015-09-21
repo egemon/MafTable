@@ -22,7 +22,7 @@ define(
         };
 
         this.generateGameId = function (metadata) {
-            return [metadata.date, metadata.gameNumber, metadata.tableName].join(' ');
+            return ['MT', metadata.date, metadata.gameNumber, metadata.tableName].join('_');
         };
 
 

@@ -4,14 +4,22 @@ define(
     'model/PlayerLine',
     'model/Player',
     'model/LocalGameStorage',
-], function ( PlayerLine, Player, LocalGameStorage) {
+    'text!model/RatingRules.json'
+], function ( PlayerLine, Player, LocalGameStorage, RatingRules) {
     console.log('[RatingBase] init:', arguments);
-    var RatingBase = function (LocalGameStorage) {
-        // this.rules = ratingRules;
-        this.gameSet = []; // [GameRecord, GameRecord]
-        this.calculateRating = function () {
+    var RatingBase = function () {
+        this.rulesObjecct = JSON.parse(RatingRules);
+        console.log('[M-RatingBase] rulesObjecct = ', this.rulesObjecct);
+        //period, RatingRules, GameRecords-> RatingObject
+        this.calculateRating = function (period, rulesObjecct, GameRecords) {
             console.log('Rating calculation started');
+            var Games = this.getGamesForPeriod(period);
+        };
 
+        this.getGamesForPeriod = function (period) {
+            for (var i = 0; i < localStorage.length; i++) {
+                localStorage.key(i).indexOf('MT');
+            }
         };
 
         this.addGameToRating = function (GameRecord) {

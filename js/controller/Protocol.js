@@ -11,6 +11,7 @@ define(
     'text!view/Protocol/DayNight.html',
 
     'controller/Timer',
+    'controller/Rating',
 
     'model/LocalGameStorage',
     'model/GameRecord'
@@ -27,6 +28,7 @@ define(
 
 //controller
     Timer,
+    Rating,
 
 //model
     LocalGameStorage,
@@ -109,6 +111,9 @@ define(
             return new GameRecord($('form').serializeArray());
         };
 
+        this.savePage = function () {
+            this.htmlCache = document.body.innerHTML;
+        };
 
 
         //EVENT HANDLERS
@@ -155,6 +160,11 @@ define(
 
             $('#clearGameButton').click(function(e) {
                 ProtocolLink.clearGame();
+            });
+
+            $('#showRatingBtn').click(function (e) {
+               this.savePage();
+
             });
         };
 
