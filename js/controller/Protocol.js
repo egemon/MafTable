@@ -163,8 +163,9 @@ define(
             });
 
             $('#showRatingBtn').click(function (e) {
-               this.savePage();
+               ProtocolLink.saveGame();
 
+               Rating.renderView();
             });
         };
 

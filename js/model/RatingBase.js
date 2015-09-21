@@ -11,15 +11,9 @@ define(
         this.rulesObjecct = JSON.parse(RatingRules);
         console.log('[M-RatingBase] rulesObjecct = ', this.rulesObjecct);
         //period, RatingRules, GameRecords-> RatingObject
-        this.calculateRating = function (period, rulesObjecct, GameRecords) {
+        this.calculateRating = function (games, rulesObjecct) {
             console.log('Rating calculation started');
-            var Games = this.getGamesForPeriod(period);
-        };
 
-        this.getGamesForPeriod = function (period) {
-            for (var i = 0; i < localStorage.length; i++) {
-                localStorage.key(i).indexOf('MT');
-            }
         };
 
         this.addGameToRating = function (GameRecord) {

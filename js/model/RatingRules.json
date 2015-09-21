@@ -1,0 +1,29 @@
+{
+    "rules":[
+        {
+            "cond": {"role": "r", "win": "city"},
+            "val": 3
+        },{
+            "cond": {"role": "r", "win": "maf"},
+            "val": 0
+        },{
+            "cond": {"role": "s", "win": "city"},
+            "val": 4
+        },{
+            "cond": {"role": "s", "win": "maf"},
+            "val": -1
+        },{
+            "cond": {"role": "m", "win": "city"},
+            "val": 0
+        },{
+            "cond": {"role": "m", "win": "maf"},
+            "val": 4
+        },{
+            "cond": {"role": "d", "win": "city"},
+            "val": -1
+        },{
+            "cond": {"role": "d", "win": "maf"},
+            "val": 5
+        }
+    ]
+}
