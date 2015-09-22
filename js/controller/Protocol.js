@@ -115,6 +115,10 @@ define(
             this.htmlCache = document.body.innerHTML;
         };
 
+        this.clearPage = function () {
+            $('.form-horizontal').children().remove();
+        };
+
 
         //EVENT HANDLERS
         this.hangEventHeandlersOnKillAndHang = function () {
@@ -164,8 +168,9 @@ define(
 
             $('#showRatingBtn').click(function (e) {
                ProtocolLink.saveGame();
-
-               Rating.renderView();
+               ProtocolLink.clearPage();
+               Timer.reset();
+               Rating.showCurrentRating();
             });
         };
 
@@ -175,7 +180,6 @@ define(
         this.addNewDay(this.currentDay);
         this.hangEventHeandlersOnKillAndHang();
 
-        $('table').width(1100);
     };
 
     return new Protocol();

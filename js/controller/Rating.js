@@ -1,3 +1,4 @@
+
 define(
     'controller/Rating',
 [
@@ -26,13 +27,13 @@ define(
 
 
         this.showCurrentRating = function () {
-            var games = this.getGamesByFilter(this.currentRatingFilterObject);
-            var rating = RatingBase.calculateRating(games);
+            // var games = this.getGamesByFilter(this.currentRatingFilterObject);
+            var rating = RatingBase.calculateRating();
             this.renderView(rating);
         };
 
         this.renderView = function (RatingObject) {
-            document.body.appendChild(tmpl(RatingView, RatingObject));
+            $('.form-horizontal').html((tmpl(RatingView, RatingObject)));
         };
 
         this.getGameRecords = function (З) {
