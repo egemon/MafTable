@@ -92,7 +92,7 @@ define(
             var gameInfoObject = this.collectGameInfo();
             this.createFormObject($('form').serializeArray());
             LocalGameStorage.saveGame(gameInfoObject);
-            this.autosave = isAutosave;
+            // this.autosave = isAutosave;
         };
 
         this.clearGame = function () {
@@ -155,7 +155,7 @@ define(
                 ProtocolLink.hangEventHeandlersOnKillAndHang();
 
                 //autosave option
-                ProtocolLink.saveGame(true); // true = autosave
+                // ProtocolLink.saveGame(true); // true = autosave
             });
 
             $('#saveGameButton').click(function(e) {
@@ -167,10 +167,12 @@ define(
             });
 
             $('#showRatingBtn').click(function (e) {
-               ProtocolLink.saveGame();
+               // ProtocolLink.saveGame();
                ProtocolLink.clearPage();
-               Timer.reset();
-               Rating.showCurrentRating();
+               ProtocolLink.timer.reset();
+               if (!Rating.showCurrentRating()) {
+                  window.location.reload();
+               }
             });
         };
 

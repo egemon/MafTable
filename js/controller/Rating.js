@@ -30,12 +30,19 @@ define(
 
         this.showCurrentRating = function () {
             var games = LocalGameStorage.getGamesByFilter(this.currentRatingFilterObject);
-            var rating = RatingBase.calculateRating();
-            this.renderView(rating);
+            var ratingArray = RatingBase.calculateRating(games);
+            if (ratingArray.length) {
+                this.renderView(ratingArray);
+                return true;
+            } else {
+                console.warn('!!!!!no rating results');
+                alert('No games availiable for rating canculation!');
+                return false;
+            }
         };
 
-        this.renderView = function (RatingObject) {
-            $('.form-horizontal').html((tmpl(RatingView, RatingObject)));
+        this.renderView = function (ratingArray) {
+            $('.form-horizontal').html((tmpl(RatingView, ratingArray)));
         };
 
         this.getGameRecords = function (З) {

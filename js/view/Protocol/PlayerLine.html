@@ -1,9 +1,11 @@
 <div class="clearfix"></div>
 <div class="playerLinesContainer">
-    <table class="table table-bordered table-striped" id="gameInfoTable">
+    <table class="table table-bordered" id="gameInfoTable">
         <tbody>
             <tr class="info">
                 <th>Number</th>
+                <th>BP</th>
+                <th>BR</th>
                 <th>Nick</th>
                 <th>Role</th>
                 <th>Falls</th>
@@ -12,7 +14,17 @@
 %>
 <tr class="playerLine">
     <td>
-        <label for="player<%=i%>name">Player <%=i%></label>
+        <label for="player<%=i%>name"><%=i%></label>
+    </td>
+    <td>
+        <label class="checkbox inline">
+            <input type="checkbox" class="BP" name="<%=i%>_BP">
+        </label>
+    </td>
+        <td>
+        <label class="checkbox inline">
+            <input type="checkbox" class="BR" name="<%=i%>_BR">
+        </label>
     </td>
     <td>
         <input type="text" class="playerNameField" id="player<%=i%>name" placeholder="enter player <%=i%> nick" name="<%=i%>_name">

@@ -1,29 +1,92 @@
 {
     "rules":[
         {
-            "cond": {"role": "r", "metadata":{"win": "city"}},
-            "val": 3
+            "condition": {
+                "player": {
+                    "role": "r"
+                },
+                "metadata": {
+                    "win": "city"
+                }
+            },
+            "value": 3
         },{
-            "cond": {"role": "r", "metadata":{"win": "maf"}},
-            "val": 0
+            "condition": {
+                "player": {
+                    "role": "r"
+                },
+                "metadata": {
+                    "win": "maf"
+                }
+            },
+            "value": 0
         },{
-            "cond": {"role": "s", "metadata":{"win": "city"}},
-            "val": 4
+            "condition": {
+                "player": {
+                    "role": "s"
+                },
+                "metadata": {
+                    "win": "city"
+                }
+            },
+            "value": 4
         },{
-            "cond": {"role": "s", "metadata":{"win": "maf"}},
-            "val": -1
+            "condition": {
+                "player": {
+                    "role": "s"
+                },
+                "metadata": {
+                    "win": "maf"
+                }
+            },
+            "value": -1
         },{
-            "cond": {"role": "m", "metadata":{"win": "city"}},
-            "val": 0
+            "condition": {
+                "player": {
+                    "role": "b"
+                },
+                "metadata": {
+                    "win": "city"
+                }
+            },
+            "value": 0
         },{
-            "cond": {"role": "m", "metadata":{"win": "maf"}},
-            "val": 4
+            "condition": {
+                "player": {
+                    "role": "b"
+                },
+                "metadata": {
+                    "win": "maf"
+                }
+            },
+            "value": 4
         },{
-            "cond": {"role": "d", "metadata":{"win": "city"}},
-            "val": -1
+            "condition": {
+                "player": {
+                    "role": "d"
+                },
+                "metadata": {
+                    "win": "city"
+                }
+            },
+            "value": -1
         },{
-            "cond": {"role": "d", "metadata":{"win": "maf"}},
-            "val": 5
+            "condition": {
+                "player": {
+                    "role": "d"
+                },
+                "metadata": {
+                    "win": "maf"
+                }
+            },
+            "value": 5
+        },{
+            "condition": {
+                "player": {
+                    "BP": "on"
+                }
+            },
+            "value": 1
         }
     ]
 }
