@@ -164,8 +164,7 @@ define(
 
             $('#showRatingBtn').click(function (e) {
                ProtocolLink.saveGame();
-
-               Rating.renderView();
+               Rating.showCurrentRating();
             });
         };
 

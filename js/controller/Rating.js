@@ -5,6 +5,7 @@ define(
     'microtemplates',
 
     'model/RatingBase',
+    'model/LocalGameStorage',
 
     'text!view/Rating.html',
 ], function (
@@ -12,6 +13,7 @@ define(
     tmpl,
 
     RatingBase,
+    LocalGameStorage,
 
     RatingView
 ) {
@@ -26,7 +28,7 @@ define(
 
 
         this.showCurrentRating = function () {
-            var games = this.getGamesByFilter(this.currentRatingFilterObject);
+            var games = LocalGameStorage.getGamesByFilter(this.currentRatingFilterObject);
             var rating = RatingBase.calculateRating(games);
             this.renderView(rating);
         };
