@@ -53,6 +53,57 @@ define(
             return isTrue;
         };
 
+
+
+        this.calculateRating = function (games, rulesObjecct) {
+            console.log('Rating calculation started');
+            return {"Players":[
+                {
+                    name:'Merlin',
+                    sum: 20,
+                    gameNumber: 10,
+                    average: 2,
+                    bp: 3,
+                    br: 1,
+                },{
+                    name:'JAck',
+                    sum: 2,
+                    gameNumber: 1,
+                    average: 5,
+                    bp: 3,
+                    br: 2,
+                },{
+                    name:'Ilya',
+                    sum: 200,
+                    gameNumber: 100,
+                    average: 2.55555,
+                    bp: 0,
+                    br: 0,
+                },{
+                    name:'Borman',
+                    sum: 30,
+                    gameNumber: 10,
+                    average: 3,
+                    bp: 1,
+                    br: 1,
+                },{
+                    name:'Klich',
+                    sum: 2,
+                    gameNumber: 10,
+                    average: 0.2,
+                    bp: 1,
+                    br: 0,
+                },{
+                    name:'Loh',
+                    sum: 1,
+                    gameNumber: 3,
+                    average: 0.333333333,
+                    bp: 0,
+                    br: 0,
+                },
+            ]};
+        };
+
     };
 
 

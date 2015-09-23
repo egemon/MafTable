@@ -1,0 +1,12 @@
+#ratingTable td,
+#ratingTable th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+#ratingTable {
+    width: inherit;
+}
+.playerAvatarInRating {
+    width: 50px;
+}

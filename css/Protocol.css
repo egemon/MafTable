@@ -1,3 +1,7 @@
+.clearfix {
+    float: none;
+}
+
 .falls {
     width: 90px;
 }
@@ -17,7 +21,6 @@
 
 
 #gameInfoTable {
-    overflow: hidden;
     width: 1100px;
 }
 
