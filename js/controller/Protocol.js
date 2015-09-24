@@ -160,7 +160,7 @@ define(
                ProtocolLink.saveGame();
                ProtocolLink.clearPage();
                ProtocolLink.timer.reset();
-               if (!Rating.showCurrentRating()) {
+               if (!Rating.init()) {
                   window.location.reload();
                }
             });

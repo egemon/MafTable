@@ -30,7 +30,7 @@ define(
         this.getGamesByFilter = function (filterObject) {
 
             var resultGames = null;
-            if (!filterObject || !Object.keys({}).length) {
+            if (!filterObject || !Object.keys(filterObject).length) {
                 return this.getAllGames();
             }
 
@@ -54,6 +54,9 @@ define(
                         resultGames = resultGames ?
                             this.filterGamesByNick(resultGames, filterObject.playerNick) :
                             this.getGamesByNick(filterObject.playerNick);
+                    break;
+                    case "period":
+                    //prevent console warn
                     break;
                     default:
                         console.warn('[M-LocalGameStorage] getGamesByFilter(): Wrong filterObject!');
