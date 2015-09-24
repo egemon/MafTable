@@ -12,6 +12,7 @@ define(
         console.log('[M-RatingBase] rulesObject = ', this.rulesObject);
         //period, RatingRules, GameRecords-> RatingObject
         this.calculateRating = function (games) {
+            games = this.filterNotCompletedGames(games);
             console.log('Rating calculation started');
             var RatingObject = {};
             for (var i = 0; i < games.length; i++) {
@@ -47,12 +48,6 @@ define(
                             RatingObject[player.name].sum = RatingRule.value;
                         }
                     }
-                    // if (RatingObject[player.name] && player.BP) {
-                    //   RatingObject[player.name].BP +=  1;  
-                    // }
-                    // if (RatingObject[player.name] && player.BR) {
-                    //   RatingObject[player.name].BR +=  1;  
-                    // }
                 }
             }
         };
@@ -82,58 +77,23 @@ define(
             } else {
                 console.warn('I don;t know this sort!');
             }
+        };
+
+        this.filterNotCompletedGames = function (games) {
+            return games.filter(function(game) {
+                return this.isGameComplete(game);
+            }.bind(this));
+        };
+
+        this.isGameComplete = function (game) {
+            var isTrue = true;
+            for (var i = 0; i < game.playerLines.length; i++) {
+                isTrue = game.playerLines[i].name && game.playerLines[i].role;
+            };
+            return isTrue &&
+                game.metadata.date &&
+                game.metadata.win;
         }
-
-        // this.calculateRating = function (games, rulesObjecct) {
-        //     console.log('Rating calculation started');
-        //     return {"Players":[
-        //         {
-        //             name:'Merlin',
-        //             sum: 20,
-        //             gameNumber: 10,
-        //             average: 2,
-        //             bp: 3,
-        //             br: 1,
-        //         },{
-        //             name:'JAck',
-        //             sum: 2,
-        //             gameNumber: 1,
-        //             average: 5,
-        //             bp: 3,
-        //             br: 2,
-        //         },{
-        //             name:'Ilya',
-        //             sum: 200,
-        //             gameNumber: 100,
-        //             average: 2.55555,
-        //             bp: 0,
-        //             br: 0,
-        //         },{
-        //             name:'Borman',
-        //             sum: 30,
-        //             gameNumber: 10,
-        //             average: 3,
-        //             bp: 1,
-        //             br: 1,
-        //         },{
-        //             name:'Klich',
-        //             sum: 2,
-        //             gameNumber: 10,
-        //             average: 0.2,
-        //             bp: 1,
-        //             br: 0,
-        //         },{
-        //             name:'Loh',
-        //             sum: 1,
-        //             gameNumber: 3,
-        //             average: 0.333333333,
-        //             bp: 0,
-        //             br: 0,
-        //         },
-            // ]
-        // };
-        // };
-
     };
 
 
