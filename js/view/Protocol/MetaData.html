@@ -2,7 +2,7 @@
       <div class="control-group">
         <label class="control-label" for="win">Win</label>
         <div class="controls">
-          <select name="win" id="winField">
+          <select form="gameProtocol" name="win" id="winField">
               <option value="">Game is going</option>
               <option value="city">Citizens</option>
               <option value="maf">Mafia</option>
@@ -12,25 +12,25 @@
       <div class="control-group">
         <label class="control-label" for="refereeField">Referee</label>
         <div class="controls">
-          <input type="text" name="ref" id="refereeField">
+          <input form="gameProtocol" type="text" name="ref" id="refereeField">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="date">Date</label>
         <div class="controls">
-          <input type="date" name="date" id="date" value="<%=new Date().toISOString().split('T')[0]%>">
+          <input form="gameProtocol" type="date" name="date" id="date" value="<%=new Date().toISOString().split('T')[0]%>">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="gameNumber">Number of Game</label>
         <div class="controls">
-          <input type="number" name="gameNumber" id="gameNumber" value="1">
+          <input form="gameProtocol" type="number" name="gameNumber" id="gameNumber" value="1">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="tableName">Table Name</label>
         <div class="controls">
-          <select name="tableName" id="tableName">
+          <select form="gameProtocol" name="tableName" id="tableName">
               <option>Baker Street</option>
               <option>Downing Street</option>
               <option>Abbey Road</option>

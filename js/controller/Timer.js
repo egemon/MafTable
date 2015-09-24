@@ -12,7 +12,7 @@ define(
     TimerView
 ) {
     var Timer = function () {
-        $('form').append(tmpl(TimerView, {}));
+        $('header').append(tmpl(TimerView, {}));
 
         this.startBtn = $('#startTimerBtn');
         this.resetBtn = $('#resetTimerBtn');

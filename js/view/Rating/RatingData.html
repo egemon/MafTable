@@ -1,0 +1,27 @@
+<table class="table table-bordered table-striped" id="ratingTable">
+  <thead>
+    <tr>
+      <th>Avatar</th>
+      <th>Name</th>
+      <th>Overall</th>
+      <th># of games</th>
+      <th>Average</th>
+      <th>Best from Players</th>
+      <th>Best from Refferee</th>
+    </tr>
+  </thead>
+  <tbody>
+  <%var Players = obj;
+    for (var i = 0; i < Players.length; i++) { %>
+    <tr id="Players[i].name">
+      <td id="Players[i].avatar"><img class="playerAvatarInRating" src="img/grey/<%=i+1%>.png" alt=""></td>
+      <td id="Players[i].name_name"><%=Players[i].name%></td>
+      <td id="Players[i].name_sum"><%=Players[i].sum%></td>
+      <td id="Players[i].name_gameNumber"><%=Players[i].gameNumber%></td>
+      <td id="Players[i].name_average"><%=Players[i].sum / Players[i].gameNumber%></td>
+      <td id="Players[i].name_bp"><%=Players[i].BP%></td>
+      <td id="Players[i].name_br"><%=Players[i].BR%></td>
+    </tr>
+  <%};%>
+  </tbody>
+</table>

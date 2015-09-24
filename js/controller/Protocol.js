@@ -4,7 +4,6 @@ define(
     'jquery',
     'microtemplates',
 
-    'text!view/Protocol/Header.html',
     'text!view/Protocol/MetaData.html',
     'text!view/Protocol/PlayerLine.html',
     'text!view/Protocol/ButtonBar.html',
@@ -20,7 +19,6 @@ define(
     tmpl,
 
 //view
-    Header,
     MetaData,
     PlayerLineView,
     ButtonBar,
@@ -38,14 +36,13 @@ define(
     var Protocol = function  () {
 
         //protocol form created
-        $('.form-horizontal').append(tmpl(Header, {}));
-        $('.form-horizontal').append(tmpl(MetaData, {}));
+        $('header').append(tmpl(MetaData, {}));
+        $('header').append(tmpl(ButtonBar, {}));
 
         //init Timer
         this.timer = new Timer();
 
         $('.form-horizontal').append(tmpl(PlayerLineView, {}));
-        $('body').append(tmpl(ButtonBar, {}));
 
         // fieilds
         this.currentDay = 1;
@@ -98,12 +95,6 @@ define(
         this.clearGame = function () {
             if (confirm('Are you realy want to clear all data?')) {
                 window.location.reload();
-                // $('[type=checkbox]').prop('checked','');
-                // $('[type=text]').val('');
-                // $('.playerfallField').prop('disabled','true');
-                // $('[value=1]').prop('disabled','');
-                // $("option[value=r]").prop('selected','true');
-                // $('.playerLine.btn-danger').removeClass('btn-danger');
             }
         };
 
@@ -153,9 +144,8 @@ define(
             $('#nextDayButton').click(function(e) {
                 ProtocolLink.addNewDay(++ProtocolLink.currentDay);
                 ProtocolLink.hangEventHeandlersOnKillAndHang();
-
-                //autosave option
-                // ProtocolLink.saveGame(true); // true = autosave
+                // autosave option
+                ProtocolLink.saveGame(true); // true = autosave
             });
 
             $('#saveGameButton').click(function(e) {
@@ -167,7 +157,7 @@ define(
             });
 
             $('#showRatingBtn').click(function (e) {
-               // ProtocolLink.saveGame();
+               ProtocolLink.saveGame();
                ProtocolLink.clearPage();
                ProtocolLink.timer.reset();
                if (!Rating.showCurrentRating()) {

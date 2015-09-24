@@ -8,7 +8,10 @@ define(
     'model/RatingBase',
     'model/LocalGameStorage',
 
-    'text!view/Rating.html',
+    'controller/Protocol',
+
+    'text!view/Rating/RatingData.html',
+    'text!view/Rating/RatingFilters.html',
 ], function (
     $,
     tmpl,
@@ -16,7 +19,10 @@ define(
     RatingBase,
     LocalGameStorage,
 
-    RatingView
+    Protocol,
+
+    RatingDataView,
+    RatingFiltersView
 ) {
     var Rating = function () {
         console.log('[C > Rating] init');
@@ -24,7 +30,7 @@ define(
         //previos month (numeration from 0)
         this.currentRatingFilterObject = {
             periodType: "month",
-            period: (new Date()).getMonth()
+            period: (new Date()).getMonth() + 1
         };
 
 
@@ -41,9 +47,18 @@ define(
             }
         };
 
-        this.renderView = function (ratingArray) {
-            $('.form-horizontal').html((tmpl(RatingView, ratingArray)));
+        this.hangEventHeandlersOnButtons = function () {
+            $('#showRatingBtn').click(function(e) {
+                window.location.reload();
+            });
         };
+
+        this.renderView = function (ratingArray) {
+            $('header').html(tmpl(RatingFiltersView, this.currentRatingFilterObject));
+            $('.form-horizontal').html((tmpl(RatingDataView, ratingArray)));
+            this.hangEventHeandlersOnButtons();
+        };
+
 
         this.getGameRecords = function (З) {
             for (var key in localStorage) {
