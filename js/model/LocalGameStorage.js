@@ -13,7 +13,14 @@ define(
 
         this.saveGame = function (GameRecord) {
             var id = this.generateGameId(GameRecord.metadata);
-            localStorage.setItem(id, JSON.stringify(GameRecord));
+            var isGameAlreadyExists = !!localStorage.getItem(id);
+            if ( !isGameAlreadyExists ||
+                 (isGameAlreadyExists && confirm('Do your wanna override game?'))
+               ) {
+                localStorage.setItem(id, JSON.stringify(GameRecord));
+            } else {
+                alert("Game wasn't saved! Please choose another date or number or Table.");
+            }
         };
 
         // this.loadGame = function (gameId) {
@@ -73,7 +80,7 @@ define(
             var resultGamesArray = [];
             for (var i = 0; i < localStorage.length; i++) {
                 var currentId = localStorage.key(i);
-                if (currentId.indexOf('MT') < 0 ) {
+                if (currentId.indexOf(this.appIdentifier) < 0 ) {
                     continue;
                 }
                 var currentPeriod;

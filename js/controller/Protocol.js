@@ -8,6 +8,7 @@ define(
     'text!view/Protocol/PlayerLine.html',
     'text!view/Protocol/ButtonBar.html',
     'text!view/Protocol/DayNight.html',
+    'text!view/Protocol/portGames.html',
 
     'controller/Timer',
     'controller/Rating',
@@ -23,6 +24,7 @@ define(
     PlayerLineView,
     ButtonBar,
     DayNightView,
+    PortView,
 
 //controller
     Timer,
@@ -164,6 +166,37 @@ define(
                     //TODO: handle when no games in filter
                }
             });
+
+            this.showGamesMemo = function (comandName) {
+                $('body').append(tmpl(PortView, {games:'', comandName: comandName}));
+                $('button').click(function(e){
+                    var memo = $('stringGames');
+                    if ($(this).html() == 'Export') {
+                        memo.html(JSON.stringify(LocalGameStorage.getAllGames()));
+                        var range = document.createRange();
+                        range.selectNode(memo.get(0));
+                        window.getSelection().addRange(range);
+                        var successful = document.execCommand('copy');
+                        if (!successful) {
+                            alert('Please copy this games');
+                        } else {
+                            alert('All this games are already in your clipboard!');
+                        }
+                        window.getSelection().removeAllRanges();
+                    } else {
+
+                    }
+                });
+            };
+
+            $('#exportGamesBtn').click(function (e) {
+                $('body').append(tmpl(PortView, {games:'', comandName: 'Export'}));
+            });
+
+            $('#importGamesBtn').click(function (e) {
+                $('body').append(tmpl(PortView, {games:'', comandName: 'Export'}));
+            });
+
         };
 
         //init part
