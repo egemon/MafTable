@@ -4,586 +4,373 @@
 		"selected_items":
 		[
 			[
-				"Rat",
-				"RatingRules"
+				"per",
+				"period"
 			],
 			[
-				"ti",
-				"timeContainer〔variable〕"
+				"perio",
+				"periodType"
 			],
 			[
-				"tim",
-				"timeout"
+				"select",
+				"selected	Attr"
 			],
 			[
-				"T",
-				"TimerLink"
+				"RatingFiltersV",
+				"RatingFiltersView"
 			],
 			[
-				"rem",
-				"removeClass〔function〕"
+				"plyer",
+				"playerLines"
 			],
 			[
-				"play",
-				"playerfallField"
+				"map",
+				"map	.map()"
 			],
 			[
-				"chec",
-				"checked"
+				"RO",
+				"RatingObject	RatingBase.js"
 			],
 			[
-				"has",
-				"hasClass〔function〕"
+				"cler",
+				"clearPage"
 			],
 			[
-				"clea",
-				"clearForm"
+				"save",
+				"saveMetaData"
 			],
 			[
-				"cl",
-				"click	.click()"
+				"GAM",
+				"GameRecord"
 			],
 			[
-				"di",
-				"disabled"
-			],
-			[
-				"val",
-				"value"
-			],
-			[
-				"hang",
-				"hangEventHeandlersOnKillAndHang"
-			],
-			[
-				"add",
-				"addNewDay"
-			],
-			[
-				"Da",
-				"DayNightView"
-			],
-			[
-				"Pro",
-				"ProtocolLink"
+				"pla",
+				"playerLine	(Protocol.js)"
 			],
 			[
 				"player",
-				"playerLine"
+				"playerNumber"
 			],
 			[
-				"togg",
-				"toggleClass	.toggleClass()"
+				"val",
+				"value	(PlayerLine.html)"
 			],
 			[
-				"res",
-				"result"
+				"name",
+				"nameArray"
 			],
 			[
-				"v",
-				"view"
-			],
-			[
-				"M",
-				"MyProjects/"
-			],
-			[
-				"ma",
-				"mainForm"
-			],
-			[
-				"dist",
-				"dist/"
-			],
-			[
-				"Pl",
-				"PlayerBase.js"
-			],
-			[
-				"bowe",
-				"bower_components/"
-			],
-			[
-				"Rati",
-				"RatingBase"
-			],
-			[
-				"ra",
-				"ratingRules"
-			],
-			[
-				"R",
-				"PlayerLine.js"
-			],
-			[
-				"P",
-				"PlayerLine.js"
-			],
-			[
-				"PL",
-				"PlayerBase.js"
-			],
-			[
-				"after",
-				"afterdata〔variable〕"
+				"game",
+				"gameNumber"
 			],
 			[
 				"me",
 				"metadata"
 			],
 			[
-				"Pla",
-				"Players"
+				"data",
+				"dataArray"
+			],
+			[
+				"proto",
+				"proto	Prototype"
+			],
+			[
+				"PlayerL",
+				"PlayerLine"
+			],
+			[
+				"add",
+				"addNewDay"
+			],
+			[
+				"log",
+				"log(${1:'${2:arguments	(console.log)"
+			],
+			[
+				"Pro",
+				"ProtocolController"
+			],
+			[
+				"Pr",
+				"ProtocolController"
+			],
+			[
+				"P",
+				"ProtocolController"
+			],
+			[
+				"fun",
+				"fun	Function"
 			],
 			[
 				"define",
-				"define	AMD Named"
+				"define(name, deps, callback)	require.js"
 			],
 			[
-				"pla",
-				"players"
+				"Pla",
+				"playerStorage	main.js"
 			],
 			[
-				"mod",
-				"model/"
+				"work",
+				"work"
 			],
 			[
-				"defin",
-				"define	AMD Named"
+				"setT",
+				"setTimeout(${0:func}, delay)	Window"
 			],
 			[
-				"defi",
-				"define	define"
+				"plae",
+				"player	(main.html)"
 			],
 			[
-				"var",
-				"variants"
-			],
-			[
-				"name",
-				"namePart"
-			],
-			[
-				"ec",
-				"each"
-			],
-			[
-				"serve",
-				"serverUrl"
+				"end",
+				"endButton"
 			],
 			[
 				"lo",
 				"localStorage"
 			],
 			[
-				"each",
-				"each	.each()"
+				"loca",
+				"localStorage"
 			],
 			[
-				"sec",
-				"secondScope〔variable〕"
-			],
-			[
-				"secon",
-				"secondScopeField"
-			],
-			[
-				"secod",
-				"secondScopeVariable"
-			],
-			[
-				"firs",
-				"firstScope"
-			],
-			[
-				"first",
-				"firstScope〔function〕"
-			],
-			[
-				"JS",
-				"JSON.stringify	JSON.stringify"
-			],
-			[
-				"Js",
-				"JSON.parse	JSON.parse"
-			],
-			[
-				"fil",
-				"filter"
-			],
-			[
-				"ind",
-				"index〔argument〕"
-			],
-			[
-				"ex",
-				"externalShowName"
-			],
-			[
-				"k",
-				"key"
-			],
-			[
-				"for",
-				"for	for (…) {…}"
-			],
-			[
-				"va",
-				"value"
-			],
-			[
-				"enu",
-				"enumerable"
-			],
-			[
-				"def",
-				"defineProperty"
-			],
-			[
-				"cle",
-				"clearTimeout〔function〕"
-			],
-			[
-				"con",
-				"constructor"
-			],
-			[
-				"arg",
-				"arguments"
-			],
-			[
-				"te",
-				"testing-reports/"
-			],
-			[
-				"tri",
-				"tripadvisor/"
-			],
-			[
-				"Grun",
-				"Gruntfile"
-			],
-			[
-				"im",
-				"image"
-			],
-			[
-				"typ",
-				"typeof〔keyword〕"
-			],
-			[
-				"APP",
-				"APP_MESSAGE"
-			],
-			[
-				"image",
-				"image1"
-			],
-			[
-				"on",
-				"onDeckImage"
-			],
-			[
-				"main",
-				"mainImage"
-			],
-			[
-				"render",
-				"renderMainImage"
-			],
-			[
-				"cur",
-				"currentTpl〔variable〕"
-			],
-			[
-				"att",
-				"attr	.attr() - single"
-			],
-			[
-				"ren",
-				"renderTrackInformation"
-			],
-			[
-				"it",
-				"item"
-			],
-			[
-				"Player",
-				"player/"
-			],
-			[
-				"sla",
-				"slave〔variable〕"
-			],
-			[
-				"ser",
-				"server.js"
-			],
-			[
-				"eve",
-				"eventData〔argument〕"
-			],
-			[
-				"ev",
-				"eventData"
-			],
-			[
-				"conten",
-				"content"
-			],
-			[
-				"req",
-				"request"
-			],
-			[
-				"ext",
-				"extension〔variable〕"
-			],
-			[
-				"a",
-				"ajaxComplete	.ajaxComplete()"
-			],
-			[
-				"activ",
-				"activeItem〔variable〕"
-			],
-			[
-				"nex",
-				"next	.next()"
-			],
-			[
-				"chi",
-				"children	.children()"
-			],
-			[
-				"as",
-				"asyncMessageCounter"
-			],
-			[
-				"temp",
-				"template_content"
-			],
-			[
-				"und",
-				"undefined〔keyword〕"
-			],
-			[
-				"cou",
-				"counterForAsyncMsg〔variable〕"
-			],
-			[
-				"lis",
-				"listItemsPerScreen〔variable〕"
-			],
-			[
-				"sc",
-				"scroll"
-			],
-			[
-				"remov",
-				"removeClass	.removeClass()"
-			],
-			[
-				"fixt",
-				"fixtures"
-			],
-			[
-				"set",
-				"setTimeout〔function〕"
-			],
-			[
-				"img",
-				"imgId"
-			],
-			[
-				"ca",
-				"cachedImgData"
-			],
-			[
-				"B",
-				"B_page"
+				"j",
+				"jquery-1.11.3.min.js"
 			],
 			[
 				"css",
 				"css	.css() - single"
 			],
 			[
-				"wid",
-				"width"
+				"l",
+				"lib/"
 			],
 			[
-				"butt",
-				"buttons"
+				"top",
+				"topPage"
 			],
 			[
-				"bu",
-				"buttons"
+				"Hea",
+				"Head"
 			],
 			[
-				"scre",
-				"screen.js"
+				"co",
+				"concentrations"
 			],
 			[
-				"ch",
-				"cachedImgId"
+				"glo",
+				"global"
 			],
 			[
-				"se",
-				"send"
+				"con",
+				"console"
 			],
 			[
-				"reg",
-				"registerHandler"
-			],
-			[
-				"re",
-				"return"
-			],
-			[
-				"ro",
-				"router.js"
-			],
-			[
-				"cho",
-				"choreo.js"
-			],
-			[
-				"he",
-				"headers"
-			],
-			[
-				"templ",
-				"template_id"
-			],
-			[
-				"scr",
-				"scrollStep"
-			],
-			[
-				"rend",
-				"renderButtons"
-			],
-			[
-				"cu",
-				"currentAppName"
+				"inn",
+				"innerHTML"
 			],
 			[
 				"app",
-				"appName"
+				"appendChild"
 			],
 			[
-				"b",
-				"base.js"
+				"drow",
+				"drowGraphic	(requestHandlers.js)"
 			],
 			[
-				"ac",
-				"activeItem"
+				"sor",
+				"sortKoefs"
 			],
 			[
-				"key",
-				"keyId"
+				"so",
+				"sortData"
 			],
 			[
-				"pro",
-				"prototype"
+				"ko",
+				"koefs"
+			],
+			[
+				"bott",
+				"bottomQuantile"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"cur",
+				"currentGroup"
+			],
+			[
+				"offs",
+				"offsetX"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"conte",
+				"context"
+			],
+			[
+				"sort",
+				"sort(data, koefs)	вфаыва"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"cont",
+				"context"
+			],
+			[
+				"var",
+				"variation"
+			],
+			[
+				"v",
+				"variableName"
 			],
 			[
 				"li",
-				"listItemId"
+				"list1"
 			],
 			[
-				"ke",
-				"keyId"
+				"D",
+				"Determinant"
 			],
 			[
-				"this",
-				"this	$(this)"
+				"va",
+				"variable"
 			],
 			[
-				"list",
-				"listItemId"
+				"for",
+				"for	for (…) {…}"
 			],
 			[
-				"da",
-				"data"
+				"wo",
+				"workBook"
 			],
 			[
-				"th",
-				"this"
+				"files",
+				"fields"
 			],
 			[
-				"but",
-				"buttons〔variable〕"
+				"dele",
+				"delete"
+			],
+			[
+				"selec",
+				"select"
+			],
+			[
+				"Va",
+				"VariablesNames"
+			],
+			[
+				"fiels",
+				"fields"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"fad",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"c",
+				"click	.click()"
+			],
+			[
+				"jqer",
+				"jquery-1.11.2"
+			],
+			[
+				"V",
+				"VariablesNames"
+			],
+			[
+				"now",
+				"nowVar"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"sh",
+				"sheets"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "js/view/Protocol/ButtonBar.html",
-			"settings":
-			{
-				"buffer_size": 318,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "define(\n    'controller/Protocol',\n[\n    'jquery',\n    'microtemplates',\n\n    'text!view/Protocol/Header.html',\n    'text!view/Protocol/MetaData.html',\n    'text!view/Protocol/PlayerLine.html',\n    'text!view/Protocol/ButtonBar.html',\n    'text!view/Protocol/DayNight.html',\n\n    'controller/Timer',\n\n    'model/LocalGameStorage',\n    'model/GameRecord'\n], function (\n    $,\n    tmpl,\n\n//view\n    Header,\n    MetaData,\n    PlayerLineView,\n    ButtonBar,\n    DayNightView,\n\n//controller\n    Timer,\n\n//model\n    LocalGameStorage,\n    GameRecord\n) {\n    console.log('{ Controller } [Protocol] init:', arguments);\n    var Protocol = function  () {\n\n        //protocol form created\n        $('.form-horizontal').append(tmpl(Header, {}));\n        $('.form-horizontal').append(tmpl(MetaData, {}));\n\n        //init Timer\n        this.timer = new Timer();\n\n        $('.form-horizontal').append(tmpl(PlayerLineView, {}));\n        $('body').append(tmpl(ButtonBar, {}));\n\n        // fieilds\n        this.currentDay = 1;\n        this.formObject = null;\n\n        var ProtocolLink = this;\n\n        //methods\n        this.addNewDay = function (dayNumber) {\n\n            //add headers cells\n            var headerRow = $('tr.info');\n            addHeader(headerRow, 'Day ' + dayNumber);\n            addHeader(headerRow, 'Night ' + dayNumber);\n\n            function addHeader (row, text) {\n                var newDay = row.children().eq(-2).clone().text(text);\n                row.append(newDay);\n            }\n\n            //add other cells\n            var rows = $('tr.playerLine');\n            addDayNight(rows);\n\n            function addDayNight (rows) {\n                for (var i = 0; i < rows.length; i++) {\n                    rows.eq(i).append(tmpl(DayNightView, {\n                        'playerNumber': i + 1,\n                        'dayNumber': dayNumber\n                    }));\n                }\n            }\n\n        };\n\n        this.createFormObject = function (gameInfoArray) {\n            this.formObject = {};\n            for (var i = 0; i < gameInfoArray.length; i++) {\n                this.formObject[gameInfoArray[i].name] = $('[name=' + gameInfoArray[i].name +']');\n            }\n        };\n\n        this.saveGame = function (isAutosave) {\n            var gameInfoObject = this.collectGameInfo();\n            this.createFormObject($('form').serializeArray());\n            LocalGameStorage.saveGame(gameInfoObject);\n            this.autosave = isAutosave;\n        };\n\n        this.clearGame = function () {\n            if (confirm('Are you realy want to clear all data?')) {\n                window.location.reload();\n                // $('[type=checkbox]').prop('checked','');\n                // $('[type=text]').val('');\n                // $('.playerfallField').prop('disabled','true');\n                // $('[value=1]').prop('disabled','');\n                // $(\"option[value=r]\").prop('selected','true');\n                // $('.playerLine.btn-danger').removeClass('btn-danger');\n            }\n        };\n\n        this.collectGameInfo = function () {\n            return new GameRecord($('form').serializeArray());\n        };\n\n        this.savePage = function () {\n            this.htmlCache = document.body.innerHTML;\n        };\n\n\n        //EVENT HANDLERS\n        this.hangEventHeandlersOnKillAndHang = function () {\n\n            //for every data row\n            $('tr.playerLine').each(function(i, el) {\n\n                //take two last checkboxes and set listeners\n                $(el).find('.playerHangCheckbox, .playerKillCheckbox')\n                    .slice(-2).click(function(e) {\n                        toggleDead(this);\n                });\n            });\n\n            function toggleDead (checkbox) {\n                $(checkbox).parents('tr').toggleClass('btn-danger');\n            }\n        };\n\n        this.hangEventHeandlersOnFalls = function () {\n\n            //falls listeners\n            $('.playerfallField').change(function(e) {\n                var value = $(this).prop('checked');\n                $(this).parent().next().children().attr('disabled', !value);\n                $(this).parent().prev().children().attr('disabled', value);\n            });\n\n        };\n\n        this.hangEventHeandlersOnButtonBar = function () {\n            $('#nextDayButton').click(function(e) {\n                ProtocolLink.addNewDay(++ProtocolLink.currentDay);\n                ProtocolLink.hangEventHeandlersOnKillAndHang();\n\n                //autosave option\n                ProtocolLink.saveGame(true); // true = autosave\n            });\n\n            $('#saveGameButton').click(function(e) {\n                ProtocolLink.saveGame();\n            });\n\n            $('#clearGameButton').click(function(e) {\n                ProtocolLink.clearGame();\n            });\n\n            $('#showRatingBtn').click(function (e) {\n               this.savePage();\n               \n            });\n        };\n\n        //init part\n        this.hangEventHeandlersOnFalls();\n        this.hangEventHeandlersOnButtonBar();\n        this.addNewDay(this.currentDay);\n        this.hangEventHeandlersOnKillAndHang();\n\n        $('table').width(1100);\n    };\n\n    return new Protocol();\n} );\n\n",
-			"file": "js/controller/Protocol.js",
-			"file_size": 5158,
-			"file_write_time": 130872356113577398,
-			"settings":
-			{
-				"buffer_size": 5174,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "define(\n    'controller/Rating',\n[\n    'jquery',\n    'microtemplates',\n\n    'model/Rating',\n\n    'text!model/RatingRules.json'\n], function (\n    $,\n    tmpl,\n\n    RatingBase,\n\n    RatingRules\n) {\n    var Rating = function () {\n        console.log('[Controller] ', arguments);\n        this.rulesObjecct = JSON.parse(RatingRules);\n\n\n    };\n    return new Rating();\n} );\n",
 			"file": "js/controller/Rating.js",
-			"file_size": 310,
-			"file_write_time": 130872358588457358,
 			"settings":
 			{
-				"buffer_size": 368,
-				"line_ending": "Unix"
+				"buffer_size": 2703,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/lib/fs/index.js",
+			"file": "js/model/RatingBase.js",
 			"settings":
 			{
-				"buffer_size": 299,
-				"line_ending": "Unix"
+				"buffer_size": 4429,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/lib/jquery/dist/jquery.js",
+			"file": "js/model/LocalGameStorage.js",
 			"settings":
 			{
-				"buffer_size": 247597,
-				"line_ending": "Unix"
+				"buffer_size": 5460,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/view/Rating/RatingData.html",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/view/Rating/RatingFilters.html",
+			"settings":
+			{
+				"buffer_size": 1833,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"instl",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -593,7 +380,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"pac",
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"instla",
 				"Package Control: Install Package"
 			],
 			[
@@ -601,23 +392,34 @@
 				"Package Control: Install Package"
 			],
 			[
-				"pack",
+				"instaa",
 				"Package Control: Install Package"
 			],
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 528.0
 	},
 	"console":
 	{
-		"height": 139.0,
+		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
-			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -631,257 +433,95 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ilukianov/MyProjects/MafTable",
-		"/home/ilukianov/MyProjects/MafTable/css",
-		"/home/ilukianov/MyProjects/MafTable/js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/fs",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery/dist",
-		"/home/ilukianov/MyProjects/MafTable/js/view"
+		"/D/selfimpruvment/frontend/MafTable",
+		"/D/selfimpruvment/frontend/MafTable/js",
+		"/D/selfimpruvment/frontend/MafTable/js/controller",
+		"/D/selfimpruvment/frontend/MafTable/js/model"
 	],
 	"file_history":
 	[
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/MetaData.html",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/Header.html",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/Timer.html",
-		"/home/ilukianov/MyProjects/MafTable/js/controller/Timer.js",
-		"/home/ilukianov/MyProjects/MafTable/js/controller/Protocol.js",
-		"/home/ilukianov/MyProjects/MafTable/css/Protocol.css",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/ButtonBar.html",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/DayNight.html",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/PlayerLine.html",
-		"/home/ilukianov/MyProjects/MafTable/js/model/GameRecord.js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery/src/traversing/var/rneedsContext.js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery/src/ajax/var/nonce.js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery/src/var/indexOf.js",
-		"/home/ilukianov/MyProjects/MafTable/js/Controller.js",
-		"/home/ilukianov/MyProjects/MafTable/js/model/PlayerLine.js",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Protocol/OneDay.html",
-		"/home/ilukianov/MyProjects/MafTable/js/model/LocalGameStorage.js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery/src/css/addGetHookIf.js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/jquery/src/ajax.js",
-		"/home/ilukianov/.zshrc",
-		"/home/ilukianov/MyProjects/MafTable/js/helper.js",
-		"/home/ilukianov/MyProjects/MafTable/js/view/MetaData.html",
-		"/home/ilukianov/MyProjects/MafTable/js/view/PlayerLine.html",
-		"/home/ilukianov/MyProjects/MafTable/main.html",
-		"/home/ilukianov/MyProjects/MafTable/js/view/Header.html",
-		"/home/ilukianov/MyProjects/MafTable/js/localApp.js",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/text/README.md",
-		"/home/ilukianov/MyProjects/MafTable/js/view.js",
-		"/home/ilukianov/MyProjects/MafTable/css/main.css",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/microtemplates/index.js",
-		"/home/ilukianov/MyProjects/MafTable/js/e.txt",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/fs/e.txt",
-		"/home/ilukianov/MyProjects/MafTable/js/lib/e.txt",
-		"/home/ilukianov/MyProjects/MafTable/e.txt",
-		"/home/ilukianov/MyProjects/MafTable/bower.json",
-		"/home/ilukianov/MyProjects/MafTable/.bowerrc",
-		"/home/ilukianov/MyProjects/MafTable/js/view/mainForm.ejs",
-		"/home/ilukianov/MyProjects/MafTable/js/Model.js",
-		"/home/ilukianov/MyProjects/MafTable/js/model/Player.js",
-		"/home/ilukianov/MyProjects/MafTable/js/model/PlayerBase.js",
-		"/home/ilukianov/MyProjects/MafTable/js/model/RatingBase.js",
-		"/home/ilukianov/MyProjects/MafTable/js/model/ratingRules.json",
-		"/home/ilukianov/MyProjects/MafTable/js/View.js",
-		"/home/ilukianov/MyProjects/MafTable/js/app.js",
-		"/home/ilukianov/MyProjects/MafTable/js/require.js",
-		"/home/ilukianov/MyProjects/MafTable/js/controller.js",
-		"/home/ilukianov/project/airbiquity/ncg/ncg_hmiapps/package.json",
-		"/home/ilukianov/MyProjects/bush/sudo.sh",
-		"/home/ilukianov/MyProjects/bush/forin.sh",
-		"/home/ilukianov/MyProjects/bush/ifthenelse.sh",
-		"/home/ilukianov/MyProjects/bush/while.sh",
-		"/home/ilukianov/MyProjects/bush/case.sh",
-		"/home/ilukianov/MyProjects/bush/new.sh",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/JSONStringify.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/cl.sublime-snippet",
-		"/home/ilukianov/MyProjects/Closures/Closures.html",
-		"/home/ilukianov/MyProjects/ES5/ES5-example.html",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/every.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/lastIndexOf.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/JSONparse.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/toISOString.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/some.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/reduce.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/map.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/indexOf.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/forEach.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/filter.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/ilya_snippets/Ilya.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/Ilya.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/forin.sublime-snippet",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/JSLint.sublime-settings",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/.jscsrc",
-		"/home/ilukianov/project/airbiquity/da/da2.2_hmi/bad.js",
-		"/home/ilukianov/project/airbiquity/itg/itgen-testing/.zshenv",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/selenium-webdriver/lib/test/data/frame_switching_tests/bug4876_iframe.html",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/lcn jira.sublime-project",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/hmi-fixtures/slacker/get_subscription_level.json",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/grunt/internal-tasks/subgrunt.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/command-line-args/node_modules/handlebars/node_modules/source-map/build/suffix-utils.jsm",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/sample.config.json",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/node_modules/gulp/node_modules/gulp-util/lib/isNull.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/node_modules/ghooks/bin/install",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/hmi-fixtures/init-fixtures.sh",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/bad.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/api.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/.jscs_precommit.sh",
-		"/home/ilukianov/Desktop/sample.js",
-		"/home/ilukianov/Desktop/sample.html",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/components/Scrollbar.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/testing-reports/index.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/gulpfile.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/package.json",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/globals.js",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/config.json",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/пы",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/README.md",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration/.git",
-		"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/bad.js",
-		"/home/ilukianov/project/airbiquity/ncg_hmiapps/.jscsrc",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/.jscs_precommit.sh",
-		"/home/ilukianov/project/airbiquity/ncg_hmiapps/Gruntfile.js",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/package.json",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/Gruntfile.js",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/bad.js",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/.jshintrc",
-		"/home/ilukianov/project/airbiquity/da/yc-ta-jscs-precommit-hook/.jscsrc",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/.jscsrc",
-		"/home/ilukianov/project/airbiquity/bosch_hmiapps/new.js",
-		"/home/ilukianov/project/airbiquity/da/yc-ta-jscs-precommit-hook/Gruntfile.js",
-		"/home/ilukianov/project/airbiquity/lcn2kai-testing/Gruntfile.js",
-		"/home/ilukianov/project/airbiquity/itgen-testing/Gruntfile.js",
-		"/home/ilukianov/project/airbiquity/itgen_hmiapps/Gruntfile.js",
-		"/home/ilukianov/project/airbiquity/ncg_hmiapps/bad.js",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/good.js",
-		"/home/ilukianov/project/airbiquity/ncg_hmiapps/.jscs_precommit.sh",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/bad.js",
-		"/usr/share/applications/eclipse.desktop",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/.jscs_precommit.sh",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/package.json",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/.gitignore",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/.jscsrc",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/BadFile.js",
-		"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/githootest.js",
-		"/home/ilukianov/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/ilukianov/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings"
+		"/D/selfimpruvment/frontend/MafTable/js/model/Player.js",
+		"/D/selfimpruvment/frontend/MafTable/js/controller/Protocol.js",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Protocol/PlayerLine.html",
+		"/D/selfimpruvment/frontend/MafTable/js/controller/Timer.js",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Protocol/MetaData.html",
+		"/D/selfimpruvment/frontend/MafTable/css/Protocol.css",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Rating/RatingFilters.html",
+		"/D/selfimpruvment/frontend/MafTable/css/main.css",
+		"/D/selfimpruvment/frontend/MafTable/main.html",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Protocol/Timer.html",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Protocol/ButtonBar.html",
+		"/D/selfimpruvment/frontend/MafTable/js/controller/Rating.js",
+		"/D/selfimpruvment/frontend/MafTable/js/model/RatingBase.js",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Rating/RatingData.html",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Protocol/Header.html",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Rating.html",
+		"/D/selfimpruvment/frontend/MafTable/js/model/LocalGameStorage.js",
+		"/D/selfimpruvment/frontend/MafTable/js/model/RatingRules.json",
+		"/D/selfimpruvment/frontend/MafTable/css/bootstrap.min.css",
+		"/D/selfimpruvment/frontend/MafTable/css/Rating.css",
+		"/D/selfimpruvment/frontend/MafTable/js/view/Protocol/DayNight.html",
+		"/D/selfimpruvment/frontend/MafTable/js/Model.js",
+		"/D/selfimpruvment/frontend/MafTable/js/model/PlayerLine.js",
+		"/D/selfimpruvment/frontend/MafTable/js/model/GameRecord.js",
+		"/D/selfimpruvment/frontend/MafTable/js/model/PlayerBase.js",
+		"/D/selfimpruvment/frontend/MafTable/js/localApp.js",
+		"/D/selfimpruvment/frontend/MafTable/js/helper.js",
+		"/D/selfimpruvment/frontend/MafTable/js/view/OneDay.html",
+		"/D/selfimpruvment/frontend/MafTable/js/view/MetaData.html",
+		"/D/selfimpruvment/frontend/MafTable/js/view/PlayerLine.html",
+		"/D/selfimpruvment/frontend/MafTable/js/model/Protocol.js",
+		"/D/selfimpruvment/frontend/MafTable/js/Controller.js",
+		"/D/selfimpruvment/frontend/MafTable/js/View.js",
+		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/User/console.log",
+		"/D/selfimpruvment/frontend/MafTable/js/controllers/Protocol.js",
+		"/D/selfimpruvment/frontend/MafTable/js/Protocol.js",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/sample.html",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/sample.htmlk",
+		"/D/selfimpruvment/frontend/MafTable/js/main.js",
+		"/D/selfimpruvment/frontend/MafTable/js/view.js",
+		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/proto.html",
+		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/StatOnLine/my server/src/scripts/router.js",
+		"/C/StatOnLine/my server/src/scripts/server.js",
+		"/C/StatOnLine/my server/src/scripts/index.js",
+		"/C/StatOnLine/my server/src/scripts/requestHandlers.js",
+		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/C/Documents and Settings/Хозяин/Application Data/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/вфаыва.html",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/dfdf.html",
+		"/C/StatOnLine/my server/src/scripts/maiboroda223.pdf",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/HW_1/HW 1/html/HW 1.html",
+		"/C/StatOnLine/my server/src/scripts/pages/infoChoose.html",
+		"/C/StatOnLine/my server/src/scripts/pages/chooseVariables.html",
+		"/C/StatOnLine/my server/src/scripts/js/choose.js",
+		"/C/StatOnLine/my server/src/scripts/pages/numbers.html",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/вфаыва",
+		"/C/StatOnLine/my server/src/scripts/responseScript.js",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/Ярлык (2) для scripts.lnk",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/index.html",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/HW2/css/style.css",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/HW2/index.html",
+		"/C/StatOnLine/my server/src/scripts/statistic.js",
+		"/C/Documents and Settings/Хозяин/Рабочий стол/HW1/css/style.css",
+		"/C/StatOnLine/my server/requestHandlers.js",
+		"/C/StatOnLine/my server/Gruntfile.js",
+		"/C/StatOnLine/my server/package.json",
+		"/C/StatOnLine/my server/grunt/aliases.yaml",
+		"/C/StatOnLine/my server/grunt-frontend-boilerplate-master/package.json",
+		"/D/selfimpruvment/frontend/StatOnLine/my server/requestHandlers.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 90.0,
 		"where_history":
 		[
-			"/home/ilukianov/MyProjects/MafTable",
-			"/home/ilukianov/MyProjects/MafTable/js/lib/text",
-			"/home/ilukianov/MyProjects/MafTable",
-			"/home/ilukianov/MyProjects/MafTable/js",
-			"/home/ilukianov/project/airbiquity/lcn/lcn2kai-testing/jira-integration",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/ihr",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/vp2c-fixtures/slacker",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi-fixtures/slacker",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/slacker",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client/src/screen/ui",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/client",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client/src",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/proxy/mid/api/handlers",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/vp2c",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/hap",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/client",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/hmi",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/new vp2c/",
-			"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/aq",
-			"/home/ilukianov/airbiquity/new vp2c/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/new vp2c/da2.2_hmi/facebook",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/*.less",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/*/*.less",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/**/*.less",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/home",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/jome",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/aq",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi/aq",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/hmi",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/proxy",
-			"/home/ilukianov/airbiquity/new vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/hmi/aq",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/proxy/mid",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator/hmi",
-			"/home/ilukianov/airbiquity/vp2c",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/vp2c",
-			"/home/ilukianov/airbiquity/da",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
-			"/home/ilukianov/airbiquity/da/vp2c-emulator",
-			"/home/ilukianov/airbiquity/da/da-emulator",
-			"/home/ilukianov/airbiquity/vp2c/vp2c-emulator",
-			"",
-			"-mode_modules",
-			"",
-			"facebook",
-			""
+			"D:\\selfimpruvment\\frontend\\MafTable"
 		]
 	},
 	"find_state":
@@ -889,134 +529,109 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"metaData",
-			"name",
-			"text",
-			"name",
-			"' '",
-			"sli",
-			"spli",
-			"split",
-			"\n.",
-			"OneDay",
-			"addN",
-			"tr",
-			"Days 1",
-			"=i",
-			"collectGameInfo",
-			"saveGame",
+			"renderView",
+			"showCurrentRating",
+			"select",
+			"array",
+			"if",
+			"header.html",
+			"save",
+			"cond",
+			"val",
+			"autos",
+			"Timer",
+			"RatingRule.cond",
+			"PlayerLines[i]",
+			"playerHangCheckbox",
+			"playerHan",
+			"        this. = $('.playerHangCheckbox');\nKill",
+			"Kill",
+			"danger",
+			"row-danger",
+			"danger",
 			"info",
-			"VoteOrder",
-			"ProtocolLink",
 			"fs",
-			"cd ",
-			"cd /",
-			"cpapp",
-			"unnormalized4",
-			"StartPage",
-			"startPage",
-			"require",
-			"Game",
-			"fori",
-			"$project",
-			"first",
-			"';\n",
-			"this.waterAmount",
-			"airbi",
-			"\"\n",
-			"jscs_verify",
-			"test",
-			"jscs",
-			"regis",
-			"setJscsTaskSource",
-			"jscs",
-			"disallowTrailingComma",
-			"comma",
-			"node_",
-			"jscs",
-			"test",
-			"jscst",
-			"setJs",
-			"jscs",
-			"test",
-			"jscs",
-			"Gruntf",
-			"jscs",
-			"оысы",
-			"nvm",
-			"trail",
-			"_totalPageSize",
-			"data-hap",
-			"data-hup",
-			"HomeScreen",
-			"=",
-			"\",\"",
-			":",
-			"\\",
-			"key",
-			"keys",
-			"args",
-			"cmd",
-			"CurrentImage",
-			"woman",
-			"APP_IMAGE",
-			"\"name\": \"APP_IMAGE\"",
-			"\"name\": \"APP_IMAGE\",",
-			"\"name\": \"APP_MESSAGE\",",
-			"\"name\": \"APP_MESSAGE\"",
-			"slacker/",
-			"echo",
-			"slacker/",
-			"bookmark",
-			"slacker/",
-			"seqNum",
-			"meterScreen",
-			"meter",
-			"_",
-			"slacker/",
-			"audioFoc",
-			"i",
-			"getAp",
-			"APP_MESSAGE",
-			"book",
-			"sendAppp",
-			"list",
-			"getList",
-			"this.data.items",
-			"text-right-main",
-			"\"\n",
-			"requests",
-			"currentAppName",
-			"options.template",
-			"reqests",
-			"slave",
-			"slave.on",
-			"slave",
-			"routes",
-			"resolveSync",
-			"require('server.js')",
-			"require('socket.io')",
-			"choreo",
-			"exports",
-			"extension",
-			"standalone",
-			"buttons",
-			"list",
-			"rows",
-			"list",
-			"rows",
-			"list",
-			"rows",
-			"activeButton",
-			"buttons",
-			"scrollDownButton",
-			"scrollUpButton",
-			"$",
-			"text",
-			"scrollDown",
-			"scrollUp",
-			"MASTER CONNECTED",
-			"dev.js"
+			"playerFall",
+			"id=\"playerFall\"",
+			"playerFall",
+			"select name=\"",
+			"select name=\"\" id=\"\"",
+			"type=\"text\" id=",
+			"space",
+			"value",
+			"value()",
+			"player.\"",
+			"player?\"",
+			"player.\"",
+			"options",
+			"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js",
+			"jquer",
+			"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css",
+			"\"",
+			"'",
+			"console",
+			"==",
+			"conso",
+			"data",
+			"end",
+			"\"height:100%\"",
+			"drowBox",
+			"boxCounter",
+			"w_box/2",
+			"createHin",
+			"cre",
+			"canvas",
+			"w",
+			"createHi",
+			"\\n",
+			"sort",
+			"'",
+			"+",
+			"console.log",
+			"createHint",
+			"rect",
+			"createHi",
+			"createHu",
+			"H",
+			"create",
+			"//",
+			")",
+			"// ",
+			"//",
+			"'",
+			"Ky",
+			"wrap",
+			"myCanvas",
+			"bottomQuantile",
+			"cons",
+			"console",
+			"Determinant",
+			"global.list1",
+			"global.lis",
+			"list1",
+			"global.workBook.list1",
+			"/n",
+			"for",
+			"'",
+			"width",
+			",",
+			"490",
+			"250",
+			"&gt;",
+			"&lt;",
+			"variableName",
+			"concentrations",
+			"window",
+			"form",
+			"from",
+			"value",
+			"hori",
+			"console",
+			"+",
+			"'",
+			"xlsx",
+			"log",
+			"result"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1024,61 +639,53 @@
 		"regex": false,
 		"replace_history":
 		[
-			"Days <%=dayNumber%>",
-			"=playerNumber",
-			"WhoNominate",
-			"GameRecord",
-			"\"$project\"",
-			"second",
-			"waterAmount",
-			"ihr/HomeScreen",
+			"condition",
+			"value",
+			"player",
+			"Unmark",
+			"Verify",
+			"playerfallField",
+			"class=\"playerFall\"",
+			"select class = \"playerRoleField\" name=\"",
+			"type=\"text\" class = \"playerNameField\" id=",
+			"val()",
+			"value",
+			"player.name\"",
+			"option",
+			"/jquery.min.js",
+			"/bootstrap.min.css",
+			"\"height:150%\"",
+			"vertical",
+			"canvas_box",
+			"canvas_dens",
+			"canvas_dist",
+			"w_box",
+			"w_dens",
+			"w_dist",
+			"sortResult",
+			"sortData",
 			"",
-			"key",
-			"params",
-			"command",
+			"createHintBox",
+			"createHintDens",
+			"createHintDist",
 			"",
-			"-",
-			"",
-			"number",
-			"items",
-			"left-column",
-			"data",
-			"requests",
-			"extension",
-			"$buttons",
-			"$list",
-			"$rows",
-			"$list",
-			"$rows",
-			"$list",
-			"$rows",
-			"$activeButton",
-			"$buttons",
-			"$scrollUpButton",
-			"$scrollDown",
-			"$scrollUp",
-			"$text",
-			"$scrollDown",
-			"$scrollUp",
-			"rows",
-			".active",
-			"2014",
-			"2016",
-			"messagePage",
-			"",
-			"console.log",
-			"console.debug",
-			"handler",
-			"/api/1.0/",
-			"core/api/1.0/",
-			"this.listItemId",
-			"",
-			"getCachedImgId",
-			"this.imgId",
-			"",
-			"scrollStep",
-			"eventsPageData.data",
-			"SOURCE_FILE_PATH"
+			"wrap-dist",
+			"box",
+			"dens",
+			"distr",
+			"determinant",
+			"global.list1",
+			"global.workBook[list1]",
+			"\"",
+			"w",
+			".",
+			"width-10",
+			"width/2",
+			">",
+			"<",
+			"global",
+			"name",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1089,217 +696,32 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/view/Protocol/ButtonBar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"colorcode": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/controller/Protocol.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5174,
-								5174
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1794.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "js/controller/Rating.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 368,
+						"buffer_size": 2703,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								261,
-								261
+								1657,
+								1657
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_complete": false,
+							"apply_syntax_touched": true,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1310,26 +732,6 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1340,6 +742,113 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/model/RatingBase.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								942,
+								943
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1349,45 +858,54 @@
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 225.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "js/lib/fs/index.js",
+					"buffer": 2,
+					"file": "js/model/LocalGameStorage.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 299,
+						"buffer_size": 5460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2070,
+								2070
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1398,26 +916,6 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1428,6 +926,21 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1437,105 +950,213 @@
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"colorcode": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/view/Rating/RatingData.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								948,
+								948
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/view/Rating/RatingFilters.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								206
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/lib/jquery/dist/jquery.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 247597,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173395,
-								173395
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"colorcode": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 82101.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1547,7 +1168,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 29.0
 	},
 	"layout":
 	{
@@ -1580,596 +1201,35 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "MafTable.sublime-project",
 	"replace":
 	{
-		"height": 78.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"ini",
-				"vp2c-emulator/hmi-fixtures/init-fixtures.sh"
-			],
-			[
-				"getstat",
-				"vp2c-emulator/hmi-fixtures/slacker/GetStationImages(MyStations).json"
-			],
-			[
-				"getplaystate",
-				"vp2c-emulator/hmi-fixtures/slacker/GetPlayState6.json"
-			],
-			[
-				"getplaystate5",
-				"vp2c-emulator/hmi-fixtures/slacker/GetPlayState5.json"
-			],
-			[
-				"init",
-				"vp2c-emulator/hmi-fixtures/init-fixtures.sh"
-			],
-			[
-				"preview",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/preview.js"
-			],
-			[
-				"player",
-				"da2.2_hmi/stitcher/src/controllers/player.js"
-			],
-			[
-				"message",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message.js"
-			],
-			[
-				"proxtcontrols.js",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/controls.js"
-			],
-			[
-				"controls.less",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/controls/controls.less"
-			],
-			[
-				"factory",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/factory.js"
-			],
-			[
-				"proxyui.less",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/preview/preview.less"
-			],
-			[
-				"list.js",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
-			],
-			[
-				"proxyplayer",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"helper",
-				"proxy/mid/api/helper.js"
-			],
-			[
-				"getimag",
-				"hmi-fixtures/slacker/GetStationImages(Sprtlights).json"
-			],
-			[
-				"exte",
-				"proxy/mid/api/handlers/public/extension.js"
-			],
-			[
-				"fac",
-				"proxy/client/src/screen/ui/da/factory.js"
-			],
-			[
-				"screenbase",
-				"proxy/client/src/screen/ui/da/templates/base.js"
-			],
-			[
-				"recent",
-				"hmi-fixtures/slacker/slacker-RecentlyPlayed.sh"
-			],
-			[
-				"proxychore",
-				"proxy/mid/api/handlers/public/choreo.js"
-			],
-			[
-				"choreo",
-				"hmi/aq/lib/thor/choreo.js"
-			],
-			[
-				"mashup",
-				"hmi-fixtures/slacker/slacker-Mashup.sh"
-			],
-			[
-				"pause",
-				"hmi-fixtures/slacker/Pause.json"
-			],
-			[
-				"aqresp",
-				"hmi/aq/aqresponse.js"
-			],
-			[
-				"in.js",
-				"proxy/client/src/bridge/in.js"
-			],
-			[
-				"aqreq",
-				"hmi/aq/aqrequest.js"
-			],
-			[
-				"proxyplayer.js",
-				"proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"huoptionsnotificationhandler",
-				"proxy/client/src/bridge/huOptionsNotificationHandler.js"
-			],
-			[
-				"daplay",
-				"proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"dascreen",
-				"proxy/client/src/screen/ui/da/screen.js"
-			],
-			[
-				"screen",
-				"proxy/client/src/screen/ui/da/templates/base.js"
-			],
-			[
-				"playeritem",
-				"proxy/client/src/screen/ui/da/templates/player/item.ejs"
-			],
-			[
-				"player.ejs",
-				"proxy/client/src/screen/ui/da/templates/player/player.ejs"
-			],
-			[
-				"proxypla",
-				"proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"bri",
-				"proxy/mid/bridge.js"
-			],
-			[
-				"proxyplyer.js",
-				"proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"playerless",
-				"proxy/client/src/screen/ui/da/templates/player/player.less"
-			],
-			[
-				"proxyplayerejs",
-				"proxy/client/src/screen/ui/da/templates/player/player.ejs"
-			],
-			[
-				"proxyplayre",
-				"proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"player.js",
-				"hmi/stitcher/src/controllers/player.js"
-			],
-			[
-				"proxyplayerjs",
-				"proxy/client/src/screen/ui/da/templates/player.js"
-			],
-			[
-				"scree",
-				"proxy/client/src/screen/ui/da/screen.js"
-			],
-			[
-				"screemain",
-				"proxy/client/src/screen/main.js"
-			],
-			[
-				"profile.js",
-				"proxy/mid/fixtures/hap/profile.json"
-			],
-			[
-				"exten",
-				"proxy/mid/api/handlers/public/extension.js"
-			],
-			[
-				"prev",
-				"proxy/client/src/screen/ui/da/templates/preview.js"
-			],
-			[
-				"screnmain",
-				"proxy/client/src/screen/main.js"
-			],
-			[
-				"layerless",
-				"proxy/client/src/screen/ui/da/templates/player/player.less"
-			],
-			[
-				"book",
-				"hmi-fixtures/slacker/GetBookmarkedStations.json"
-			],
-			[
-				"scremain",
-				"proxy/client/src/screen/main.js"
-			],
-			[
-				"bridge",
-				"proxy/mid/bridge.js"
-			],
-			[
-				"slave",
-				"proxy/mid/socket/slave.js"
-			],
-			[
-				"ext",
-				"proxy/mid/api/handlers/public/extension.js"
-			],
-			[
-				"player.les",
-				"proxy/client/src/screen/ui/da/templates/player/player.less"
-			],
-			[
-				"getboo",
-				"hmi-fixtures/slacker/GetBookmarkedStations.json"
-			],
-			[
-				"hap",
-				"proxy/mid/api/handlers/hap.js"
-			],
-			[
-				"bookm",
-				"hmi-fixtures/slacker/GetBookmarkedStations.json"
-			],
-			[
-				"screenmain",
-				"proxy/client/src/screen/main.js"
-			],
-			[
-				"screen.",
-				"proxy/client/src/screen/ui/da/screen.js"
-			],
-			[
-				"screenmian",
-				"proxy/client/src/screen/main.js"
-			],
-			[
-				"getst",
-				"hmi-fixtures/slacker/GetStationImages.json"
-			],
-			[
-				"screen.js",
-				"proxy/client/src/screen/ui/da/screen.js"
-			],
-			[
-				"getstati",
-				"hmi-fixtures/slacker/GetStationList.json"
-			],
-			[
-				"storage",
-				"proxy/client/src/screen/storage.js"
-			],
-			[
-				"out",
-				"proxy/client/src/bridge/out.js"
-			],
-			[
-				"bridg",
-				"proxy/mid/bridge.js"
-			],
-			[
-				"extens",
-				"proxy/mid/api/handlers/public/extension.js"
-			],
-			[
-				"brid",
-				"proxy/mid/bridge.js"
-			],
-			[
-				"proxy/mid/api/handlers/public/extension.js",
-				"proxy/mid/api/handlers/public/extension.js"
-			],
-			[
-				"hmi-fixtures/slacker/setmyfavoritesongs.json",
-				"hmi-fixtures/slacker/SetMyFavoriteSongs.json"
-			],
-			[
-				"hmi-fixtures/slacker/getstationimages.json",
-				"hmi-fixtures/slacker/GetStationImages.json"
-			],
-			[
-				"hmi-fixtures/slacker/getrecentlyplayed.json",
-				"hmi-fixtures/slacker/GetRecentlyPlayed.json"
-			],
-			[
-				"hmi-fixtures/com.slacker.radio.slacker/getrecentlyplayed.json",
-				"hmi-fixtures/com.slacker.radio.Slacker/GetRecentlyPlayed.json"
-			],
-			[
-				"ha",
-				"proxy/mid/api/handlers/hap.js"
-			],
-			[
-				"apiextension",
-				"proxy/mid/api/handlers/public/extension.js"
-			],
-			[
-				"screens",
-				"proxy/client/src/screen/ui/da/screen.js"
-			],
-			[
-				"routes",
-				"proxy/mid/routes.js"
-			],
-			[
-				"inif",
-				"hmi-fixtures/init-fixtures.sh"
-			],
-			[
-				"hap.js",
-				"proxy/mid/api/handlers/hap.js"
-			],
-			[
-				"aqres",
-				"hmi/aq/aqresponse.js"
-			],
-			[
-				"aqre",
-				"hmi/aq/aqrequest.js"
-			],
-			[
-				"out.js",
-				"proxy/client/src/bridge/out.js"
-			],
-			[
-				"controls",
-				"proxy/client/src/screen/ui/da/templates/controls.js"
-			],
-			[
-				"popup.js",
-				"proxy/client/src/screen/ui/da/templates/popup.js"
-			],
-			[
-				"huoptin",
-				"proxy/client/src/screen/ui/da/templates/huOptions.js"
-			],
-			[
-				"previ",
-				"proxy/client/src/screen/ui/da/templates/preview.js"
-			],
-			[
-				"previwless",
-				"proxy/client/src/screen/ui/da/templates/preview/preview.less"
-			],
-			[
-				"list.l",
-				"proxy/client/src/screen/ui/da/templates/list/list.less"
-			],
-			[
-				"hopt",
-				"proxy/client/src/screen/ui/da/templates/huOptions.js"
-			],
-			[
-				"huopt",
-				"proxy/client/src/screen/ui/da/huOptions.js"
-			],
-			[
-				"screenbas",
-				"proxy/client/src/screen/ui/da/templates/base.js"
-			],
-			[
-				"prox",
-				"vp2c-emulator/proxy/mid/proxy.js"
-			],
-			[
-				"huop",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/huOptions/huOptions.less"
-			],
-			[
-				"midchoreo",
-				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
-			],
-			[
-				"popup",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/popups/popup.less"
-			],
-			[
-				"paste",
-				"vp2c-emulator/hmi-fixtures/facebook/PastEvents.json"
-			],
-			[
-				"futjson",
-				"vp2c-emulator/hmi-fixtures/facebook/FutureEvents.json"
-			],
-			[
-				"proxychoreo",
-				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
-			],
-			[
-				"list.less",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list/list.less"
-			],
-			[
-				"list",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
-			],
-			[
-				"popu",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/popups/popup.less"
-			],
-			[
-				"pop",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/popup.js"
-			],
-			[
-				"screencont",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/controls.js"
-			],
-			[
-				"pre",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/preview.js"
-			],
-			[
-				"uiscreen",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/screen.js"
-			],
-			[
-				"item",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list/item.ejs"
-			],
-			[
-				"item.",
-				"vp2c-emulator/node_modules/browserify-ejs/node_modules/ejs/test/fixtures/includes/menu/item.ejs"
-			],
-			[
-				"list.ej",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list/list.ejs"
-			],
-			[
-				"sto",
-				"vp2c-emulator/proxy/client/src/screen/storage.js"
-			],
-			[
-				"midhap.js",
-				"vp2c-emulator/proxy/mid/api/handlers/hap.js"
-			],
-			[
-				"chore",
-				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
-			],
-			[
-				"screen/main",
-				"vp2c-emulator/proxy/client/src/screen/main.js"
-			],
-			[
-				"storag",
-				"vp2c-emulator/proxy/client/src/screen/storage.js"
-			],
-			[
-				"screen/mesa",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message.js"
-			],
-			[
-				"lis",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
-			],
-			[
-				"clientuimain",
-				"vp2c-emulator/node_modules/node-lessify/node_modules/browserify/node_modules/timers-browserify/main.js"
-			],
-			[
-				"proxy/client/src/screen/ui/da/templates/message/message.ejs",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message/message.ejs"
-			],
-			[
-				"aq/aqresponse.js",
-				"vp2c-emulator/hmi/aq/aqresponse.js"
-			],
-			[
-				"message.ejs",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message/message.ejs"
-			],
-			[
-				"message.less",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message/message.less"
-			],
-			[
-				"uimessages",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/message.js"
-			],
-			[
-				"proxy/client/src/screen/ui/da/templates/list.js",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/list.js"
-			],
-			[
-				"proxy/client/src/screen/ui/da/templates/base.js",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js"
-			],
-			[
-				"uibase",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js"
-			],
-			[
-				"hoption",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/huOptions.js"
-			],
-			[
-				"proxyuibase",
-				"vp2c-emulator/proxy/client/src/screen/ui/da/templates/base.js"
-			],
-			[
-				"proxy/mid/api/handlers/public/choreo.js",
-				"vp2c-emulator/proxy/mid/api/handlers/public/choreo.js"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"fun",
-				"~/project/Functional Programming/lib.js-master/FuncProg.sublime-project"
-			],
-			[
-				"ncg",
-				"~/project/airbiquity/ncg_hmi.sublime-project"
-			],
-			[
-				"ncghm",
-				"~/project/airbiquity/ncg_hmi.sublime-project"
-			],
-			[
-				"ncgh",
-				"~/project/airbiquity/ncg_hmi.sublime-project"
-			],
-			[
-				"ncghmi",
-				"~/project/airbiquity/ncg_hmi.sublime-project"
-			],
-			[
-				"dah",
-				"~/project/airbiquity/dahmi.sublime-project"
-			],
-			[
-				"nchmi",
-				"~/project/airbiquity/ncg_hmi.sublime-project"
-			],
-			[
-				"sni",
-				"~/.config/sublime-text-3/Packages/User/ilya_snippets/snippets.sublime-project"
-			],
-			[
-				"itgh",
-				"~/project/airbiquity/itghmi.sublime-project"
-			],
-			[
-				"itg",
-				"~/project/airbiquity/itghmi.sublime-project"
-			],
-			[
-				"da",
-				"~/airbiquity/new vp2c/da2.2_hmi/facebook/new-hmi.sublime-workspace"
-			],
-			[
-				"lcn",
-				"~/project/airbiquity/lcn_test.sublime-project"
-			],
-			[
-				"old",
-				"~/airbiquity/da/da2.2_hmi/old-da-hmi.sublime-workspace"
-			],
-			[
-				"olhmi",
-				"~/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api/handlers/public/da-hmi.sublime-workspace"
-			],
-			[
 				"",
-				"~/airbiquity/new vp2c/vp2c-emulator/proxy/mid/api/handlers/public/da-hmi.sublime-workspace"
+				"C:\\StatOnLine\\my server\\src\\scripts\\statOnLine.sublime-project"
+			],
+			[
+				"stat",
+				"C:\\StatOnLine\\my server\\src\\scripts\\statOnLine.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -2177,6 +1237,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -2190,7 +1251,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 353.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

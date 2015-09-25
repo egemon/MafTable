@@ -2,6 +2,7 @@ define(
     'controller/Protocol',
 [
     'jquery',
+    'jquery-ui',
     'microtemplates',
 
     'text!view/Protocol/MetaData.html',
@@ -17,6 +18,7 @@ define(
     'model/GameRecord'
 ], function (
     $,
+    $ui,
     tmpl,
 
 //view
@@ -142,6 +144,35 @@ define(
 
         };
 
+        this.hangEventHeandlersOnInputs = function () {
+            var Nicks = LocalGameStorage.getPlayersNicks();
+            $('.playerNameField').add('#refereeField').autocomplete({
+              source: Nicks
+            });  
+        };
+
+        this.showGamesMemo = function (comandName) {
+            $('body').append(tmpl(PortView, {games:'', comandName: comandName}));
+            $('button').click(function(e){
+                var memo = $('stringGames');
+                if ($(this).html() == 'Export') {
+                    memo.html(JSON.stringify(LocalGameStorage.getAllGames()));
+                    var range = document.createRange();
+                    range.selectNode(memo.get(0));
+                    window.getSelection().addRange(range);
+                    var successful = document.execCommand('copy');
+                    if (!successful) {
+                        alert('Please copy this games');
+                    } else {
+                        alert('All this games are already in your clipboard!');
+                    }
+                    window.getSelection().removeAllRanges();
+                } else {
+
+                }
+            });
+        };
+
         this.hangEventHeandlersOnButtonBar = function () {
             $('#nextDayButton').click(function(e) {
                 ProtocolLink.addNewDay(++ProtocolLink.currentDay);
@@ -167,28 +198,6 @@ define(
                }
             });
 
-            this.showGamesMemo = function (comandName) {
-                $('body').append(tmpl(PortView, {games:'', comandName: comandName}));
-                $('button').click(function(e){
-                    var memo = $('stringGames');
-                    if ($(this).html() == 'Export') {
-                        memo.html(JSON.stringify(LocalGameStorage.getAllGames()));
-                        var range = document.createRange();
-                        range.selectNode(memo.get(0));
-                        window.getSelection().addRange(range);
-                        var successful = document.execCommand('copy');
-                        if (!successful) {
-                            alert('Please copy this games');
-                        } else {
-                            alert('All this games are already in your clipboard!');
-                        }
-                        window.getSelection().removeAllRanges();
-                    } else {
-
-                    }
-                });
-            };
-
             $('#exportGamesBtn').click(function (e) {
                 $('body').append(tmpl(PortView, {games:'', comandName: 'Export'}));
             });
@@ -201,6 +210,7 @@ define(
 
         //init part
         this.hangEventHeandlersOnFalls();
+        this.hangEventHeandlersOnInputs();
         this.hangEventHeandlersOnButtonBar();
         this.addNewDay(this.currentDay);
         this.hangEventHeandlersOnKillAndHang();

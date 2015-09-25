@@ -132,7 +132,19 @@ define(
             return resultGamesArray;
         };
 
-
+        this.getPlayersNicks = function () {
+            var Nicks = [];
+            this.getAllGames().forEach(function (game, i) {
+                if (game && game.playerLines) {
+                    game.playerLines.forEach(function (player, i) {
+                        if (player.name && !(Nicks.some(function(el){return el == player.name}))) {
+                           Nicks.push(player.name); 
+                        }
+                    });
+                };
+            });
+            return Nicks;
+        };
 
         this.resetGameStorage = function () {
             localStorage.clear();
