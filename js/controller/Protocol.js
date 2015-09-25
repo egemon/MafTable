@@ -161,7 +161,7 @@ define(
                ProtocolLink.clearPage();
                ProtocolLink.timer.reset();
                if (!Rating.init()) {
-                  window.location.reload();
+                    //TODO: handle when no games in filter
                }
             });
         };

@@ -23,10 +23,10 @@ define(
                     RatingObject[games[i].playerLines[k].name].gameNumber = RatingObject[games[i].playerLines[k].name].gameNumber ?
                      ++RatingObject[games[i].playerLines[k].name].gameNumber : 1;
                     if (games[i].playerLines[k].BP) {
-                        RatingObject[games[i].playerLines[k].name].BP = RatingObject[games[i].playerLines[k].name].BP ? ++RatingObject[games[i].playerLines[k].name].BP : 1;  
+                        RatingObject[games[i].playerLines[k].name].BP = RatingObject[games[i].playerLines[k].name].BP ? ++RatingObject[games[i].playerLines[k].name].BP : 1;
                     }
                     if (games[i].playerLines[k].BR) {
-                        RatingObject[games[i].playerLines[k].name].BR = RatingObject[games[i].playerLines[k].name].BR ? ++RatingObject[games[i].playerLines[k].name].BR : 1;  
+                        RatingObject[games[i].playerLines[k].name].BR = RatingObject[games[i].playerLines[k].name].BR ? ++RatingObject[games[i].playerLines[k].name].BR : 1;
                     }
                 };
             }
@@ -72,7 +72,7 @@ define(
             if (byString === 'average') {
                 return $.map(RatingObject, function (key, value) {
                     key.name = value;
-                    return [key] 
+                    return [key]
                 }).sort(function(a, b){return a.sum/a.gameNumber < b.sum/b.gameNumber})
             } else {
                 console.warn('I don;t know this sort!');
@@ -80,7 +80,7 @@ define(
         };
 
         this.filterNotCompletedGames = function (games) {
-            return games.filter(function(game) {
+            return games && games.filter(function(game) {
                 return this.isGameComplete(game);
             }.bind(this));
         };

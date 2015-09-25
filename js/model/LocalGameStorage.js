@@ -29,7 +29,7 @@ define(
         // }
         this.getGamesByFilter = function (filterObject) {
 
-            var resultGames = null;
+            var resultGames = [];
             if (!filterObject || !Object.keys(filterObject).length) {
                 return this.getAllGames();
             }
@@ -44,7 +44,7 @@ define(
                         //if there is no period break
                         if (!filterObject.period) {
                             console.warn('[M-LocalGameStorage] getGamesByFilter(): no period or periodType');
-                            return;
+                            return resultGames;
                         }
 
                         resultGames = this.getGamesByPeriod(filterObject.periodType, filterObject.period);
@@ -73,6 +73,9 @@ define(
             var resultGamesArray = [];
             for (var i = 0; i < localStorage.length; i++) {
                 var currentId = localStorage.key(i);
+                if (currentId.indexOf('MT') < 0 ) {
+                    continue;
+                }
                 var currentPeriod;
                 switch(periodType) {
                     case 'month':
