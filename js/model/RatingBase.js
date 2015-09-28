@@ -73,7 +73,7 @@ define(
                 return $.map(RatingObject, function (key, value) {
                     key.name = value;
                     return [key]
-                }).sort(function(a, b){return a.sum/a.gameNumber < b.sum/b.gameNumber})
+                }).sort(function(a, b){return b.sum/b.gameNumber - a.sum/a.gameNumber})
             } else {
                 console.warn('I don;t know this sort!');
             }

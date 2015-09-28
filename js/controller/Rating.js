@@ -34,6 +34,7 @@ define(
     var Rating = function () {
         console.log('[C > Rating] init');
         var RatingLink = this;
+        var ProtocolLink = Protocol;
         this.month = month;
         this.season = season;
         this.year = year;
@@ -72,6 +73,7 @@ define(
 
         this.hangEventHeandlers = function () {
             $('#newGameButton').click(function(e) {
+                // TODO fix Protocol 
                 window.location.reload();
             });
 

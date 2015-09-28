@@ -50,8 +50,6 @@ define(
 
         // fieilds
         this.currentDay = 1;
-        this.formObject = null;
-
         var ProtocolLink = this;
 
         //methods
@@ -82,23 +80,60 @@ define(
 
         };
 
-        this.createFormObject = function (gameInfoArray) {
-            this.formObject = {};
-            for (var i = 0; i < gameInfoArray.length; i++) {
-                this.formObject[gameInfoArray[i].name] = $('[name=' + gameInfoArray[i].name +']');
-            }
-        };
-
         this.saveGame = function (isAutosave) {
             var gameInfoObject = this.collectGameInfo();
-            this.createFormObject($('form').serializeArray());
             LocalGameStorage.saveGame(gameInfoObject);
             // this.autosave = isAutosave;
         };
 
-        this.clearGame = function () {
-            if (confirm('Are you realy want to clear all data?')) {
-                window.location.reload();
+        this.renderLoadedGame = function (game) {
+            for (var key in game.metadata) {
+                $('[name=' + key +']').val(game.metadata[key]);
+            }
+            for (var i = 0; i < game.playerLines.length; i++) {
+                var player = game.playerLines[i];
+                for (var key in player) {
+                    if (typeof player[key] === 'object') {
+                        var Days = player[key];
+                        for (var j = 0; j < Days.length; j++) {
+                            var day = Days[j];
+                            for (var event in day) {
+                                var el = $('[name=' + i + '_Days_' + j + '_' + event +']');
+                                if (day[event] === 'on') {
+                                    el.prop('checked', 'checked');    
+                                } else {
+                                    el.val(day[event]);    
+                                }
+                            }
+                        }
+                    } else {
+                        var el = $('[name=' + (i+1) + '_' + key +']');
+                        if (player[key] === 'on') {
+                            el.prop('checked', 'checked');
+                        } else {
+                            el.val(player[key]);
+                        }
+                    }
+                }
+            }
+        };
+
+        this.loadGame = function () {
+            var gameInfoObject = this.collectGameInfo();
+            var gameId = LocalGameStorage.generateGameId(gameInfoObject.metadata);
+            var game = LocalGameStorage.getGamesByFilter({gameId: gameId});
+            if (!game) {
+                alert('Check date, table and number! No games found');
+            } else {
+                ProtocolLink.clearGame('force');
+                this.renderLoadedGame(game);
+            }
+        };
+
+        this.clearGame = function (force) {
+            if (force || confirm('Are you realy want to clear all data?')) {
+                $(':input').not(':checkbox').val('');
+                $(':checked').removeAttr('checked');
             }
         };
 
@@ -183,6 +218,10 @@ define(
 
             $('#saveGameButton').click(function(e) {
                 ProtocolLink.saveGame();
+            });
+
+            $('#loadGameButton').click(function(e) {
+                ProtocolLink.loadGame();
             });
 
             $('#clearGameButton').click(function(e) {

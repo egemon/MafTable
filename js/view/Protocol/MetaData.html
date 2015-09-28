@@ -2,35 +2,35 @@
       <div class="control-group">
         <label class="control-label" for="win">Win</label>
         <div class="controls">
-          <select form="gameProtocol" name="win" id="winField">
-              <option value="">Game is going</option>
-              <option value="city">Citizens</option>
-              <option value="maf">Mafia</option>
+          <select tabindex="1" form="gameProtocol" name="win" id="winField">
+              <option value="">Игра идет</option>
+              <option value="city">Город</option>
+              <option value="maf">Мафия</option>
           </select>
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="refereeField">Referee</label>
         <div class="controls">
-          <input form="gameProtocol" type="text" name="ref" id="refereeField">
+          <input tabindex="2" form="gameProtocol" type="text" name="ref" id="refereeField">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="date">Date</label>
         <div class="controls">
-          <input form="gameProtocol" type="date" name="date" id="date" value="<%=new Date().toISOString().split('T')[0]%>">
+          <input tabindex="3" form="gameProtocol" type="date" name="date" id="date" value="<%=new Date().toISOString().split('T')[0]%>">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="gameNumber">Number of Game</label>
         <div class="controls">
-          <input form="gameProtocol" type="number" name="gameNumber" id="gameNumber" value="1">
+          <input tabindex="4" form="gameProtocol" type="number" name="gameNumber" id="gameNumber" value="1">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label" for="tableName">Table Name</label>
         <div class="controls">
-          <select form="gameProtocol" name="tableName" id="tableName">
+          <select tabindex="5" form="gameProtocol" name="tableName" id="tableName">
               <option>Baker Street</option>
               <option>Downing Street</option>
               <option>Abbey Road</option>

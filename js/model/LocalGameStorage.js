@@ -23,11 +23,6 @@ define(
             }
         };
 
-        // this.loadGame = function (gameId) {
-        //     View.StartPage.loadGame(this.games[gameId]);
-        // };
-
-
         // filterObject = {
         //     gameId: "MT_2015-09-21_1_Baker Street",
         //     periodType: "month" || "year" || "season",
@@ -44,7 +39,7 @@ define(
             for (var key in filterObject) {
                 switch(key) {
                     case "gameId":
-                    return [JSON.parse(localStorage.getItem(filterObject.gameId))];
+                    return JSON.parse(localStorage.getItem(filterObject.gameId));
 
                     case "periodType":
 

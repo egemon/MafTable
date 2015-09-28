@@ -26,10 +26,10 @@
         </label>
     </td>
     <td>
-        <input type="text" class="playerNameField" id="player<%=i%>name" placeholder="enter player <%=i%> nick" name="<%=i%>_name">
+        <input type="text" tabindex="<%=i+5%>" class="playerNameField" id="player<%=i%>name" placeholder="enter player <%=i%> nick" name="<%=i%>_name">
     </td>
     <td>
-        <select class = "playerRoleField" name="<%=i%>_role" id="player<%=i%>role">
+        <select tabindex="<%=i + 15%>" class = "playerRoleField" name="<%=i%>_role" id="player<%=i%>role">
             <option value="r">Мирный</option>
             <option value="b">Мафия</option>
             <option value="d">Дон</option>
