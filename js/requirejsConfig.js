@@ -1,4 +1,5 @@
 requirejs.config({
+    // name: 'localApp',
     baseUrl: "js/",
     paths: {
         'microtemplates': 'lib/microtemplates/index',

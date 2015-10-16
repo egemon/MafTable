@@ -25,5 +25,8 @@
     "fs": "~0.0.3",
     "text": "requirejs/text#~2.0.14",
     "jquery-ui": "~1.11.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
   }
 }
