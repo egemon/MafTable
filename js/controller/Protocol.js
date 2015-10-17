@@ -81,7 +81,7 @@ define(
         };
 
         this.saveGame = function (isAutosave) {
-            var gameInfoObject = this.collectGameInfo();
+            var gameInfoObject = LocalGameStorage.createGameInfoObject($('form').serializeArray());
             LocalGameStorage.saveGame(gameInfoObject);
             // this.autosave = isAutosave;
         };
@@ -100,9 +100,9 @@ define(
                             for (var event in day) {
                                 var el = $('[name=' + i + '_Days_' + j + '_' + event +']');
                                 if (day[event] === 'on') {
-                                    el.prop('checked', 'checked');    
+                                    el.prop('checked', 'checked');
                                 } else {
-                                    el.val(day[event]);    
+                                    el.val(day[event]);
                                 }
                             }
                         }
@@ -119,7 +119,7 @@ define(
         };
 
         this.loadGame = function () {
-            var gameInfoObject = this.collectGameInfo();
+            var gameInfoObject = LocalGameStorage.createGameInfoObject($('form').serializeArray());
             var gameId = LocalGameStorage.generateGameId(gameInfoObject.metadata);
             var game = LocalGameStorage.getGamesByFilter({gameId: gameId});
             if (!game) {
@@ -135,10 +135,6 @@ define(
                 $(':input').not(':checkbox').val('');
                 $(':checked').removeAttr('checked');
             }
-        };
-
-        this.collectGameInfo = function () {
-            return new GameRecord($('form').serializeArray());
         };
 
         this.savePage = function () {
@@ -183,7 +179,7 @@ define(
             var Nicks = LocalGameStorage.getPlayersNicks();
             $('.playerNameField').add('#refereeField').autocomplete({
               source: Nicks
-            });  
+            });
         };
 
         this.showGamesMemo = function (comandName) {

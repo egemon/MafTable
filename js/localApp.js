@@ -1,6 +1,10 @@
 requirejs(
-    ['Model', 'Controller'],
-    function (Model, Controller, View) {
-        console.log('[localApp] init: ', Model, Controller)
-    }
+[
+    'controller/Protocol'
+],
+function (
+    ProtocolContr
+) {
+    console.log('[localApp] init: ', ProtocolContr);
+}
 );

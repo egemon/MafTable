@@ -133,7 +133,7 @@ define(
                 if (game && game.playerLines) {
                     game.playerLines.forEach(function (player, i) {
                         if (player.name && !(Nicks.some(function(el){return el == player.name;}))) {
-                           Nicks.push(player.name); 
+                           Nicks.push(player.name);
                         }
                     });
                 }
@@ -149,6 +149,9 @@ define(
             return [this.appIdentifier, metadata.date, metadata.gameNumber, metadata.tableName].join('_');
         };
 
+        this.createGameInfoObject = function (formArray) {
+            return new GameRecord(formArray);
+        };
 
     };
 
