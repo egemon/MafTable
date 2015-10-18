@@ -2,21 +2,42 @@ define(
     'helper',
 [
     'microtemplates',
+    'appConfig'
 ], function (
-    tmpl
+    tmpl,
+    appConfig
 ) {
+return {
+    createHtml: function (template, data) {
+        path = 'text!view/' + template;
+        var result = "";
+        require(path, function (text) {
+            result = tmpl(text, data);
+        });
+        return result;
+    },
 
-    var Hepler = function () {
-        this.createHtml = function (template, data) {
-            path = 'text!view/' + template;
-            var result = "";
-            require(path, function (text) {
-                result = tmpl(text, data);
-            } )
-            return result;
-        }
-    };
-
-
-    return new Helper();
+    $makeRequest: function (url, type, data, doneCallback, errorCallback, alwaysCallback) {
+        return $.ajax({
+            url: url,
+            type: type,
+            dataType: 'json',
+            data: data,
+        })
+        .done(doneCallback)
+        .fail(errorCallback)
+        .always(alwaysCallback);
+    },
+    $makeSyncRequest: function (data, doneCallback, errorCallback, alwaysCallback) {
+        this.$makeRequest(
+            appConfig.serverUrls.syncUrl,
+            'GET',
+            'json',
+            data,
+            doneCallback,
+            errorCallback,
+            alwaysCallback
+        );
+    }
+};
 } );
