@@ -2,11 +2,6 @@
     width: 90px;
 }
 
-.day {
-    width: 250px;
-    margin: 0 auto;
-}
-
 .night {
     width: 100px;
 }
@@ -24,7 +19,7 @@
 #gameInfoTable td {
     text-align: center;
     vertical-align: middle;
-    padding: 5px;
+    padding: 0px;
 }
 
 
@@ -42,4 +37,15 @@
 .playerVoteNumber,
 .playerWhoNominate {
     width: 50px;
+}
+
+/*BOOTSTRAP*/
+.control-group {
+    margin: 1px;
+}
+.btn-group>.btn+.btn {
+    margin-left: 3px;
+}
+.radio.inline, .checkbox.inline {
+    padding-top: 0;
 }
