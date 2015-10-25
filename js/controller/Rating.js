@@ -73,7 +73,7 @@ define(
 
         this.hangEventHeandlers = function () {
             $('#newGameButton').click(function(e) {
-                // TODO fix Protocol 
+                // TODO fix Protocol
                 window.location.reload();
             });
 

@@ -11,6 +11,14 @@ define(
         //prefix for localStorage objects
         this.appIdentifier = 'MT';
 
+        this.seasonMap = {
+            'Winter': 1,
+            'Spring': 2,
+            'Summer': 3,
+            'Autumn': 4
+        };
+
+        //GameRecord - object
         this.saveGame = function (GameRecord) {
             var id = this.generateGameId(GameRecord.metadata);
             var isGameAlreadyExists = !!localStorage.getItem(id);
@@ -42,15 +50,19 @@ define(
                     return JSON.parse(localStorage.getItem(filterObject.gameId));
 
                     case "periodType":
-
                         //if there is no period break
                         if (!filterObject.period) {
                             console.warn('[M-LocalGameStorage] getGamesByFilter(): no period or periodType');
                             return resultGames;
                         }
-
+                        if (filterObject.periodType === 'season' && this.isPeriodIncorrect(filterObject.period)) {
+                            filterObject.period = this.seasonMap[filterObject.period];
+                            if (this.isPeriodIncorrect(filterObject.period)) {
+                                alert('Check period!')
+                                return [];
+                            }
+                        }
                         resultGames = this.getGamesByPeriod(filterObject.periodType, filterObject.period);
-
                     break;
                     case "playerNick":
                         resultGames = resultGames ?
@@ -68,6 +80,9 @@ define(
             return resultGames;
         };
 
+        this.isPeriodIncorrect = function (period) {
+            return Number.isNaN(+period);
+        }
 
         //returns array of objects
         this.getGamesByPeriod = function (periodType, period) {
