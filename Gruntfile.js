@@ -18,15 +18,27 @@ module.exports = function(grunt) {
             dest: 'js/build/production.min.js'
         }
     },
-    imagemin: {
-        dynamic: {
-            files: [{
-                expand: true,
-                cwd: 'images/',
-                src: ['**/*.{png,jpg,gif}'],
-                dest: 'images/build/'
-            }]
+
+    cssmin: {
+        options: {
+            shorthandCompacting: false,
+            roundingPrecision: -1,
+            expand: true,
+        },
+        target: {
+            files: {
+                'production/css/styles.css':['css/**.css']
+            }
         }
+    },
+
+    imagemin: {
+        files: [{
+            expand: true,
+            cwd: 'img/grey/',
+            src: ['**/*.{png,jpg,gif}'],
+            dest: 'MafTable/img/'
+        }]
     },
     watch: {
         scripts: {
@@ -40,10 +52,11 @@ module.exports = function(grunt) {
     requirejs: {
         compile: {
             options: {
-                baseUrl: "/",
+                name : 'localApp',
+                baseUrl: "js/",
                 mainConfigFile: "js/requirejsConfig.js",
-                // name: "path/to/almond", // assumes a production build using almond
-                out: "production/main.js"
+                out: "production/js/main.js",
+                include: "lib/requirejs/require"
             }
         }
     }
@@ -55,9 +68,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
-
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Default task(s).
-  grunt.registerTask('default', ['requirejs']);
+  grunt.registerTask('default', ['requirejs:compile', 'cssmin', 'imagemin']);
 
 };
