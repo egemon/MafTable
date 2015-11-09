@@ -4,7 +4,7 @@ define(
     'jquery',
     'microtemplates',
 
-    'text!view/Protocol/Timer.html'
+    'text!templates/Protocol/Timer.html'
 ], function (
     $,
     tmpl,

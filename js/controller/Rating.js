@@ -10,11 +10,11 @@ define(
 
     'controller/Protocol',
 
-    'text!view/Rating/RatingData.html',
-    'text!view/Rating/RatingFilters.html',
-    'text!view/Rating/monthFilterSelect.html',
-    'text!view/Rating/seasonFilterSelect.html',
-    'text!view/Rating/yearFilterSelect.html',
+    'text!templates/Rating/RatingData.html',
+    'text!templates/Rating/RatingFilters.html',
+    'text!templates/Rating/monthFilterSelect.html',
+    'text!templates/Rating/seasonFilterSelect.html',
+    'text!templates/Rating/yearFilterSelect.html',
 ], function (
     $,
     tmpl,
