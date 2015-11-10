@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         },
         target: {
             files: {
-                'production/css/styles.css':['css/**.css']
+                'MafTable/css/styles.css':['css/**.css']
             }
         }
     },
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
                 name : 'localApp',
                 baseUrl: "js/",
                 mainConfigFile: "js/requirejsConfig.js",
-                out: "production/js/main.js",
+                out: "MafTable/js/main.js",
                 include: "lib/requirejs/require"
             }
         }
@@ -71,6 +71,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Default task(s).
-  grunt.registerTask('default', ['requirejs:compile', 'cssmin', 'imagemin']);
+  grunt.registerTask('default', ['requirejs:compile', 'cssmin']);
 
 };

@@ -1,8 +1,6 @@
 define(
     'controller/Protocol',
 [
-    'jquery',
-
     'controller/Timer',
     'controller/Rating',
 
@@ -11,8 +9,6 @@ define(
 
     'view/Protocol'
 ], function (
-    $,
-
 //controller
     Timer,
     Rating,
@@ -22,34 +18,46 @@ define(
     GameRecord,
 
 //view
-    ProtocolRenderer
+    ProtocolV
 ) {
-    console.log('{ Controller } [Protocol] init:', arguments);
     var Protocol = function  () {
-
-        //init Timer
-        this.timer = new Timer();
-
-        // fieilds
-        this.currentDay = 1;
-        var ProtocolLink = this;
+        this.init = function () {
+        console.log('[Protocol{C}] init:', arguments);
+            // fieilds
+            this.currentDay = 1;
+            var ProtocolLink = this;
+            ProtocolV.init(this);
+            this.timer = new Timer();
+        };
 
         //methods
-        this.saveGame = function () {
-            var gameInfoObject = LocalGameStorage.createGameInfoObject(ProtocolRenderer.collectGameInfo());
+        this.saveGame = function (gameInfoArray) {
+            var gameInfoObject = LocalGameStorage.createGameInfoObject(gameInfoArray);
             LocalGameStorage.saveGame(gameInfoObject);
         };
 
         this.loadGame = function () {
-            var gameInfoObject = LocalGameStorage.createGameInfoObject(ProtocolRenderer.collectGameInfo());
+            var gameInfoObject = LocalGameStorage.createGameInfoObject(ProtocolV.collectGameInfo());
             var gameId = LocalGameStorage.generateGameId(gameInfoObject.metadata);
             var game = LocalGameStorage.getGamesByFilter({gameId: gameId});
             if (!game) {
                 alert('Check date, table and number! No games found');
             } else {
-                ProtocolRenderer.clearGame('force');
-                ProtocolRenderer.renderLoadedGame(game);
+                ProtocolV.clearGame('force');
+                ProtocolV.renderLoadedGame(game);
             }
+        };
+
+        this.initRating = function () {
+            Rating.init(this);
+        };
+
+        this.getPlayersNicks = function () {
+            return LocalGameStorage.getPlayersNicks();
+        };
+
+        this.getAllGames = function () {
+            return JSON.stringify(LocalGameStorage.getAllGames());
         };
 
     };

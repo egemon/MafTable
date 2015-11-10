@@ -58,7 +58,7 @@ define(
                         if (filterObject.periodType === 'season' && this.isPeriodIncorrect(filterObject.period)) {
                             filterObject.period = this.seasonMap[filterObject.period];
                             if (this.isPeriodIncorrect(filterObject.period)) {
-                                alert('Check period!')
+                                alert('Check period!');
                                 return [];
                             }
                         }

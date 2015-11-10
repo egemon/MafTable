@@ -1,13 +1,20 @@
 define(
     'helper',
 [
+    'jquery',
     'microtemplates',
     'appConfig'
 ], function (
+    $,
     tmpl,
     appConfig
 ) {
 return {
+    clearPage: function () {
+        $('header').children().remove();
+        $('form').children().remove();
+    },
+
     createHtml: function (template, data) {
         path = 'text!templates/' + template;
         var result = "";

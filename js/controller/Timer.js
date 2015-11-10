@@ -60,11 +60,6 @@ define(
             clearInterval(TimerLink.interval);
             TimerLink.interval = null;
         };
-
-
-
-
-
     };
 
     return Timer;

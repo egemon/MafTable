@@ -3,8 +3,9 @@ requirejs(
     'controller/Protocol'
 ],
 function (
-    ProtocolContr
+    ProtocolC
 ) {
-    console.log('[localApp] init: ', ProtocolContr);
+    console.log('[localApp] init: ', ProtocolC);
+    ProtocolC.init();
 }
 );

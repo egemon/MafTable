@@ -3,49 +3,53 @@ define(
 [
     'jquery',
     'jquery-ui',
-
     'microtemplates',
-
-    'controller/Protocol',
-
-    'model/LocalGameStorage',
 
     'text!templates/Protocol/MetaData.html',
     'text!templates/Protocol/PlayerLine.html',
     'text!templates/Protocol/ButtonBar.html',
     'text!templates/Protocol/DayNight.html',
-    'text!templates/Protocol/portGames.html'
+    'text!templates/Protocol/portGames.html',
 
+    'helper'
 ], function (
+//utils
     $,
-
     $ui,
     tmpl,
-//controllers
-    ProtocolController,
-
-//models
-    LocalGameStorage,
 
 //templates
     MetaData,
     PlayerLineView,
     ButtonBar,
     DayNightView,
-    PortView
+    PortView,
+
+    helper
 ) {
 
 console.log('{View} [Protocol] init');
 var ProtocolRenderer = function () {
-    //protocol form created
-    $('header').append(tmpl(MetaData, {}));
-    $('header').append(tmpl(ButtonBar, {}));
-    $('.form-horizontal').append(tmpl(PlayerLineView, {}));
+    var ProtocolV = this;
+    var ProtocolС = {};
 
-    //fields
-    this.htmlCache = "";
+    this.init = function (ProtocolCtr) {
+        ProtocolС = ProtocolCtr;
+        //protocol form created
+        $('header').append(tmpl(MetaData, {}));
+        $('header').append(tmpl(ButtonBar, {}));
+        $('.form-horizontal').append(tmpl(PlayerLineView, {}));
 
-    var ProtocolRendererLink = this;
+        //fields
+        this.htmlCache = "";
+
+        //init part
+        this.hangEventHeandlersOnFalls();
+        this.hangEventHeandlersOnInputs();
+        this.hangEventHeandlersOnButtonBar();
+        this.addNewDay(this.currentDay);
+        this.hangEventHeandlersOnKillAndHang();
+    };
 
     //methods
     this.addNewDay = function (dayNumber) {
@@ -118,12 +122,12 @@ var ProtocolRenderer = function () {
         }
     };
 
-    this.savePage = function () {
-        this.htmlCache = document.body.innerHTML;
-    };
-
     this.clearPage = function () {
         $('.form-horizontal').children().remove();
+    };
+
+    this.savePage = function () {
+        this.htmlCache = document.body.innerHTML;
     };
 
     //EVENT HANDLERS
@@ -137,7 +141,7 @@ var ProtocolRenderer = function () {
             //take two last checkboxes and set listeners
             $(el).find('.playerHangCheckbox, .playerKillCheckbox')
                 .slice(-2).click(function(e) {
-                    ProtocolRendererLink.toggleDead(this);
+                    ProtocolV.toggleDead(this);
             });
         });
     };
@@ -157,7 +161,7 @@ var ProtocolRenderer = function () {
 
     //autocomplete for nicks
     this.hangEventHeandlersOnInputs = function () {
-        var Nicks = LocalGameStorage.getPlayersNicks();
+        var Nicks = ProtocolС.getPlayersNicks();
         $('.playerNameField').add('#refereeField').autocomplete({
           source: Nicks
         });
@@ -166,36 +170,30 @@ var ProtocolRenderer = function () {
     //buttonBar listeners
     this.hangEventHeandlersOnButtonBar = function () {
         $('#nextDayButton').click(function(e) {
-            ProtocolRendererLink.addNewDay(++ProtocolController.currentDay);
-            ProtocolController.hangEventHeandlersOnKillAndHang();
-
-            // autosave option
-            ProtocolController.saveGame(true); // true = autosave
+            ProtocolV.addNewDay(++ProtocolС.currentDay);
+            ProtocolV.hangEventHeandlersOnKillAndHang();
         });
 
         $('#saveGameButton').click(function(e) {
-            ProtocolController.saveGame();
+            ProtocolС.saveGame(ProtocolV.collectGameInfo());
         });
 
         $('#loadGameButton').click(function(e) {
-            ProtocolController.loadGame();
+            ProtocolС.loadGame();
         });
 
         $('#clearGameButton').click(function(e) {
-            ProtocolRendererLink.clearGame();
+            ProtocolV.clearGame();
         });
 
         $('#showRatingBtn').click(function (e) {
-           ProtocolController.saveGame();
-           ProtocolRendererLink.clearPage();
-           ProtocolController.timer.reset();
-           if (!Rating.init()) {
-                //TODO: handle when no games in filter
-           }
+           ProtocolV.clearPage();
+           ProtocolС.timer.reset();
+           ProtocolС.initRating();
         });
 
         $('#exportGamesBtn').click(function (e) {
-            var memo = $('<textarea id="memo">').html(JSON.stringify(LocalGameStorage.getAllGames())).appendTo('form');
+            var memo = $('<textarea id="memo">').html(ProtocolС.getAllGames()).appendTo('form');
             window.getSelection().removeAllRanges();
             var range = document.createRange();
             range.selectNode(memo.get(0));
@@ -216,7 +214,7 @@ var ProtocolRenderer = function () {
             $('button').click(function(e){
                 var memo = $('stringGames');
                 if ($(this).html() == 'Export') {
-                    memo.html(JSON.stringify(LocalGameStorage.getAllGames()));
+                    memo.html(ProtocolС.getAllGames());
                     var range = document.createRange();
                     range.selectNode(memo.get(0));
                     window.getSelection().addRange(range);
@@ -234,10 +232,9 @@ var ProtocolRenderer = function () {
         };
 
         $('#importGamesBtn').click(function (e) {
-            var gamesArray = [{"metadata":{"win":"maf","ref":"Заяц","date":"2015-09-08","gameNumber":"1","tableName":"Baker Street"},"playerLines":[{"Days":[],"name":"Тракиец","role":"r"},{"Days":[],"name":"Симон","role":"s"},{"Days":[],"name":"Мейбал","role":"r"},{"Days":[],"name":"Пинокио","role":"d"},{"Days":[],"name":"Эльза","role":"r"},{"Days":[],"name":"Папканцилер","role":"r"},{"Days":[],"name":"Доктор","role":"r"},{"Days":[],"name":"Сыть","role":"r"},{"Days":[],"BP":"on","name":"Отец","role":"b"},{"Days":[],"name":"Мать","role":"b"}]},{"metadata":{"win":"city","ref":"Клич","date":"2015-09-08","gameNumber":"1","tableName":"Downing Street"},"playerLines":[{"Days":[],"name":"Художник","role":"s"},{"Days":[],"name":"Баффет","role":"r"},{"Days":[],"name":"Брат 2","role":"r"},{"Days":[],"name":"Стоун Колд","role":"r"},{"Days":[],"name":"Эмбер","role":"r"},{"Days":[],"BR":"on","name":"Вагрант","role":"r"},{"Days":[],"name":"Викарий","role":"b"},{"Days":[],"name":"Джонни","role":"b"},{"Days":[],"BP":"on","name":"СБ","role":"r"},{"Days":[],"name":"Борман","role":"d"}]},{"metadata":{"win":"city","ref":"50","date":"2015-09-08","gameNumber":"1","tableName":"Fleet Street"},"playerLines":[{"Days":[],"name":"Кристон","role":"r"},{"Days":[],"name":"Кураре","role":"r"},{"Days":[],"BR":"on","name":"Мутный","role":"s"},{"Days":[],"name":"Джеки","role":"r"},{"Days":[],"BR":"on","name":"Ежик","role":"b"},{"Days":[],"name":"Пинокио","role":"b"},{"Days":[],"name":"Джессика","role":"r"},{"Days":[],"name":"Джонни","role":"r"},{"Days":[],"name":"Едмак","role":"d"},{"Days":[],"name":"Супер 8","role":"r"}]},{"metadata":{"win":"maf","ref":"Заяц","date":"2015-09-08","gameNumber":"2","tableName":"Baker Street"},"playerLines":[{"Days":[],"name":"Эльза","role":"r"},{"Days":[],"name":"Пантий","role":"r"},{"Days":[],"name":"Доктор","role":"d"},{"Days":[],"name":"Гендальф","role":"b"},{"Days":[],"name":"Отец","role":"s"},{"Days":[],"BR":"on","name":"Мать","role":"r"},{"Days":[],"BR":"on","name":"Халявщик","role":"b"},{"Days":[],"name":"Сыть","role":"r"},{"Days":[],"name":"Тракиец","role":"r"},{"Days":[],"name":"Вагрант","role":"r"}]},{"metadata":{"win":"maf","ref":"Стоун Колд","date":"2015-09-08","gameNumber":"2","tableName":"Downing Street"},"playerLines":[{"Days":[],"name":"Баффет","role":"r"},{"Days":[],"name":"Клич","role":"r"},{"Days":[],"name":"Брат 2","role":"r"},{"Days":[],"name":"СБ","role":"s"},{"Days":[],"name":"Викарий","role":"r"},{"Days":[],"BR":"on","name":"Борман","role":"d"},{"Days":[],"name":"Художник","role":"b"},{"Days":[],"BP":"on","name":"Зло","role":"r"},{"Days":[],"name":"Эмбер","role":"r"},{"Days":[],"name":"Феникс","role":"b"}]},{"metadata":{"win":"city","ref":"50","date":"2015-09-08","gameNumber":"2","tableName":"Fleet Street"},"playerLines":[{"Days":[],"name":"Мать","role":"r"},{"Days":[],"name":"Отец","role":"r"},{"Days":[],"name":"Эльза","role":"d"},{"Days":[],"name":"Сыч","role":"r"},{"Days":[],"name":"Мейбелин","role":"r"},{"Days":[],"name":"Супер 8","role":"r"},{"Days":[],"name":"Кристон","role":"b"},{"Days":[],"name":"Динни","role":"r"},{"Days":[],"name":"Художник","role":"b"},{"Days":[],"name":"Штефан","role":"s"}]},{"metadata":{"win":"maf","ref":"Заяц","date":"2015-09-08","gameNumber":"3","tableName":"Baker Street"},"playerLines":[{"Days":[],"name":"Кураре","role":"r"},{"Days":[],"name":"Мутный","role":"s"},{"Days":[],"BP":"on","name":"Айдахо","role":"b"},{"Days":[],"name":"Тракиец","role":"r"},{"Days":[],"name":"Феникс","role":"d"},{"Days":[],"BR":"on","name":"Ежик","role":"r"},{"Days":[],"name":"Эмбер","role":"r"},{"Days":[],"name":"Пантий","role":"r"},{"Days":[],"name":"Близнец","role":"b"},{"Days":[],"name":"Халявщик","role":"r"}]},{"metadata":{"win":"city","ref":"Клич","date":"2015-09-08","gameNumber":"3","tableName":"Fleet Street"},"playerLines":[{"Days":[],"BP":"on","name":"Зло","role":"r"},{"Days":[],"name":"Вагрант","role":"r"},{"Days":[],"name":"Мерлин","role":"b"},{"Days":[],"name":"Викарий","role":"r"},{"Days":[],"name":"Гендальф","role":"s"},{"Days":[],"name":"СБ","role":"d"},{"Days":[],"name":"Борман","role":"r"},{"Days":[],"name":"Баффет","role":"b"},{"Days":[],"BR":"on","name":"Стоун Колд","role":"r"},{"Days":[],"name":"Художник","role":"r"}]},{"metadata":{"win":"maf","ref":"Заяц","date":"2015-09-08","gameNumber":"4","tableName":"Baker Street"},"playerLines":[{"Days":[],"name":"Феникс","role":"d"},{"Days":[],"name":"Ежик","role":"r"},{"Days":[],"name":"Близнец","role":"r"},{"Days":[],"name":"Мутный","role":"b"},{"Days":[],"name":"Халявщик","role":"s"},{"Days":[],"name":"Пантий","role":"r"},{"Days":[],"name":"Кураре","role":"r"},{"Days":[],"name":"Вагрант","role":"b"},{"Days":[],"name":"Эмбер","role":"r"},{"Days":[],"name":"Айдахо","role":"r"}]},{"metadata":{"win":"maf","ref":"50","date":"2015-09-08","gameNumber":"4","tableName":"Fleet Street"},"playerLines":[{"Days":[],"name":"Викарий","role":"r"},{"Days":[],"name":"Стоун Колд","role":"s"},{"Days":[],"name":"Борман","role":"r"},{"Days":[],"name":"Баффет","role":"r"},{"Days":[],"name":"СБ","role":"r"},{"Days":[],"name":"Зло","role":"d"},{"Days":[],"name":"Космос","role":"r"},{"Days":[],"name":"Тракиец","role":"b"},{"Days":[],"name":"Отец","role":"r"},{"Days":[],"name":"Клич","role":"b"}]},{"metadata":{"win":"","ref":"","date":"2015-09-28","gameNumber":"1","tableName":"Baker Street"},"playerLines":[{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"},{"Days":[],"role":"r"}]}];
-            gamesArray.forEach (function (game, i) {
-                LocalGameStorage.saveGame(game);
-            });
+            // gamesArray.forEach (function (game, i) {
+            //     ProtocolС.saveGame(game);
+            // });
             // // TODO
             // // $('body').append(tmpl(PortView, {games:'', comandName: 'Export'}));
             // //JSON.stringify(LocalGameStorage.getAllGames())
@@ -269,12 +266,6 @@ var ProtocolRenderer = function () {
         });
     };
 
-    //init part
-    this.hangEventHeandlersOnFalls();
-    this.hangEventHeandlersOnInputs();
-    this.hangEventHeandlersOnButtonBar();
-    this.addNewDay(this.currentDay);
-    this.hangEventHeandlersOnKillAndHang();
 };
 
 return new ProtocolRenderer();
