@@ -4,7 +4,7 @@ define(
     'jquery',
     'microtemplates',
 
-    'text!view/Protocol/Timer.html'
+    'text!templates/Protocol/Timer.html'
 ], function (
     $,
     tmpl,
@@ -60,11 +60,6 @@ define(
             clearInterval(TimerLink.interval);
             TimerLink.interval = null;
         };
-
-
-
-
-
     };
 
     return Timer;
