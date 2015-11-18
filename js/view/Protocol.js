@@ -11,7 +11,8 @@ define(
     'text!templates/Protocol/DayNight.html',
     'text!templates/Protocol/portGames.html',
 
-    'helper'
+    'helper',
+    'controller/sync'
 ], function (
 //utils
     $,
@@ -25,7 +26,8 @@ define(
     DayNightView,
     PortView,
 
-    helper
+    helper,
+    Sync
 ) {
 
 console.log('{View} [Protocol] init');
@@ -193,20 +195,24 @@ var ProtocolRenderer = function () {
         });
 
         $('#exportGamesBtn').click(function (e) {
-            var memo = $('<textarea id="memo">').html(ProtocolС.getAllGames()).appendTo('form');
-            window.getSelection().removeAllRanges();
-            var range = document.createRange();
-            range.selectNode(memo.get(0));
-            window.getSelection().addRange(range);
-            var successful = document.execCommand('copy');
-            window.getSelection().removeAllRanges();
-            memo.remove();
-            if (successful) {
-                alert('All this games are already in your clipboard!');
-            } else {
-                memo.appendTo('form');
-                alert('Please copy this games from the bottom of page');
-            }
+            Sync.$getGamesFromServerByFilter('all');
+
+            // var memo = $('<textarea id="memo">').html(ProtocolС.getAllGames()).appendTo('form');
+            // window.getSelection().removeAllRanges();
+            // var range = document.createRange();
+            // range.selectNode(memo.get(0));
+            // window.getSelection().addRange(range);
+            // var successful = document.execCommand('copy');
+            // window.getSelection().removeAllRanges();
+            // memo.remove();
+            // if (successful) {
+            //     alert('All this games are already in your clipboard!');
+            // } else {
+            //     memo.appendTo('form');
+            //     alert('Please copy this games from the bottom of page');
+            // }
+
+            
         });
 
         this.showGamesMemo = function (comandName) {

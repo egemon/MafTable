@@ -1,23 +1,26 @@
 define(
-    'Syncronizer',
+    'controller/sync',
 [
 
     'jquery',
 
-    //model
-    'LocalGameStorage',
-    'RatingBase',
+    // model
+    'model/LocalGameStorage',
+    'model/RatingBase',
 
-    'helper'
+    'helper',
+    'text!../../package.json'
 ], function (
     $,
 
     LocalGameStorage,
     RatingBase,
 
-    helper
+    helper,
+    appConfig
 ) {
-    console.log('[Syncronizer] inited');
+    console.log('[Sync] inited', arguments);
+    appConfig = JSON.parse(appConfig);
     return  {
 
         isConnected: function () {
@@ -25,19 +28,24 @@ define(
         },
 
         $getGamesFromServerByFilter: function (filterObject) {
-            return helper.$makeSyncRequest()
-
-            $.ajax({
-                url: appConfig.serverUrls.syncUrl,
-                dataType: 'json',
-                data: filterObject,
+            if (filterObject === 'all') {filterObject = {}};
+            filterObject = JSON.stringify(filterObject);
+            return $.ajax({
+                url: appConfig.serverUrls.syncUrl + '?filterObject=' + filterObject,
+                typ: 'GET',
+                dataType: 'json'
             })
             .done(function(data) {
                 console.log('[Syncronizer] games received:', data);
                 LocalGameStorage.saveGame(JSON.parse(data));
+                alert("Games has been taken and saved!");
+            }, function (err) {
+                alert("Issue with server ot internet!");
+                console.warn('[Syncronizer] ERROR receiving games:', err);
             })
             .fail(function(err) {
-                console.warn('[Syncronizer] ERROR receiving games:', err);
+                alert("Issue with saving!");
+                console.warn('[Syncronizer] ERROR saving games:', err);
             })
             .always(function() {
                 console.log('[Syncronizer] request for games ends');
@@ -47,6 +55,7 @@ define(
         $pushGameToServer: function (gameRecord) {
             return $.ajax({
                 url: appConfig.serverUrls.syncUrl,
+                type: 'POST',
                 dataType: 'json',
                 data: gameRecord,
             })
