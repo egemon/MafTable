@@ -49,3 +49,11 @@
 .radio.inline, .checkbox.inline {
     padding-top: 0;
 }
+
+.btn-bar button{
+    float: left;
+    margin: 3px;
+}
+.btn-bar>div{
+    margin: 1px;
+}
