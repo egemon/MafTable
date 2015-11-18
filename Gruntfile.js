@@ -59,6 +59,18 @@ module.exports = function(grunt) {
                 include: "lib/requirejs/require"
             }
         }
+    },
+    copy: {
+        img: {
+            files: [{
+                expand: true, src:['img/memberPhotos/**'], dest: 'MafTable/'
+            }]
+        },
+        main: {
+            files: [
+                {expand: true, src:['MafTable/**'], dest: '../bs/public/'}
+            ]
+        }
     }
   });
 
@@ -69,8 +81,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('default', ['requirejs:compile', 'cssmin']);
+  grunt.registerTask('default', ['requirejs:compile', 'cssmin', 'copy']);
+
 
 };
