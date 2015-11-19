@@ -31,6 +31,17 @@ define(
             }
         };
 
+        this.saveGameArray = function (games) {
+            if (!games.length) {
+                console.warn('[LGS-M] saveGameArray() it"s not array or there in no games!', games);
+                alert("Couldn't save games!");
+                return;
+            }
+            for (var i = 0; i < games.length; i++) {
+                this.saveGame(games[i]);
+            }
+        };
+
         // filterObject = {
         //     gameId: "MT_2015-09-21_1_Baker Street",
         //     periodType: "month" || "year" || "season",
@@ -38,7 +49,9 @@ define(
         //     playerNick: "Merlin"
         // }
         this.getGamesByFilter = function (filterObject) {
-
+            if (filterObject === 'all') {
+                filterObject = {};
+            }
             var resultGames = [];
             if (!filterObject || !Object.keys(filterObject).length) {
                 return this.getAllGames();
@@ -82,7 +95,7 @@ define(
 
         this.isPeriodIncorrect = function (period) {
             return Number.isNaN(+period);
-        }
+        };
 
         //returns array of objects
         this.getGamesByPeriod = function (periodType, period) {

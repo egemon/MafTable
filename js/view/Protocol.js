@@ -212,7 +212,7 @@ var ProtocolRenderer = function () {
             //     alert('Please copy this games from the bottom of page');
             // }
 
-            
+
         });
 
         this.showGamesMemo = function (comandName) {
@@ -238,6 +238,7 @@ var ProtocolRenderer = function () {
         };
 
         $('#importGamesBtn').click(function (e) {
+            Sync.$pushGamesToServerByFilter('all');
             // gamesArray.forEach (function (game, i) {
             //     ProtocolС.saveGame(game);
             // });
